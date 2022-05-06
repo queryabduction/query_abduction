@@ -21,7 +21,7 @@ You can run our system with the executale jar file or the  source code. Please r
 
      + `-o`: the path of the ontology file, in DLGP format. Please refer to https://graphik-team.github.io/graal/doc/dlgp for more information about DLGP format.
      + `-d`: the directory of the dataset. The dataset is seperated by the predicate, and in CSV format each.
-     + `-q`: the path of the query file. Terms started with a upper letter are viewed as variants, otherwise constants. 
+     + `-q`: the path of the query file, in DLGP format. Terms started with a upper letter are viewed as variants, otherwise constants. 
      + `-m`: the mode of abduction mode, optional. 0 for Mixed, 1 for Concrete and 2 for Abstract. 0 is the default.
 
 + Run with the source code
