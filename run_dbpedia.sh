@@ -8,7 +8,7 @@ do
     echo "********"$i"********"
     for ((m=0;m<3;m++))
     do
-        java -Xms8g -Xmx8g -jar drewer-abd.jar -o ../benchmarks/DBpedia/${ontologies[$i]}".dlp" -d ../benchmarks/DBpedia/${datasets[$i]} -q benchmarks/DBpedia/queries.dlp -m $m > results/DBpedia/"exp"$i"_m"$m".out"
+        java -Xms8g -Xmx8g -jar drewer-abd.jar -o benchmarks/DBpedia/${ontologies[$i]}".dlp" -d benchmarks/DBpedia/${datasets[$i]} -q benchmarks/DBpedia/queries.dlp -m $m > results/DBpedia/"exp"$i"_m"$m".out"
     echo "m"${m}" done"
     done
     echo "*****************"
