@@ -1,0 +1,4 @@
+org/gu/dcore/TestTarjan.class
+org/gu/dcore/TestModularRewriting.class
+org/gu/dcore/TestQueryElimination.class
+org/gu/dcore/TestAbduction.class

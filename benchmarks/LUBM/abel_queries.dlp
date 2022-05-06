@@ -1,0 +1,6 @@
+?() :- worksFor(<http://www.Department0.University0.edu/FullProfessor7>,fc), affiliatedOrganizationOf(fc,<http://www.Department0.University0.edu>).
+?() :- worksFor(<http://www.Department0.University0.edu/FullProfessor7>,fc), affiliatedOrganizationOf(fc,<http://www.Department0.University0.edu>).
+?() :- Person(fc), teacherOf(fc,<http://www.Department0.University0.edu/Course37>).
+?() :- Student(fc), advisor(fc,<http://www.Department0.University0.edu/FullProfessor7>).
+?() :- worksFor(<http://www.Department0.University0.edu/FullProfessor7>,fc), Organization(fc).
+?() :- Person(fc), worksFor(fc,<http://www.Department0.University0.edu>).

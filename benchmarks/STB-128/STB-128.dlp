@@ -1,0 +1,200 @@
+PREFIX#give_vp_8_nl0_ce0(A,B) :- PREFIX#testpredicate_0326(A,B) .
+PREFIX#test_cp_1_nl0_ce0copy1_0(A,B,C,D,E) :- PREFIX#test_cp_1_nl0_ce0(A,B,C,D,E) .
+PREFIX#cheese_hp_1_nl0_ce0__HP1FR0_from_0_to_4999(B,C,D,E,F) :- PREFIX#cheese_hp_1_nl0_ce0(A,B,C,D,E,F) .
+PREFIX#cheese_hp_1_nl0_ce0__HP1FR1_from_5000_to_9999(B,C,D,E,F) :- PREFIX#cheese_hp_1_nl0_ce0(A,B,C,D,E,F) .
+PREFIX#past_su_1_nl0_ce0(A,B,C,D,E,F,G,H) :- PREFIX#board_su_1_nl0_ce0(A,B,C,D,E,F) .
+PREFIX#discover_vp_1_nl0_ce0(A,B,E), PREFIX#different_vp_1_nl0_ce1(C,D,E) :- PREFIX#letter_vp_1_nl0_ce0(A,B,C,D) .
+PREFIX#reveal_cp_2_nl0_ce0copy2_1(A,B,C,D,E) :- PREFIX#reveal_cp_2_nl0_ce0(A,B,C,D,E) .
+PREFIX#pipe_hp_2_nl0_ce0__HP2FR0_from_0_to_4999(B,C,D) :- PREFIX#pipe_hp_2_nl0_ce0(A,B,C,D) .
+PREFIX#pipe_hp_2_nl0_ce0__HP2FR1_from_5000_to_9999(B,C,D) :- PREFIX#pipe_hp_2_nl0_ce0(A,B,C,D) .
+PREFIX#branch_su_2_nl0_ce0(A,B,C,D,E,F,G,H,I) :- PREFIX#order_su_2_nl0_ce0(A,B,C,D,E,F,G) .
+PREFIX#involve_vp_2_nl0_ce0(A,B,C,H), PREFIX#use_vp_2_nl0_ce1(D,E,F,G,H) :- PREFIX#approval_vp_2_nl0_ce0(A,B,C,D,E,F,G) .
+PREFIX#paint_cp_3_nl0_ce0copy3_2(A,B,C) :- PREFIX#paint_cp_3_nl0_ce0(A,B,C) .
+PREFIX#regular_hp_3_nl0_ce0__HP3FR0_from_0_to_4999(B,C,D,E,F) :- PREFIX#regular_hp_3_nl0_ce0(A,B,C,D,E,F) .
+PREFIX#regular_hp_3_nl0_ce0__HP3FR1_from_5000_to_9999(B,C,D,E,F) :- PREFIX#regular_hp_3_nl0_ce0(A,B,C,D,E,F) .
+PREFIX#paint_su_3_nl0_ce0(A,B,C,D,E) :- PREFIX#library_su_3_nl0_ce0(A,B,C) .
+PREFIX#slow_vp_3_nl0_ce0(A,C), PREFIX#word_vp_3_nl0_ce1(B,C) :- PREFIX#garden_vp_3_nl0_ce0(A,B) .
+PREFIX#kind_cp_4_nl0_ce0copy4_3(A,B,C) :- PREFIX#kind_cp_4_nl0_ce0(A,B,C) .
+PREFIX#violent_hp_4_nl0_ce0__HP4FR0_from_0_to_4999(B,C) :- PREFIX#violent_hp_4_nl0_ce0(A,B,C) .
+PREFIX#violent_hp_4_nl0_ce0__HP4FR1_from_5000_to_9999(B,C) :- PREFIX#violent_hp_4_nl0_ce0(A,B,C) .
+PREFIX#bent_su_4_nl0_ce0(A,B,C,D,E,F,G) :- PREFIX#love_su_4_nl0_ce0(A,B,C,D,E) .
+PREFIX#language_vp_4_nl0_ce0(A,C), PREFIX#worry_vp_4_nl0_ce1(B,C) :- PREFIX#silk_vp_4_nl0_ce0(A,B) .
+PREFIX#chalk_cp_5_nl0_ce0copy5_4(A,B) :- PREFIX#chalk_cp_5_nl0_ce0(A,B) .
+PREFIX#start_hp_5_nl0_ce0__HP5FR0_from_0_to_4999(B,C,D) :- PREFIX#start_hp_5_nl0_ce0(A,B,C,D) .
+PREFIX#start_hp_5_nl0_ce0__HP5FR1_from_5000_to_9999(B,C,D) :- PREFIX#start_hp_5_nl0_ce0(A,B,C,D) .
+PREFIX#clean_su_5_nl0_ce0(A,B,C,D) :- PREFIX#last_su_5_nl0_ce0(A,B) .
+PREFIX#state_vp_5_nl0_ce0(A,C), PREFIX#egg_vp_5_nl0_ce1(B,C) :- PREFIX#mention_vp_5_nl0_ce0(A,B) .
+PREFIX#agency_cp_6_nl0_ce0copy6_5(A,B) :- PREFIX#agency_cp_6_nl0_ce0(A,B) .
+PREFIX#amount_hp_6_nl0_ce0__HP6FR0_from_0_to_4999(B,C,D,E) :- PREFIX#amount_hp_6_nl0_ce0(A,B,C,D,E) .
+PREFIX#amount_hp_6_nl0_ce0__HP6FR1_from_5000_to_9999(B,C,D,E) :- PREFIX#amount_hp_6_nl0_ce0(A,B,C,D,E) .
+PREFIX#accept_su_6_nl0_ce0(A,B,C,D) :- PREFIX#leather_su_6_nl0_ce0(A,B) .
+PREFIX#stiff_vp_6_nl0_ce0(A,B,E), PREFIX#feeling_vp_6_nl0_ce1(C,D,E) :- PREFIX#probable_vp_6_nl0_ce0(A,B,C,D) .
+PREFIX#connect_cp_7_nl0_ce0copy7_6(A,B,C) :- PREFIX#connect_cp_7_nl0_ce0(A,B,C) .
+PREFIX#root_hp_7_nl0_ce0__HP7FR0_from_0_to_4999(B,C,D) :- PREFIX#root_hp_7_nl0_ce0(A,B,C,D) .
+PREFIX#root_hp_7_nl0_ce0__HP7FR1_from_5000_to_9999(B,C,D) :- PREFIX#root_hp_7_nl0_ce0(A,B,C,D) .
+PREFIX#settle_su_7_nl0_ce0(A,B,C,D,E,F) :- PREFIX#question_su_7_nl0_ce0(A,B,C,D) .
+PREFIX#agencies_vp_7_nl0_ce0(A,B,E), PREFIX#flat_vp_7_nl0_ce1(C,D,E) :- PREFIX#poor_vp_7_nl0_ce0(A,B,C,D) .
+PREFIX#train_cp_8_nl0_ce0copy8_7(A,B) :- PREFIX#train_cp_8_nl0_ce0(A,B) .
+PREFIX#sea_hp_8_nl0_ce0__HP8FR0_from_0_to_4999(B,C) :- PREFIX#sea_hp_8_nl0_ce0(A,B,C) .
+PREFIX#sea_hp_8_nl0_ce0__HP8FR1_from_5000_to_9999(B,C) :- PREFIX#sea_hp_8_nl0_ce0(A,B,C) .
+PREFIX#stomach_su_8_nl0_ce0(A,B,C,D) :- PREFIX#bath_su_8_nl0_ce0(A,B) .
+PREFIX#give_vp_8_nl0_ce0(A,D), PREFIX#selection_vp_8_nl0_ce1(B,C,D) :- PREFIX#return_vp_8_nl0_ce0(A,B,C) .
+PREFIX#window_cp_9_nl0_ce0copy9_8(A,B,C,D) :- PREFIX#window_cp_9_nl0_ce0(A,B,C,D) .
+PREFIX#hate_hp_9_nl0_ce0__HP9FR0_from_0_to_4999(B,C) :- PREFIX#hate_hp_9_nl0_ce0(A,B,C) .
+PREFIX#hate_hp_9_nl0_ce0__HP9FR1_from_5000_to_9999(B,C) :- PREFIX#hate_hp_9_nl0_ce0(A,B,C) .
+PREFIX#late_su_9_nl0_ce0(A,B,C,D,E,F) :- PREFIX#win_su_9_nl0_ce0(A,B,C,D) .
+PREFIX#tail_vp_9_nl0_ce0(A,C), PREFIX#clock_vp_9_nl0_ce1(B,C) :- PREFIX#shut_vp_9_nl0_ce0(A,B) .
+PREFIX#express_cp_10_nl0_ce0copy10_9(A,B,C,D) :- PREFIX#express_cp_10_nl0_ce0(A,B,C,D) .
+PREFIX#hollow_hp_10_nl0_ce0__HP10FR0_from_0_to_4999(B,C,D,E,F) :- PREFIX#hollow_hp_10_nl0_ce0(A,B,C,D,E,F) .
+PREFIX#hollow_hp_10_nl0_ce0__HP10FR1_from_5000_to_9999(B,C,D,E,F) :- PREFIX#hollow_hp_10_nl0_ce0(A,B,C,D,E,F) .
+PREFIX#fertile_su_10_nl0_ce0(A,B,C,D,E) :- PREFIX#support_su_10_nl0_ce0(A,B,C) .
+PREFIX#disgust_vp_10_nl0_ce0(A,B,C,G), PREFIX#shut_vp_10_nl0_ce1(D,E,F,G) :- PREFIX#condition_vp_10_nl0_ce0(A,B,C,D,E,F) .
+PREFIX#experience_cp_11_nl0_ce0copy11_10(A,B,C) :- PREFIX#experience_cp_11_nl0_ce0(A,B,C) .
+PREFIX#eat_hp_11_nl0_ce0__HP11FR0_from_0_to_4999(B,C) :- PREFIX#eat_hp_11_nl0_ce0(A,B,C) .
+PREFIX#eat_hp_11_nl0_ce0__HP11FR1_from_5000_to_9999(B,C) :- PREFIX#eat_hp_11_nl0_ce0(A,B,C) .
+PREFIX#opinion_su_11_nl0_ce0(A,B,C,D) :- PREFIX#foot_su_11_nl0_ce0(A,B) .
+PREFIX#exchange_vp_11_nl0_ce0(A,C), PREFIX#discover_vp_11_nl0_ce1(B,C) :- PREFIX#snake_vp_11_nl0_ce0(A,B) .
+PREFIX#touch_cp_12_nl0_ce0copy12_11(A,B,C,D) :- PREFIX#touch_cp_12_nl0_ce0(A,B,C,D) .
+PREFIX#hollow_hp_12_nl0_ce0__HP12FR0_from_0_to_4999(B,C) :- PREFIX#hollow_hp_12_nl0_ce0(A,B,C) .
+PREFIX#hollow_hp_12_nl0_ce0__HP12FR1_from_5000_to_9999(B,C) :- PREFIX#hollow_hp_12_nl0_ce0(A,B,C) .
+PREFIX#enable_su_12_nl0_ce0(A,B,C,D,E) :- PREFIX#observation_su_12_nl0_ce0(A,B,C) .
+PREFIX#tall_vp_12_nl0_ce0(A,B,F), PREFIX#base_vp_12_nl0_ce1(C,D,E,F) :- PREFIX#fruit_vp_12_nl0_ce0(A,B,C,D,E) .
+PREFIX#speak_cp_13_nl0_ce0copy13_12(A,B) :- PREFIX#speak_cp_13_nl0_ce0(A,B) .
+PREFIX#degree_hp_13_nl0_ce0__HP13FR0_from_0_to_4999(B,C) :- PREFIX#degree_hp_13_nl0_ce0(A,B,C) .
+PREFIX#degree_hp_13_nl0_ce0__HP13FR1_from_5000_to_9999(B,C) :- PREFIX#degree_hp_13_nl0_ce0(A,B,C) .
+PREFIX#desire_su_13_nl0_ce0(A,B,C,D) :- PREFIX#weight_su_13_nl0_ce0(A,B) .
+PREFIX#train_vp_13_nl0_ce0(A,C), PREFIX#beat_vp_13_nl0_ce1(B,C) :- PREFIX#fiction_vp_13_nl0_ce0(A,B) .
+PREFIX#hammer_cp_14_nl0_ce0copy14_13(A,B,C,D,E) :- PREFIX#hammer_cp_14_nl0_ce0(A,B,C,D,E) .
+PREFIX#impulse_hp_14_nl0_ce0__HP14FR0_from_0_to_4999(B,C,D,E,F) :- PREFIX#impulse_hp_14_nl0_ce0(A,B,C,D,E,F) .
+PREFIX#impulse_hp_14_nl0_ce0__HP14FR1_from_5000_to_9999(B,C,D,E,F) :- PREFIX#impulse_hp_14_nl0_ce0(A,B,C,D,E,F) .
+PREFIX#ink_su_14_nl0_ce0(A,B,C,D) :- PREFIX#stop_su_14_nl0_ce0(A,B) .
+PREFIX#insurance_vp_14_nl0_ce0(A,C), PREFIX#rhythm_vp_14_nl0_ce1(B,C) :- PREFIX#basin_vp_14_nl0_ce0(A,B) .
+PREFIX#fiction_cp_15_nl0_ce0copy15_14(A,B,C) :- PREFIX#fiction_cp_15_nl0_ce0(A,B,C) .
+PREFIX#require_hp_15_nl0_ce0__HP15FR0_from_0_to_4999(B,C,D,E,F,G,H) :- PREFIX#require_hp_15_nl0_ce0(A,B,C,D,E,F,G,H) .
+PREFIX#require_hp_15_nl0_ce0__HP15FR1_from_5000_to_9999(B,C,D,E,F,G,H) :- PREFIX#require_hp_15_nl0_ce0(A,B,C,D,E,F,G,H) .
+PREFIX#digestion_su_15_nl0_ce0(A,B,C,D,E,F) :- PREFIX#thin_su_15_nl0_ce0(A,B,C,D) .
+PREFIX#office_vp_15_nl0_ce0(A,B,F), PREFIX#talk_vp_15_nl0_ce1(C,D,E,F) :- PREFIX#rough_vp_15_nl0_ce0(A,B,C,D,E) .
+PREFIX#regard_cp_16_nl0_ce0copy16_15(A,B,C) :- PREFIX#regard_cp_16_nl0_ce0(A,B,C) .
+PREFIX#whip_hp_16_nl0_ce0__HP16FR0_from_0_to_4999(B,C,D,E,F,G) :- PREFIX#whip_hp_16_nl0_ce0(A,B,C,D,E,F,G) .
+PREFIX#whip_hp_16_nl0_ce0__HP16FR1_from_5000_to_9999(B,C,D,E,F,G) :- PREFIX#whip_hp_16_nl0_ce0(A,B,C,D,E,F,G) .
+PREFIX#check_su_16_nl0_ce0(A,B,C,D,E,F) :- PREFIX#beautiful_su_16_nl0_ce0(A,B,C,D) .
+PREFIX#key_vp_16_nl0_ce0(A,B,C,G), PREFIX#cry_vp_16_nl0_ce1(D,E,F,G) :- PREFIX#side_vp_16_nl0_ce0(A,B,C,D,E,F) .
+PREFIX#regular_hp_3_nl0_ce0copy17_16(A,B,C,D,E,F) :- PREFIX#regular_hp_3_nl0_ce0(A,B,C,D,E,F) .
+PREFIX#check_hp_17_nl0_ce0__HP17FR0_from_0_to_4999(B,C,D,E) :- PREFIX#check_hp_17_nl0_ce0(A,B,C,D,E) .
+PREFIX#check_hp_17_nl0_ce0__HP17FR1_from_5000_to_9999(B,C,D,E) :- PREFIX#check_hp_17_nl0_ce0(A,B,C,D,E) .
+PREFIX#acid_su_17_nl0_ce0(A,B,C,D) :- PREFIX#rhythm_su_17_nl0_ce0(A,B) .
+PREFIX#bell_vp_17_nl0_ce0(A,D), PREFIX#trousers_vp_17_nl0_ce1(B,C,D) :- PREFIX#poor_vp_17_nl0_ce0(A,B,C) .
+PREFIX#probable_vp_6_nl0_ce0copy18_17(A,B,C,D) :- PREFIX#probable_vp_6_nl0_ce0(A,B,C,D) .
+PREFIX#try_hp_18_nl0_ce0__HP18FR0_from_0_to_4999(B,C,D) :- PREFIX#try_hp_18_nl0_ce0(A,B,C,D) .
+PREFIX#try_hp_18_nl0_ce0__HP18FR1_from_5000_to_9999(B,C,D) :- PREFIX#try_hp_18_nl0_ce0(A,B,C,D) .
+PREFIX#sleep_su_18_nl0_ce0(A,B,C,D,E,F) :- PREFIX#orange_su_18_nl0_ce0(A,B,C,D) .
+PREFIX#hard_vp_18_nl0_ce0(A,C), PREFIX#set_vp_18_nl0_ce1(B,C) :- PREFIX#laugh_vp_18_nl0_ce0(A,B) .
+PREFIX#remain_cp_19_nl0_ce0copy19_18(A,B,C,D,E,F) :- PREFIX#remain_cp_19_nl0_ce0(A,B,C,D,E,F) .
+PREFIX#bulb_hp_19_nl0_ce0__HP19FR0_from_0_to_4999(B,C,D,E,F) :- PREFIX#bulb_hp_19_nl0_ce0(A,B,C,D,E,F) .
+PREFIX#bulb_hp_19_nl0_ce0__HP19FR1_from_5000_to_9999(B,C,D,E,F) :- PREFIX#bulb_hp_19_nl0_ce0(A,B,C,D,E,F) .
+PREFIX#check_su_16_nl0_ce0(A,B,C,D,E,F) :- PREFIX#male_su_19_nl0_ce0(A,B,C,D) .
+PREFIX#promise_vp_19_nl0_ce0(A,C), PREFIX#pot_vp_19_nl0_ce1(B,C) :- PREFIX#hurt_vp_19_nl0_ce0(A,B) .
+PREFIX#agency_cp_6_nl0_ce0copy20_19(A,B) :- PREFIX#agency_cp_6_nl0_ce0(A,B) .
+PREFIX#rough_vp_15_nl0_ce0__HP20FR0_from_0_to_4999(B,C,D,E) :- PREFIX#rough_vp_15_nl0_ce0(A,B,C,D,E) .
+PREFIX#rough_vp_15_nl0_ce0__HP20FR1_from_5000_to_9999(B,C,D,E) :- PREFIX#rough_vp_15_nl0_ce0(A,B,C,D,E) .
+PREFIX#remain_cp_19_nl0_ce0copy19_18(A,B,C,D,E,F) :- PREFIX#add_su_20_nl0_ce0(A,B,C,D) .
+PREFIX#eye_vp_20_nl0_ce0(A,D), PREFIX#cork_vp_20_nl0_ce1(B,C,D) :- PREFIX#learn_vp_20_nl0_ce0(A,B,C) .
+PREFIX#lead_cp_21_nl0_ce0copy21_20(A,B,C,D) :- PREFIX#lead_cp_21_nl0_ce0(A,B,C,D) .
+PREFIX#advertisement_hp_21_nl0_ce0__HP21FR0_from_0_to_4999(B,C) :- PREFIX#advertisement_hp_21_nl0_ce0(A,B,C) .
+PREFIX#advertisement_hp_21_nl0_ce0__HP21FR1_from_5000_to_9999(B,C) :- PREFIX#advertisement_hp_21_nl0_ce0(A,B,C) .
+PREFIX#regular_hp_3_nl0_ce0__HP3FR1_from_5000_to_9999(A,B,C,D,E) :- PREFIX#sudden_su_21_nl0_ce0(A,B,C) .
+PREFIX#root_hp_7_nl0_ce0__HP7FR0_from_0_to_4999(A,B,E), PREFIX#selection_vp_8_nl0_ce1(C,D,E) :- PREFIX#coat_vp_21_nl0_ce0(A,B,C,D) .
+PREFIX#receive_cp_22_nl0_ce0copy22_21(A,B,C) :- PREFIX#receive_cp_22_nl0_ce0(A,B,C) .
+PREFIX#steel_hp_22_nl0_ce0__HP22FR0_from_0_to_4999(B,C,D,E) :- PREFIX#steel_hp_22_nl0_ce0(A,B,C,D,E) .
+PREFIX#steel_hp_22_nl0_ce0__HP22FR1_from_5000_to_9999(B,C,D,E) :- PREFIX#steel_hp_22_nl0_ce0(A,B,C,D,E) .
+PREFIX#eye_su_22_nl0_ce0(A,B,C,D) :- PREFIX#rhythm_su_17_nl0_ce0(A,B) .
+PREFIX#ticket_vp_22_nl0_ce0(A,D), PREFIX#warn_vp_22_nl0_ce1(B,C,D) :- PREFIX#industry_vp_22_nl0_ce0(A,B,C) .
+PREFIX#jewel_cp_23_nl0_ce0copy23_22(A,B,C,D,E) :- PREFIX#jewel_cp_23_nl0_ce0(A,B,C,D,E) .
+PREFIX#window_cp_9_nl0_ce0__HP23FR0_from_0_to_4999(B,C,D) :- PREFIX#window_cp_9_nl0_ce0(A,B,C,D) .
+PREFIX#window_cp_9_nl0_ce0__HP23FR1_from_5000_to_9999(B,C,D) :- PREFIX#window_cp_9_nl0_ce0(A,B,C,D) .
+PREFIX#hollow_hp_10_nl0_ce0__HP10FR0_from_0_to_4999(A,B,C,D,E) :- PREFIX#will_su_23_nl0_ce0(A,B,C) .
+PREFIX#check_su_16_nl0_ce0(A,B,C,D,E,K), PREFIX#whip_hp_16_nl0_ce0__HP16FR0_from_0_to_4999(F,G,H,I,J,K) :- PREFIX#committee_vp_23_nl0_ce0(A,B,C,D,E,F,G,H,I,J) .
+PREFIX#beat_vp_13_nl0_ce1(A,B) :- PREFIX#toe_cp_24_nl0_ce0(A,B) .
+PREFIX#glove_hp_24_nl0_ce0__HP24FR0_from_0_to_4999(B,C,D,E) :- PREFIX#glove_hp_24_nl0_ce0(A,B,C,D,E) .
+PREFIX#glove_hp_24_nl0_ce0__HP24FR1_from_5000_to_9999(B,C,D,E) :- PREFIX#glove_hp_24_nl0_ce0(A,B,C,D,E) .
+PREFIX#sun_su_24_nl0_ce0(A,B,C,D,E,F,G,H) :- PREFIX#hollow_hp_10_nl0_ce0(A,B,C,D,E,F) .
+PREFIX#clean_vp_24_nl0_ce0(A,D), PREFIX#smell_vp_24_nl0_ce1(B,C,D) :- PREFIX#kind_cp_4_nl0_ce0(A,B,C) .
+PREFIX#cheese_hp_1_nl0_ce0__HP1FR0_from_0_to_4999(A,B,C,D,E) :- PREFIX#involve_cp_25_nl0_ce0(A,B,C,D,E) .
+PREFIX#express_cp_10_nl0_ce0__HP25FR0_from_0_to_4999(B,C,D) :- PREFIX#express_cp_10_nl0_ce0(A,B,C,D) .
+PREFIX#express_cp_10_nl0_ce0__HP25FR1_from_5000_to_9999(B,C,D) :- PREFIX#express_cp_10_nl0_ce0(A,B,C,D) .
+PREFIX#glove_hp_24_nl0_ce0__HP24FR1_from_5000_to_9999(A,B,C,D) :- PREFIX#round_su_25_nl0_ce0(A,B) .
+PREFIX#push_vp_25_nl0_ce0(A,C), PREFIX#fixed_vp_25_nl0_ce1(B,C) :- PREFIX#laugh_vp_25_nl0_ce0(A,B) .
+PREFIX#baby_cp_26_nl0_ce0copy26_23(A,B,C) :- PREFIX#baby_cp_26_nl0_ce0(A,B,C) .
+PREFIX#require_hp_15_nl0_ce0__HP26FR0_from_0_to_4999(B,C,D,E,F,G,H) :- PREFIX#require_hp_15_nl0_ce0(A,B,C,D,E,F,G,H) .
+PREFIX#require_hp_15_nl0_ce0__HP26FR1_from_5000_to_9999(B,C,D,E,F,G,H) :- PREFIX#require_hp_15_nl0_ce0(A,B,C,D,E,F,G,H) .
+PREFIX#news_su_26_nl0_ce0(A,B,C,D) :- PREFIX#grip_su_26_nl0_ce0(A,B) .
+PREFIX#cover_vp_26_nl0_ce0(A,D), PREFIX#cry_vp_26_nl0_ce1(B,C,D) :- PREFIX#roof_vp_26_nl0_ce0(A,B,C) .
+PREFIX#advertisement_hp_21_nl0_ce0__HP21FR1_from_5000_to_9999(A,B) :- PREFIX#stocking_cp_27_nl0_ce0(A,B) .
+PREFIX#begin_hp_27_nl0_ce0__HP27FR0_from_0_to_4999(B,C,D) :- PREFIX#begin_hp_27_nl0_ce0(A,B,C,D) .
+PREFIX#begin_hp_27_nl0_ce0__HP27FR1_from_5000_to_9999(B,C,D) :- PREFIX#begin_hp_27_nl0_ce0(A,B,C,D) .
+PREFIX#act_su_27_nl0_ce0(A,B,C,D,E,F) :- PREFIX#expert_su_27_nl0_ce0(A,B,C,D) .
+PREFIX#avoid_vp_27_nl0_ce0(A,C), PREFIX#card_vp_27_nl0_ce1(B,C) :- PREFIX#bath_su_8_nl0_ce0(A,B) .
+PREFIX#win_su_9_nl0_ce0copy28_24(A,B,C,D) :- PREFIX#win_su_9_nl0_ce0(A,B,C,D) .
+PREFIX#walk_hp_28_nl0_ce0__HP28FR0_from_0_to_4999(B,C,D,E,F,G,H) :- PREFIX#walk_hp_28_nl0_ce0(A,B,C,D,E,F,G,H) .
+PREFIX#walk_hp_28_nl0_ce0__HP28FR1_from_5000_to_9999(B,C,D,E,F,G,H) :- PREFIX#walk_hp_28_nl0_ce0(A,B,C,D,E,F,G,H) .
+PREFIX#fat_su_28_nl0_ce0(A,B,C,D,E,F) :- PREFIX#touch_cp_12_nl0_ce0(A,B,C,D) .
+PREFIX#like_vp_28_nl0_ce0(A,D), PREFIX#oven_vp_28_nl0_ce1(B,C,D) :- PREFIX#meal_vp_28_nl0_ce0(A,B,C) .
+PREFIX#impulse_hp_14_nl0_ce0__HP14FR1_from_5000_to_9999(A,B,C,D,E) :- PREFIX#sky_cp_29_nl0_ce0(A,B,C,D,E) .
+PREFIX#amount_hp_6_nl0_ce0__HP29FR0_from_0_to_4999(B,C,D,E) :- PREFIX#amount_hp_6_nl0_ce0(A,B,C,D,E) .
+PREFIX#amount_hp_6_nl0_ce0__HP29FR1_from_5000_to_9999(B,C,D,E) :- PREFIX#amount_hp_6_nl0_ce0(A,B,C,D,E) .
+PREFIX#tax_su_29_nl0_ce0(A,B,C,D,E) :- PREFIX#lock_su_29_nl0_ce0(A,B,C) .
+PREFIX#lie_vp_29_nl0_ce0(A,D), PREFIX#oven_vp_29_nl0_ce1(B,C,D) :- PREFIX#belong_vp_29_nl0_ce0(A,B,C) .
+PREFIX#amount_cp_30_nl0_ce0copy30_25(A,B,C,D,E) :- PREFIX#amount_cp_30_nl0_ce0(A,B,C,D,E) .
+PREFIX#begin_hp_27_nl0_ce0__HP27FR1_from_5000_to_9999(B,C,D) :- PREFIX#slow_hp_30_nl0_ce0(A,B,C,D) .
+PREFIX#pipe_hp_2_nl0_ce0__HP2FR1_from_5000_to_9999(B,C,D) :- PREFIX#slow_hp_30_nl0_ce0(A,B,C,D) .
+PREFIX#regard_cp_16_nl0_ce0copy16_15(A,B,C) :- PREFIX#study_su_30_nl0_ce0(A) .
+PREFIX#sort_vp_30_nl0_ce0(A,B,F), PREFIX#hope_vp_30_nl0_ce1(C,D,E,F) :- PREFIX#copy_vp_30_nl0_ce0(A,B,C,D,E) .
+PREFIX#jewel_cp_23_nl0_ce0copy31_26(A,B,C,D,E) :- PREFIX#jewel_cp_23_nl0_ce0(A,B,C,D,E) .
+PREFIX#advertisement_hp_31_nl0_ce0__HP31FR0_from_0_to_4999(B,C,D,E,F,G) :- PREFIX#advertisement_hp_31_nl0_ce0(A,B,C,D,E,F,G) .
+PREFIX#advertisement_hp_31_nl0_ce0__HP31FR1_from_5000_to_9999(B,C,D,E,F,G) :- PREFIX#advertisement_hp_31_nl0_ce0(A,B,C,D,E,F,G) .
+PREFIX#matter_su_31_nl0_ce0(A,B,C,D,E,F,G) :- PREFIX#seat_su_31_nl0_ce0(A,B,C,D,E) .
+PREFIX#design_vp_31_nl0_ce0(A,C), PREFIX#fit_vp_31_nl0_ce1(B,C) :- PREFIX#dress_vp_31_nl0_ce0(A,B) .
+PREFIX#check_hp_17_nl0_ce0copy32_27(A,B,C,D,E) :- PREFIX#check_hp_17_nl0_ce0(A,B,C,D,E) .
+PREFIX#moon_hp_32_nl0_ce0__HP32FR0_from_0_to_4999(B,C,D,E,F,G,H,I) :- PREFIX#moon_hp_32_nl0_ce0(A,B,C,D,E,F,G,H,I) .
+PREFIX#moon_hp_32_nl0_ce0__HP32FR1_from_5000_to_9999(B,C,D,E,F,G,H,I) :- PREFIX#moon_hp_32_nl0_ce0(A,B,C,D,E,F,G,H,I) .
+PREFIX#copper_su_32_nl0_ce0(A,B,C,D) :- PREFIX#hide_su_32_nl0_ce0(A,B) .
+PREFIX#wave_vp_32_nl0_ce0(A,B,C,G), PREFIX#buy_vp_32_nl0_ce1(D,E,F,G) :- PREFIX#impulse_hp_14_nl0_ce0(A,B,C,D,E,F) .
+PREFIX#discover_vp_1_nl0_ce0(Blue_vp_1_nl0_ae0ke00,Report_vp_1_nl0_ae11,Attention_vp_1_nl0_ae0JoinAttr) :- PREFIX#different_vp_1_nl0_ce1(Night_vp_1_nl0_ae20,Find_vp_1_nl0_ae31,Attention_vp_1_nl0_ae0JoinAttrRef) .
+PREFIX#involve_vp_2_nl0_ce0(Blow_vp_2_nl0_ae0ke00,Ready_vp_2_nl0_ae11,Property_vp_2_nl0_ae22,Discuss_vp_2_nl0_ae0JoinAttr) :- PREFIX#use_vp_2_nl0_ce1(Gun_vp_2_nl0_ae30,Winter_vp_2_nl0_ae41,Powder_vp_2_nl0_ae52,Work_vp_2_nl0_ae63,Discuss_vp_2_nl0_ae0JoinAttrRef) .
+PREFIX#slow_vp_3_nl0_ce0(Necessary_vp_3_nl0_ae0ke00,Effect_vp_3_nl0_ae0JoinAttr) :- PREFIX#word_vp_3_nl0_ce1(Stick_vp_3_nl0_ae10,Effect_vp_3_nl0_ae0JoinAttrRef) .
+PREFIX#language_vp_4_nl0_ce0(Crush_vp_4_nl0_ae0ke00,Political_vp_4_nl0_ae0JoinAttr) :- PREFIX#worry_vp_4_nl0_ce1(Farm_vp_4_nl0_ae10,Political_vp_4_nl0_ae0JoinAttrRef) .
+PREFIX#state_vp_5_nl0_ce0(Pencil_vp_5_nl0_ae0ke00,Claim_vp_5_nl0_ae0JoinAttr) :- PREFIX#egg_vp_5_nl0_ce1(Complex_vp_5_nl0_ae10,Claim_vp_5_nl0_ae0JoinAttrRef) .
+PREFIX#stiff_vp_6_nl0_ce0(Low_vp_6_nl0_ae0ke00,Butter_vp_6_nl0_ae11,Close_vp_6_nl0_ae0JoinAttr) :- PREFIX#feeling_vp_6_nl0_ce1(Copy_vp_6_nl0_ae20,Thick_vp_6_nl0_ae31,Close_vp_6_nl0_ae0JoinAttrRef) .
+PREFIX#agencies_vp_7_nl0_ce0(Goat_vp_7_nl0_ae0ke00,Head_vp_7_nl0_ae11,Prose_vp_7_nl0_ae0JoinAttr) :- PREFIX#flat_vp_7_nl0_ce1(Judge_vp_7_nl0_ae20,Impulse_vp_7_nl0_ae31,Prose_vp_7_nl0_ae0JoinAttrRef) .
+PREFIX#give_vp_8_nl0_ce0(Match_vp_8_nl0_ae0ke00,Oven_vp_8_nl0_ae0JoinAttr) :- PREFIX#selection_vp_8_nl0_ce1(Wash_vp_8_nl0_ae10,Gain_vp_8_nl0_ae21,Oven_vp_8_nl0_ae0JoinAttrRef) .
+PREFIX#tail_vp_9_nl0_ce0(Buy_vp_9_nl0_ae0ke00,Idea_vp_9_nl0_ae0JoinAttr) :- PREFIX#clock_vp_9_nl0_ce1(Appear_vp_9_nl0_ae10,Idea_vp_9_nl0_ae0JoinAttrRef) .
+PREFIX#disgust_vp_10_nl0_ce0(Connection_vp_10_nl0_ae0ke00,Seem_vp_10_nl0_ae11,Disappear_vp_10_nl0_ae22,Hammer_vp_10_nl0_ae0JoinAttr) :- PREFIX#shut_vp_10_nl0_ce1(Indicate_vp_10_nl0_ae30,Awake_vp_10_nl0_ae41,Church_vp_10_nl0_ae52,Hammer_vp_10_nl0_ae0JoinAttrRef) .
+PREFIX#exchange_vp_11_nl0_ce0(Bucket_vp_11_nl0_ae0ke00,Lift_vp_11_nl0_ae0JoinAttr) :- PREFIX#discover_vp_11_nl0_ce1(Jump_vp_11_nl0_ae10,Lift_vp_11_nl0_ae0JoinAttrRef) .
+PREFIX#tall_vp_12_nl0_ce0(Stay_vp_12_nl0_ae0ke00,Committee_vp_12_nl0_ae11,Prove_vp_12_nl0_ae0JoinAttr) :- PREFIX#base_vp_12_nl0_ce1(Needle_vp_12_nl0_ae20,Aim_vp_12_nl0_ae31,Opinion_vp_12_nl0_ae42,Prove_vp_12_nl0_ae0JoinAttrRef) .
+PREFIX#train_vp_13_nl0_ce0(Time_vp_13_nl0_ae0ke00,Regret_vp_13_nl0_ae0JoinAttr) :- PREFIX#beat_vp_13_nl0_ce1(Soup_vp_13_nl0_ae10,Regret_vp_13_nl0_ae0JoinAttrRef) .
+PREFIX#insurance_vp_14_nl0_ce0(Come_vp_14_nl0_ae0ke00,Destruction_vp_14_nl0_ae0JoinAttr) :- PREFIX#rhythm_vp_14_nl0_ce1(Drink_vp_14_nl0_ae10,Destruction_vp_14_nl0_ae0JoinAttrRef) .
+PREFIX#office_vp_15_nl0_ce0(Train_vp_15_nl0_ae0ke00,Seem_vp_15_nl0_ae11,Safe_vp_15_nl0_ae0JoinAttr) :- PREFIX#talk_vp_15_nl0_ce1(Record_vp_15_nl0_ae20,Stem_vp_15_nl0_ae31,Branch_vp_15_nl0_ae42,Safe_vp_15_nl0_ae0JoinAttrRef) .
+PREFIX#key_vp_16_nl0_ce0(Arrange_vp_16_nl0_ae0ke00,First_vp_16_nl0_ae11,Play_vp_16_nl0_ae22,Jewel_vp_16_nl0_ae0JoinAttr) :- PREFIX#cry_vp_16_nl0_ce1(Stamp_vp_16_nl0_ae30,Appear_vp_16_nl0_ae41,Store_vp_16_nl0_ae52,Jewel_vp_16_nl0_ae0JoinAttrRef) .
+PREFIX#bell_vp_17_nl0_ce0(See_vp_17_nl0_ae0ke00,Error_vp_17_nl0_ae0JoinAttr) :- PREFIX#trousers_vp_17_nl0_ce1(Silk_vp_17_nl0_ae10,Could_vp_17_nl0_ae21,Error_vp_17_nl0_ae0JoinAttrRef) .
+PREFIX#hard_vp_18_nl0_ce0(Use_vp_18_nl0_ae0ke00,Touch_vp_18_nl0_ae0JoinAttr) :- PREFIX#set_vp_18_nl0_ce1(Hard_vp_18_nl0_ae10,Touch_vp_18_nl0_ae0JoinAttrRef) .
+PREFIX#promise_vp_19_nl0_ce0(Bit_vp_19_nl0_ae0ke00,Expert_vp_19_nl0_ae0JoinAttr) :- PREFIX#pot_vp_19_nl0_ce1(Year_vp_19_nl0_ae10,Expert_vp_19_nl0_ae0JoinAttrRef) .
+PREFIX#eye_vp_20_nl0_ce0(Suppose_vp_20_nl0_ae0ke00,Insurance_vp_20_nl0_ae0JoinAttr) :- PREFIX#cork_vp_20_nl0_ce1(Tin_vp_20_nl0_ae10,Hurt_vp_20_nl0_ae21,Insurance_vp_20_nl0_ae0JoinAttrRef) .
+PREFIX#root_hp_7_nl0_ce0__HP7FR0_from_0_to_4999(Pain_hp_7_nl0_ae00,Straight_hp_7_nl0_ae11,Complain_hp_7_nl0_ae2) :- PREFIX#selection_vp_8_nl0_ce1(Wash_vp_8_nl0_ae10,Gain_vp_8_nl0_ae21,Oven_vp_8_nl0_ae0JoinAttrRef) .
+PREFIX#ticket_vp_22_nl0_ce0(Run_vp_22_nl0_ae0ke00,Strong_vp_22_nl0_ae0JoinAttr) :- PREFIX#warn_vp_22_nl0_ce1(Birth_vp_22_nl0_ae10,Nerve_vp_22_nl0_ae21,Strong_vp_22_nl0_ae0JoinAttrRef) .
+PREFIX#check_su_16_nl0_ce0(Watch_su_16_nl0_ae0ke00,Form_su_16_nl0_ae11,High_su_16_nl0_ae22,Stamp_su_16_nl0_ae33,Place_su_16_nl0_ae4IDindep4,Language_su_16_nl0_ae5IDOnFirst) :- PREFIX#whip_hp_16_nl0_ce0__HP16FR0_from_0_to_4999(Receipt_hp_16_nl0_ae00,Fish_hp_16_nl0_ae11,Wish_hp_16_nl0_ae22,Red_hp_16_nl0_ae33,Thumb_hp_16_nl0_ae44,Go_hp_16_nl0_ae5) .
+PREFIX#clean_vp_24_nl0_ce0(Prove_cp_4_nl0_ae0ke00,Can_vp_24_nl0_ae0JoinAttr) :- PREFIX#smell_vp_24_nl0_ce1(Ring_cp_4_nl0_ae10,Early_cp_4_nl0_ae21,Can_vp_24_nl0_ae0JoinAttrRef) .
+PREFIX#push_vp_25_nl0_ce0(Afford_vp_25_nl0_ae0ke00,Side_vp_25_nl0_ae0JoinAttr) :- PREFIX#fixed_vp_25_nl0_ce1(Loud_vp_25_nl0_ae10,Side_vp_25_nl0_ae0JoinAttrRef) .
+PREFIX#cover_vp_26_nl0_ce0(Match_vp_26_nl0_ae0ke00,Plough_vp_26_nl0_ae0JoinAttr) :- PREFIX#cry_vp_26_nl0_ce1(Dress_vp_26_nl0_ae10,Group_vp_26_nl0_ae21,Plough_vp_26_nl0_ae0JoinAttrRef) .
+PREFIX#avoid_vp_27_nl0_ce0(Call_su_8_nl0_ae0ke00,Invite_vp_27_nl0_ae0JoinAttr) :- PREFIX#card_vp_27_nl0_ce1(Rhythm_su_8_nl0_ae10,Invite_vp_27_nl0_ae0JoinAttrRef) .
+PREFIX#like_vp_28_nl0_ce0(Reason_vp_28_nl0_ae0ke00,Extend_vp_28_nl0_ae0JoinAttr) :- PREFIX#oven_vp_28_nl0_ce1(Work_vp_28_nl0_ae10,Public_vp_28_nl0_ae21,Extend_vp_28_nl0_ae0JoinAttrRef) .
+PREFIX#lie_vp_29_nl0_ce0(Sheep_vp_29_nl0_ae0ke00,Muscle_vp_29_nl0_ae0JoinAttr) :- PREFIX#oven_vp_29_nl0_ce1(Grey_vp_29_nl0_ae10,Trouble_vp_29_nl0_ae21,Muscle_vp_29_nl0_ae0JoinAttrRef) .
+PREFIX#sort_vp_30_nl0_ce0(Shut_vp_30_nl0_ae0ke00,Manage_vp_30_nl0_ae11,Acid_vp_30_nl0_ae0JoinAttr) :- PREFIX#hope_vp_30_nl0_ce1(Chalk_vp_30_nl0_ae20,Smile_vp_30_nl0_ae31,Collect_vp_30_nl0_ae42,Acid_vp_30_nl0_ae0JoinAttrRef) .
+PREFIX#design_vp_31_nl0_ce0(Scissors_vp_31_nl0_ae0ke00,Feeble_vp_31_nl0_ae0JoinAttr) :- PREFIX#fit_vp_31_nl0_ce1(Limit_vp_31_nl0_ae10,Feeble_vp_31_nl0_ae0JoinAttrRef) .
+PREFIX#wave_vp_32_nl0_ce0(Selectorhp140,Get_hp_14_nl0_ae01,Produce_hp_14_nl0_ae12,Agencies_vp_32_nl0_ae0JoinAttr) :- PREFIX#buy_vp_32_nl0_ce1(Full_hp_14_nl0_ae20,Complex_hp_14_nl0_ae31,Fork_hp_14_nl0_ae42,Agencies_vp_32_nl0_ae0JoinAttrRef) .
+PREFIX#jewel_cp_23_nl0_ce0copy23_22(Change_cp_23_nl0_ae0ke0,Pen_cp_23_nl0_ae10,Card_cp_23_nl0_ae21,Brick_cp_23_nl0_ae32,Smooth_cp_23_nl0_ae43) :- PREFIX#hollow_hp_12_nl0_ce0__HP12FR0_from_0_to_4999(Sign_hp_12_nl0_ae0,Bitter_hp_12_nl0_ae1) .
+PREFIX#cry_vp_16_nl0_ce1(Stamp_vp_16_nl0_ae30,Appear_vp_16_nl0_ae41,Store_vp_16_nl0_ae52,Jewel_vp_16_nl0_ae0JoinAttrRef) :- PREFIX#window_cp_9_nl0_ce0copy9_8(Belong_cp_9_nl0_ae0ke0,Increase_cp_9_nl0_ae10,Female_cp_9_nl0_ae21,Animal_cp_9_nl0_ae32) .
+PREFIX#involve_vp_2_nl0_ce0(Blow_vp_2_nl0_ae0ke00,Ready_vp_2_nl0_ae11,Property_vp_2_nl0_ae22,Discuss_vp_2_nl0_ae0JoinAttr) :- PREFIX#chalk_cp_5_nl0_ce0copy5_4(Regular_cp_5_nl0_ae0ke0,Degree_cp_5_nl0_ae10) .
+PREFIX#check_hp_17_nl0_ce0copy32_27(Selectorhp17,Poor_hp_17_nl0_ae00,Long_hp_17_nl0_ae11,Bright_hp_17_nl0_ae22,Request_hp_17_nl0_ae33) :- PREFIX#smell_vp_24_nl0_ce1(Ring_cp_4_nl0_ae10,Early_cp_4_nl0_ae21,Can_vp_24_nl0_ae0JoinAttrRef) .
+PREFIX#like_vp_28_nl0_ce0(Reason_vp_28_nl0_ae0ke00,Extend_vp_28_nl0_ae0JoinAttr) :- PREFIX#jewel_cp_23_nl0_ce0copy23_22(Change_cp_23_nl0_ae0ke0,Pen_cp_23_nl0_ae10,Card_cp_23_nl0_ae21,Brick_cp_23_nl0_ae32,Smooth_cp_23_nl0_ae43) .
+PREFIX#like_vp_28_nl0_ce0(Reason_vp_28_nl0_ae0ke00,Extend_vp_28_nl0_ae0JoinAttr) :- PREFIX#kind_cp_4_nl0_ce0copy4_3(Prove_cp_4_nl0_ae0ke0,Ring_cp_4_nl0_ae10,Early_cp_4_nl0_ae21) .
+PREFIX#beat_vp_13_nl0_ce1(Soup_vp_13_nl0_ae10,Regret_vp_13_nl0_ae0JoinAttrRef) :- PREFIX#amount_cp_30_nl0_ce0copy30_25(Avoid_cp_30_nl0_ae0ke0,Quiet_cp_30_nl0_ae10,Shame_cp_30_nl0_ae21,Discovery_cp_30_nl0_ae32,Bone_cp_30_nl0_ae43) .

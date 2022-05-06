@@ -1,0 +1,976 @@
+Finish Parsing Files ...
+<PREFIX#touch_ad_1_nl0_ce0>(X0, X1, X2, X3) :- <PREFIX#test_ad_1_nl0_ce0>(X0, X1, X2) .
+<PREFIX#different_vi_1_nl0_ce0>(X0, X1, X2), <PREFIX#society_vi_1_nl0_ce1>(X0, X3, X4) :- <PREFIX#society_vi_1_nl0_ce0>(X0, X1, X2, X3, X4) .
+<PREFIX#blue_vh_1_nl0_ce0>(X0, X1, X2, X3), <PREFIX#describe_vh_1_nl0_ce1>(X4, X5, X6, X7, X3) :- <PREFIX#warn_vh_1_nl0_ce0>(X0, X1, X2, X4, X5, X6) .
+<PREFIX#rest_vnm_1_nl0_ce0>(X0, X1, X2), <PREFIX#place_vnm_1_nl0_ce1>(X3, X4, X5, X6), <PREFIX#expansion_vnm_1_nl0_ce2>(X2, X6) :- <PREFIX#report_vnm_1_nl0_ce0>(X0, X1, X2, X3, X4) .
+<PREFIX#future_ad_2_nl0_ce0>(X0, X1, X2, X3, X4, X5) :- <PREFIX#pipe_ad_2_nl0_ce0>(X0, X1, X2, X3, X4) .
+<PREFIX#approval_vi_2_nl0_ce0>(X0, X1, X2), <PREFIX#blow_vi_2_nl0_ce1>(X0, X3, X4) :- <PREFIX#mixed_vi_2_nl0_ce0>(X0, X1, X2, X3, X4) .
+<PREFIX#involve_vh_2_nl0_ce0>(X0, X1, X2, X3), <PREFIX#use_vh_2_nl0_ce1>(X4, X5, X6, X7, X3) :- <PREFIX#division_vh_2_nl0_ce0>(X0, X1, X2, X4, X5, X6) .
+<PREFIX#parallel_vnm_2_nl0_ce0>(X0, X1), <PREFIX#collection_vnm_2_nl0_ce1>(X2, X3, X4), <PREFIX#handle_vnm_2_nl0_ce2>(X1, X4) :- <PREFIX#paint_vnm_2_nl0_ce0>(X0, X1, X2) .
+<PREFIX#decision_ad_3_nl0_ce0>(X0, X1, X2, X3, X4) :- <PREFIX#library_ad_3_nl0_ce0>(X0, X1, X2, X3) .
+<PREFIX#kind_vi_3_nl0_ce0>(X0, X1, X2), <PREFIX#prove_vi_3_nl0_ce1>(X0, X3, X4) :- <PREFIX#garden_vi_3_nl0_ce0>(X0, X1, X2, X3, X4) .
+<PREFIX#door_vh_3_nl0_ce0>(X0, X1, X2), <PREFIX#charge_vh_3_nl0_ce1>(X3, X4, X5, X6, X2) :- <PREFIX#ring_vh_3_nl0_ce0>(X0, X1, X3, X4, X5) .
+<PREFIX#farm_vnm_3_nl0_ce0>(X0, X1, X2), <PREFIX#political_vnm_3_nl0_ce1>(X3, X4, X5, X6), <PREFIX#language_vnm_3_nl0_ce2>(X2, X6) :- <PREFIX#certain_vnm_3_nl0_ce0>(X0, X1, X2, X3, X4) .
+<PREFIX#science_ad_4_nl0_ce0>(X0, X1, X2, X3, X4) :- <PREFIX#worry_ad_4_nl0_ce0>(X0, X1, X2, X3) .
+<PREFIX#involve_vi_4_nl0_ce0>(X0, X1), <PREFIX#mention_vi_4_nl0_ce1>(X0, X2, X3) :- <PREFIX#last_vi_4_nl0_ce0>(X0, X1, X2, X3) .
+<PREFIX#complete_vh_4_nl0_ce0>(X0, X1, X2), <PREFIX#count_vh_4_nl0_ce1>(X3, X4, X5, X6, X2) :- <PREFIX#pencil_vh_4_nl0_ce0>(X0, X1, X3, X4, X5) .
+<PREFIX#gold_vnm_4_nl0_ce0>(X0, X1), <PREFIX#pain_vnm_4_nl0_ce1>(X2, X3, X4), <PREFIX#accept_vnm_4_nl0_ce2>(X1, X4) :- <PREFIX#amount_vnm_4_nl0_ce0>(X0, X1, X2) .
+<PREFIX#thick_ad_5_nl0_ce0>(X0, X1, X2, X3, X4, X5) :- <PREFIX#make_ad_5_nl0_ce0>(X0, X1, X2, X3, X4) .
+<PREFIX#pain_vi_5_nl0_ce0>(X0, X1, X2), <PREFIX#straight_vi_5_nl0_ce1>(X0, X3, X4) :- <PREFIX#stiff_vi_5_nl0_ce0>(X0, X1, X2, X3, X4) .
+<PREFIX#record_vh_5_nl0_ce0>(X0, X1, X2, X3), <PREFIX#probable_vh_5_nl0_ce1>(X4, X5, X6, X7, X3) :- <PREFIX#complain_vh_5_nl0_ce0>(X0, X1, X2, X4, X5, X6) .
+<PREFIX#boot_vnm_5_nl0_ce0>(X0, X1, X2, X3), <PREFIX#dependent_vnm_5_nl0_ce1>(X4, X5, X6, X7), <PREFIX#sea_vnm_5_nl0_ce2>(X3, X7) :- <PREFIX#poor_vnm_5_nl0_ce0>(X0, X1, X2, X3, X4, X5) .
+<PREFIX#stomach_ad_6_nl0_ce0>(X0, X1, X2, X3, X4) :- <PREFIX#delicate_ad_6_nl0_ce0>(X0, X1, X2, X3) .
+<PREFIX#oven_vi_6_nl0_ce0>(X0, X1), <PREFIX#give_vi_6_nl0_ce1>(X0, X2, X3) :- <PREFIX#place_vi_6_nl0_ce0>(X0, X1, X2, X3) .
+<PREFIX#animal_vh_6_nl0_ce0>(X0, X1), <PREFIX#hate_vh_6_nl0_ce1>(X2, X3, X4, X1) :- <PREFIX#selection_vh_6_nl0_ce0>(X0, X2, X3) .
+<PREFIX#argue_vnm_6_nl0_ce0>(X0, X1), <PREFIX#late_vnm_6_nl0_ce1>(X2, X3, X4), <PREFIX#summer_vnm_6_nl0_ce2>(X1, X4) :- <PREFIX#ready_vnm_6_nl0_ce0>(X0, X1, X2) .
+<PREFIX#clock_ad_7_nl0_ce0>(X0, X1, X2, X3, X4, X5) :- <PREFIX#will_ad_7_nl0_ce0>(X0, X1, X2, X3, X4) .
+<PREFIX#fly_vi_7_nl0_ce0>(X0, X1, X2), <PREFIX#late_vi_7_nl0_ce1>(X0, X3, X4) :- <PREFIX#wall_vi_7_nl0_ce0>(X0, X1, X2, X3, X4) .
+<PREFIX#stone_vh_7_nl0_ce0>(X0, X1), <PREFIX#fertile_vh_7_nl0_ce1>(X2, X3, X4, X1) :- <PREFIX#important_vh_7_nl0_ce0>(X0, X2, X3) .
+<PREFIX#awake_vnm_7_nl0_ce0>(X0, X1, X2), <PREFIX#church_vnm_7_nl0_ce1>(X3, X4, X5), <PREFIX#hammer_vnm_7_nl0_ce2>(X2, X5) :- <PREFIX#respect_vnm_7_nl0_ce0>(X0, X1, X2, X3) .
+<PREFIX#eat_ad_8_nl0_ce0>(X0, X1, X2, X3, X4) :- <PREFIX#disgust_ad_8_nl0_ce0>(X0, X1, X2, X3) .
+<PREFIX#complain_vi_8_nl0_ce0>(X0, X1, X2), <PREFIX#snake_vi_8_nl0_ce1>(X0, X3, X4) :- <PREFIX#harbor_vi_8_nl0_ce0>(X0, X1, X2, X3, X4) .
+<PREFIX#touch_vh_8_nl0_ce0>(X0, X1, X2), <PREFIX#settle_vh_8_nl0_ce1>(X3, X4, X5, X2) :- <PREFIX#bucket_vh_8_nl0_ce0>(X0, X1, X3, X4) .
+<PREFIX#trick_vnm_8_nl0_ce0>(X0, X1, X2), <PREFIX#green_vnm_8_nl0_ce1>(X3, X4, X5), <PREFIX#jump_vnm_8_nl0_ce2>(X2, X5) :- <PREFIX#act_vnm_8_nl0_ce0>(X0, X1, X2, X3) .
+<PREFIX#needle_ad_9_nl0_ce0>(X0, X1, X2, X3, X4, X5) :- <PREFIX#enable_ad_9_nl0_ce0>(X0, X1, X2, X3, X4) .
+<PREFIX#degree_vi_9_nl0_ce0>(X0, X1, X2), <PREFIX#forgive_vi_9_nl0_ce1>(X0, X3, X4) :- <PREFIX#opinion_vi_9_nl0_ce0>(X0, X1, X2, X3, X4) .
+<PREFIX#account_vh_9_nl0_ce0>(X0, X1, X2), <PREFIX#fiction_vh_9_nl0_ce1>(X3, X4, X5, X6, X2) :- <PREFIX#government_vh_9_nl0_ce0>(X0, X1, X3, X4, X5) .
+<PREFIX#ring_vnm_9_nl0_ce0>(X0, X1, X2), <PREFIX#voice_vnm_9_nl0_ce1>(X3, X4, X5, X6), <PREFIX#room_vnm_9_nl0_ce2>(X2, X6) :- <PREFIX#time_vnm_9_nl0_ce0>(X0, X1, X2, X3, X4) .
+<PREFIX#fork_ad_10_nl0_ce0>(X0, X1, X2, X3) :- <PREFIX#impulse_ad_10_nl0_ce0>(X0, X1, X2) .
+<PREFIX#come_vi_10_nl0_ce0>(X0, X1, X2), <PREFIX#long_vi_10_nl0_ce1>(X0, X3, X4) :- <PREFIX#line_vi_10_nl0_ce0>(X0, X1, X2, X3, X4) .
+<PREFIX#reply_vh_10_nl0_ce0>(X0, X1, X2), <PREFIX#require_vh_10_nl0_ce1>(X3, X4, X5, X6, X2) :- <PREFIX#drink_vh_10_nl0_ce0>(X0, X1, X3, X4, X5) .
+<PREFIX#church_vnm_10_nl0_ce0>(X0, X1, X2, X3), <PREFIX#point_vnm_10_nl0_ce1>(X4, X5, X6, X7, X8), <PREFIX#digestion_vnm_10_nl0_ce2>(X3, X8) :- <PREFIX#keep_vnm_10_nl0_ce0>(X0, X1, X2, X3, X4, X5, X6) .
+<PREFIX#record_ad_11_nl0_ce0>(X0, X1, X2, X3, X4) :- <PREFIX#control_ad_11_nl0_ce0>(X0, X1, X2, X3) .
+<PREFIX#business_vi_11_nl0_ce0>(X0, X1), <PREFIX#yellow_vi_11_nl0_ce1>(X0, X2, X3) :- <PREFIX#branch_vi_11_nl0_ce0>(X0, X1, X2, X3) .
+<PREFIX#beautiful_vh_11_nl0_ce0>(X0, X1, X2), <PREFIX#watch_vh_11_nl0_ce1>(X3, X4, X5, X6, X2) :- <PREFIX#whip_vh_11_nl0_ce0>(X0, X1, X3, X4, X5) .
+<PREFIX#compare_vnm_11_nl0_ce0>(X0, X1, X2), <PREFIX#first_vnm_11_nl0_ce1>(X3, X4, X5, X6), <PREFIX#play_vnm_11_nl0_ce2>(X2, X6) :- <PREFIX#present_vnm_11_nl0_ce0>(X0, X1, X2, X3, X4) .
+<PREFIX#poor_ad_12_nl0_ce0>(X0, X1, X2, X3, X4, X5) :- <PREFIX#stamp_ad_12_nl0_ce0>(X0, X1, X2, X3, X4) .
+<PREFIX#provide_vi_12_nl0_ce0>(X0, X1, X2), <PREFIX#secret_vi_12_nl0_ce1>(X0, X3, X4) :- <PREFIX#bright_vi_12_nl0_ce0>(X0, X1, X2, X3, X4) .
+<PREFIX#try_vh_12_nl0_ce0>(X0, X1, X2, X3), <PREFIX#complex_vh_12_nl0_ce1>(X4, X5, X6, X7, X3) :- <PREFIX#poor_vh_12_nl0_ce0>(X0, X1, X2, X4, X5, X6) .
+<PREFIX#sleep_vnm_12_nl0_ce0>(X0, X1, X2), <PREFIX#measure_vnm_12_nl0_ce1>(X3, X4, X5), <PREFIX#engine_vnm_12_nl0_ce2>(X2, X5) :- <PREFIX#hat_vnm_12_nl0_ce0>(X0, X1, X2, X3) .
+<PREFIX#set_ad_13_nl0_ce0>(X0, X1, X2, X3, X4) :- <PREFIX#laugh_ad_13_nl0_ce0>(X0, X1, X2, X3) .
+<PREFIX#thread_vi_13_nl0_ce0>(X0, X1, X2), <PREFIX#look_vi_13_nl0_ce1>(X0, X3, X4) :- <PREFIX#ice_vi_13_nl0_ce0>(X0, X1, X2, X3, X4) .
+<PREFIX#wet_vh_13_nl0_ce0>(X0, X1, X2), <PREFIX#back_vh_13_nl0_ce1>(X3, X4, X5, X2) :- <PREFIX#prove_vh_13_nl0_ce0>(X0, X1, X3, X4) .
+<PREFIX#conscious_vnm_13_nl0_ce0>(X0, X1, X2), <PREFIX#wait_vnm_13_nl0_ce1>(X3, X4, X5, X6), <PREFIX#loose_vnm_13_nl0_ce2>(X2, X6) :- <PREFIX#chin_vnm_13_nl0_ce0>(X0, X1, X2, X3, X4) .
+<PREFIX#tin_ad_14_nl0_ce0>(X0, X1, X2, X3) :- <PREFIX#bath_ad_14_nl0_ce0>(X0, X1, X2) .
+<PREFIX#advertisement_vi_14_nl0_ce0>(X0, X1, X2), <PREFIX#smoke_vi_14_nl0_ce1>(X0, X3, X4, X5) :- <PREFIX#insurance_vi_14_nl0_ce0>(X0, X1, X2, X3, X4, X5) .
+<PREFIX#coat_vh_14_nl0_ce0>(X0, X1, X2), <PREFIX#father_vh_14_nl0_ce1>(X3, X4, X5, X2) :- <PREFIX#wing_vh_14_nl0_ce0>(X0, X1, X3, X4) .
+<PREFIX#skin_vnm_14_nl0_ce0>(X0, X1, X2), <PREFIX#believe_vnm_14_nl0_ce1>(X3, X4, X5, X6), <PREFIX#adjustment_vnm_14_nl0_ce2>(X2, X6) :- <PREFIX#sticky_vnm_14_nl0_ce0>(X0, X1, X2, X3, X4) .
+<PREFIX#run_ad_15_nl0_ce0>(X0, X1, X2, X3) :- <PREFIX#sky_ad_15_nl0_ce0>(X0, X1, X2) .
+<PREFIX#jewel_vi_15_nl0_ce0>(X0, X1), <PREFIX#change_vi_15_nl0_ce1>(X0, X2) :- <PREFIX#birth_vi_15_nl0_ce0>(X0, X1, X2) .
+<PREFIX#contain_vh_15_nl0_ce0>(X0, X1, X2), <PREFIX#know_vh_15_nl0_ce1>(X3, X4, X5, X6, X2) :- <PREFIX#pen_vh_15_nl0_ce0>(X0, X1, X3, X4, X5) .
+<PREFIX#present_vnm_15_nl0_ce0>(X0, X1, X2), <PREFIX#sister_vnm_15_nl0_ce1>(X3, X4, X5), <PREFIX#butter_vnm_15_nl0_ce2>(X2, X5) :- <PREFIX#committee_vnm_15_nl0_ce0>(X0, X1, X2, X3) .
+<PREFIX#deep_ad_16_nl0_ce0>(X0, X1, X2, X3, X4) :- <PREFIX#thank_ad_16_nl0_ce0>(X0, X1, X2, X3) .
+<PREFIX#involve_vi_16_nl0_ce0>(X0, X1, X2), <PREFIX#bee_vi_16_nl0_ce1>(X0, X3, X4) :- <PREFIX#hanging_vi_16_nl0_ce0>(X0, X1, X2, X3, X4) .
+<PREFIX#afford_vh_16_nl0_ce0>(X0, X1, X2, X3), <PREFIX#reflect_vh_16_nl0_ce1>(X4, X5, X6, X7, X8, X3) :- <PREFIX#winter_vh_16_nl0_ce0>(X0, X1, X2, X4, X5, X6, X7) .
+<PREFIX#tin_vnm_16_nl0_ce0>(X0, X1, X2), <PREFIX#reading_vnm_16_nl0_ce1>(X3, X4, X5, X6), <PREFIX#second_vnm_16_nl0_ce2>(X2, X6) :- <PREFIX#loud_vnm_16_nl0_ce0>(X0, X1, X2, X3, X4) .
+<PREFIX#group_ad_17_nl0_ce0>(X0, X1, X2, X3, X4, X5) :- <PREFIX#news_ad_17_nl0_ce0>(X0, X1, X2, X3, X4) .
+<PREFIX#hide_vi_17_nl0_ce0>(X0, X1), <PREFIX#shoe_vi_17_nl0_ce1>(X0, X2, X3) :- <PREFIX#cover_vi_17_nl0_ce0>(X0, X1, X2, X3) .
+<PREFIX#cross_vh_17_nl0_ce0>(X0, X1, X2), <PREFIX#act_vh_17_nl0_ce1>(X3, X4, X5, X2) :- <PREFIX#ornament_vh_17_nl0_ce0>(X0, X1, X3, X4) .
+<PREFIX#size_vnm_17_nl0_ce0>(X0, X1, X2), <PREFIX#raise_vnm_17_nl0_ce1>(X3, X4, X5), <PREFIX#baby_vnm_17_nl0_ce2>(X2, X5) :- <PREFIX#chief_vnm_17_nl0_ce0>(X0, X1, X2, X3) .
+<PREFIX#reason_ad_18_nl0_ce0>(X0, X1, X2, X3, X4) :- <PREFIX#publish_ad_18_nl0_ce0>(X0, X1, X2, X3) .
+<PREFIX#point_vi_18_nl0_ce0>(X0, X1), <PREFIX#band_vi_18_nl0_ce1>(X0, X2, X3) :- <PREFIX#work_vi_18_nl0_ce0>(X0, X1, X2, X3) .
+<PREFIX#level_vh_18_nl0_ce0>(X0, X1, X2, X3), <PREFIX#present_vh_18_nl0_ce1>(X4, X5, X6, X7, X8, X3) :- <PREFIX#avoid_vh_18_nl0_ce0>(X0, X1, X2, X4, X5, X6, X7) .
+<PREFIX#oven_vnm_18_nl0_ce0>(X0, X1), <PREFIX#amount_vnm_18_nl0_ce1>(X2, X3, X4), <PREFIX#avoid_vnm_18_nl0_ce2>(X1, X4) :- <PREFIX#belong_vnm_18_nl0_ce0>(X0, X1, X2) .
+<PREFIX#mass_ad_19_nl0_ce0>(X0, X1, X2, X3) :- <PREFIX#quiet_ad_19_nl0_ce0>(X0, X1, X2) .
+<PREFIX#chalk_vi_19_nl0_ce0>(X0, X1, X2), <PREFIX#smile_vi_19_nl0_ce1>(X0, X3, X4, X5) :- <PREFIX#power_vi_19_nl0_ce0>(X0, X1, X2, X3, X4, X5) .
+<PREFIX#arrange_vh_19_nl0_ce0>(X0, X1, X2), <PREFIX#brush_vh_19_nl0_ce1>(X3, X4, X5, X2) :- <PREFIX#collect_vh_19_nl0_ce0>(X0, X1, X3, X4) .
+<PREFIX#attack_vnm_19_nl0_ce0>(X0, X1, X2), <PREFIX#stitch_vnm_19_nl0_ce1>(X3, X4, X5), <PREFIX#matter_vnm_19_nl0_ce2>(X2, X5) :- <PREFIX#force_vnm_19_nl0_ce0>(X0, X1, X2, X3) .
+<PREFIX#design_ad_20_nl0_ce0>(X0, X1, X2, X3, X4, X5) :- <PREFIX#chemical_ad_20_nl0_ce0>(X0, X1, X2, X3, X4) .
+<PREFIX#violent_vi_20_nl0_ce0>(X0, X1, X2), <PREFIX#hide_vi_20_nl0_ce1>(X0, X3, X4) :- <PREFIX#moon_vi_20_nl0_ce0>(X0, X1, X2, X3, X4) .
+<PREFIX#agencies_vh_20_nl0_ce0>(X0, X1, X2), <PREFIX#wave_vh_20_nl0_ce1>(X3, X4, X5, X6, X2) :- <PREFIX#hide_vh_20_nl0_ce0>(X0, X1, X3, X4, X5) .
+<PREFIX#family_vnm_20_nl0_ce0>(X0, X1, X2), <PREFIX#remain_vnm_20_nl0_ce1>(X3, X4, X5, X6), <PREFIX#examine_vnm_20_nl0_ce2>(X2, X6) :- <PREFIX#buy_vnm_20_nl0_ce0>(X0, X1, X2, X3, X4) .
+<PREFIX#sea_ad_21_nl0_ce0>(X0, X1, X2, X3, X4, X5) :- <PREFIX#possible_ad_21_nl0_ce0>(X0, X1, X2, X3, X4) .
+<PREFIX#screw_vi_21_nl0_ce0>(X0), <PREFIX#cook_vi_21_nl0_ce1>(X0, X1) :- <PREFIX#feather_vi_21_nl0_ce0>(X0, X1) .
+<PREFIX#touch_vh_21_nl0_ce0>(X0, X1), <PREFIX#confirm_vh_21_nl0_ce1>(X2, X3, X4, X1) :- <PREFIX#stop_vh_21_nl0_ce0>(X0, X2, X3) .
+<PREFIX#language_vnm_21_nl0_ce0>(X0, X1, X2), <PREFIX#end_vnm_21_nl0_ce1>(X3, X4, X5), <PREFIX#involve_vnm_21_nl0_ce2>(X2, X5) :- <PREFIX#expect_vnm_21_nl0_ce0>(X0, X1, X2, X3) .
+<PREFIX#healthy_ad_22_nl0_ce0>(X0, X1, X2, X3, X4, X5, X6) :- <PREFIX#friend_ad_22_nl0_ce0>(X0, X1, X2, X3, X4, X5) .
+<PREFIX#bed_vi_22_nl0_ce0>(X0, X1, X2), <PREFIX#society_vi_22_nl0_ce1>(X0, X3, X4) :- <PREFIX#soup_vi_22_nl0_ce0>(X0, X1, X2, X3, X4) .
+<PREFIX#paper_vh_22_nl0_ce0>(X0, X1, X2), <PREFIX#mind_vh_22_nl0_ce1>(X3, X4, X5, X2) :- <PREFIX#structure_vh_22_nl0_ce0>(X0, X1, X3, X4) .
+<PREFIX#left_vnm_22_nl0_ce0>(X0, X1, X2), <PREFIX#branch_vnm_22_nl0_ce1>(X3, X4, X5), <PREFIX#blue_vnm_22_nl0_ce2>(X2, X5) :- <PREFIX#automatic_vnm_22_nl0_ce0>(X0, X1, X2, X3) .
+<PREFIX#rub_ad_23_nl0_ce0>(X0, X1, X2, X3, X4, X5, X6) :- <PREFIX#imagine_ad_23_nl0_ce0>(X0, X1, X2, X3, X4, X5) .
+<PREFIX#use_vi_23_nl0_ce0>(X0, X1, X2), <PREFIX#white_vi_23_nl0_ce1>(X0, X3, X4) :- <PREFIX#machine_vi_23_nl0_ce0>(X0, X1, X2, X3, X4) .
+<PREFIX#concern_vh_23_nl0_ce0>(X0, X1, X2), <PREFIX#example_vh_23_nl0_ce1>(X3, X4, X5, X6, X2) :- <PREFIX#wash_vh_23_nl0_ce0>(X0, X1, X3, X4, X5) .
+<PREFIX#simple_vnm_23_nl0_ce0>(X0, X1), <PREFIX#shake_vnm_23_nl0_ce1>(X2, X3, X4), <PREFIX#record_vnm_23_nl0_ce2>(X1, X4) :- <PREFIX#copy_vnm_23_nl0_ce0>(X0, X1, X2) .
+<PREFIX#monkey_ad_24_nl0_ce0>(X0, X1, X2, X3, X4, X5, X6) :- <PREFIX#run_ad_24_nl0_ce0>(X0, X1, X2, X3, X4, X5) .
+<PREFIX#have_vi_24_nl0_ce0>(X0, X1, X2), <PREFIX#skin_vi_24_nl0_ce1>(X0, X3, X4) :- <PREFIX#forgive_vi_24_nl0_ce0>(X0, X1, X2, X3, X4) .
+<PREFIX#system_vh_24_nl0_ce0>(X0, X1, X2, X3), <PREFIX#paint_vh_24_nl0_ce1>(X4, X5, X6, X7, X3) :- <PREFIX#note_vh_24_nl0_ce0>(X0, X1, X2, X4, X5, X6) .
+<PREFIX#machine_vnm_24_nl0_ce0>(X0, X1, X2, X3), <PREFIX#punishment_vnm_24_nl0_ce1>(X4, X5, X6, X7), <PREFIX#authority_vnm_24_nl0_ce2>(X3, X7) :- <PREFIX#separate_vnm_24_nl0_ce0>(X0, X1, X2, X3, X4, X5) .
+<PREFIX#market_ad_25_nl0_ce0>(X0, X1, X2, X3, X4, X5) :- <PREFIX#wear_ad_25_nl0_ce0>(X0, X1, X2, X3, X4) .
+<PREFIX#electric_vi_25_nl0_ce0>(X0, X1), <PREFIX#dust_vi_25_nl0_ce1>(X0, X2, X3) :- <PREFIX#cut_vi_25_nl0_ce0>(X0, X1, X2, X3) .
+<PREFIX#face_vh_25_nl0_ce0>(X0, X1, X2), <PREFIX#oven_vh_25_nl0_ce1>(X3, X4, X5, X2) :- <PREFIX#laugh_vh_25_nl0_ce0>(X0, X1, X3, X4) .
+<PREFIX#war_vnm_25_nl0_ce0>(X0, X1), <PREFIX#history_vnm_25_nl0_ce1>(X2, X3, X4), <PREFIX#mist_vnm_25_nl0_ce2>(X1, X4) :- <PREFIX#wind_vnm_25_nl0_ce0>(X0, X1, X2) .
+<PREFIX#substance_ad_26_nl0_ce0>(X0, X1, X2, X3, X4) :- <PREFIX#examine_ad_26_nl0_ce0>(X0, X1, X2, X3) .
+<PREFIX#provide_vi_26_nl0_ce0>(X0, X1), <PREFIX#delicate_vi_26_nl0_ce1>(X0, X2, X3) :- <PREFIX#visit_vi_26_nl0_ce0>(X0, X1, X2, X3) .
+<PREFIX#invention_vh_26_nl0_ce0>(X0, X1, X2, X3), <PREFIX#use_vh_26_nl0_ce1>(X4, X5, X6, X7, X3) :- <PREFIX#owner_vh_26_nl0_ce0>(X0, X1, X2, X4, X5, X6) .
+<PREFIX#sock_vnm_26_nl0_ce0>(X0, X1, X2), <PREFIX#authority_vnm_26_nl0_ce1>(X3, X4, X5, X6), <PREFIX#express_vnm_26_nl0_ce2>(X2, X6) :- <PREFIX#last_vnm_26_nl0_ce0>(X0, X1, X2, X3, X4) .
+<PREFIX#fork_ad_27_nl0_ce0>(X0, X1, X2, X3, X4) :- <PREFIX#green_ad_27_nl0_ce0>(X0, X1, X2, X3) .
+<PREFIX#nation_vi_27_nl0_ce0>(X0, X1), <PREFIX#need_vi_27_nl0_ce1>(X0, X2, X3) :- <PREFIX#seed_vi_27_nl0_ce0>(X0, X1, X2, X3) .
+<PREFIX#have_vh_27_nl0_ce0>(X0, X1, X2), <PREFIX#separate_vh_27_nl0_ce1>(X3, X4, X5, X2) :- <PREFIX#guide_vh_27_nl0_ce0>(X0, X1, X3, X4) .
+<PREFIX#dark_vnm_27_nl0_ce0>(X0, X1, X2), <PREFIX#knot_vnm_27_nl0_ce1>(X3, X4, X5, X6), <PREFIX#leather_vnm_27_nl0_ce2>(X2, X6) :- <PREFIX#meal_vnm_27_nl0_ce0>(X0, X1, X2, X3, X4) .
+<PREFIX#table_ad_28_nl0_ce0>(X0, X1, X2, X3, X4) :- <PREFIX#nail_ad_28_nl0_ce0>(X0, X1, X2, X3) .
+<PREFIX#imagine_vi_28_nl0_ce0>(X0, X1, X2), <PREFIX#deliver_vi_28_nl0_ce1>(X0, X3, X4) :- <PREFIX#fruit_vi_28_nl0_ce0>(X0, X1, X2, X3, X4) .
+<PREFIX#face_vh_28_nl0_ce0>(X0, X1, X2), <PREFIX#degree_vh_28_nl0_ce1>(X3, X4, X5, X6, X2) :- <PREFIX#nose_vh_28_nl0_ce0>(X0, X1, X3, X4, X5) .
+<PREFIX#rise_vnm_28_nl0_ce0>(X0, X1, X2, X3), <PREFIX#shut_vnm_28_nl0_ce1>(X4, X5, X6, X7), <PREFIX#return_vnm_28_nl0_ce2>(X3, X7) :- <PREFIX#head_vnm_28_nl0_ce0>(X0, X1, X2, X3, X4, X5) .
+<PREFIX#talk_ad_29_nl0_ce0>(X0, X1, X2, X3, X4) :- <PREFIX#automatic_ad_29_nl0_ce0>(X0, X1, X2, X3) .
+<PREFIX#discover_vi_29_nl0_ce0>(X0, X1, X2), <PREFIX#edge_vi_29_nl0_ce1>(X0, X3, X4) :- <PREFIX#raise_vi_29_nl0_ce0>(X0, X1, X2, X3, X4) .
+<PREFIX#thumb_vh_29_nl0_ce0>(X0, X1, X2, X3), <PREFIX#fall_vh_29_nl0_ce1>(X4, X5, X6, X7, X3) :- <PREFIX#snake_vh_29_nl0_ce0>(X0, X1, X2, X4, X5, X6) .
+<PREFIX#shame_vnm_29_nl0_ce0>(X0, X1, X2), <PREFIX#soft_vnm_29_nl0_ce1>(X3, X4, X5, X6), <PREFIX#selection_vnm_29_nl0_ce2>(X2, X6) :- <PREFIX#special_vnm_29_nl0_ce0>(X0, X1, X2, X3, X4) .
+<PREFIX#wonder_ad_30_nl0_ce0>(X0, X1, X2, X3, X4, X5) :- <PREFIX#want_ad_30_nl0_ce0>(X0, X1, X2, X3, X4) .
+<PREFIX#plate_vi_30_nl0_ce0>(X0, X1), <PREFIX#lift_vi_30_nl0_ce1>(X0, X2, X3) :- <PREFIX#flower_vi_30_nl0_ce0>(X0, X1, X2, X3) .
+<PREFIX#protest_vh_30_nl0_ce0>(X0, X1, X2), <PREFIX#reply_vh_30_nl0_ce1>(X3, X4, X5, X6, X2) :- <PREFIX#stick_vh_30_nl0_ce0>(X0, X1, X3, X4, X5) .
+<PREFIX#regret_vnm_30_nl0_ce0>(X0, X1), <PREFIX#color_vnm_30_nl0_ce1>(X2, X3, X4), <PREFIX#work_vnm_30_nl0_ce2>(X1, X4) :- <PREFIX#chief_vnm_30_nl0_ce0>(X0, X1, X2) .
+<PREFIX#avoid_ad_31_nl0_ce0>(X0, X1, X2, X3, X4, X5) :- <PREFIX#cause_ad_31_nl0_ce0>(X0, X1, X2, X3, X4) .
+<PREFIX#expert_vi_31_nl0_ce0>(X0, X1, X2), <PREFIX#sort_vi_31_nl0_ce1>(X0, X3, X4, X5) :- <PREFIX#strong_vi_31_nl0_ce0>(X0, X1, X2, X3, X4, X5) .
+<PREFIX#material_vh_31_nl0_ce0>(X0, X1, X2, X3), <PREFIX#cow_vh_31_nl0_ce1>(X4, X5, X6, X7, X3) :- <PREFIX#whistle_vh_31_nl0_ce0>(X0, X1, X2, X4, X5, X6) .
+<PREFIX#canvas_vnm_31_nl0_ce0>(X0, X1), <PREFIX#count_vnm_31_nl0_ce1>(X2, X3, X4), <PREFIX#weather_vnm_31_nl0_ce2>(X1, X4) :- <PREFIX#woman_vnm_31_nl0_ce0>(X0, X1, X2) .
+<PREFIX#reading_ad_32_nl0_ce0>(X0, X1, X2, X3, X4) :- <PREFIX#become_ad_32_nl0_ce0>(X0, X1, X2, X3) .
+<PREFIX#climb_vi_32_nl0_ce0>(X0, X1), <PREFIX#ill_vi_32_nl0_ce1>(X0, X2) :- <PREFIX#avoid_vi_32_nl0_ce0>(X0, X1, X2) .
+<PREFIX#test_vh_32_nl0_ce0>(X0, X1), <PREFIX#mine_vh_32_nl0_ce1>(X2, X3, X1) :- <PREFIX#degree_vh_32_nl0_ce0>(X0, X2) .
+<PREFIX#stitch_vnm_32_nl0_ce0>(X0, X1, X2), <PREFIX#discuss_vnm_32_nl0_ce1>(X3, X4, X5, X6), <PREFIX#moon_vnm_32_nl0_ce2>(X2, X6) :- <PREFIX#loose_vnm_32_nl0_ce0>(X0, X1, X2, X3, X4) .
+<PREFIX#damage_ad_33_nl0_ce0>(X0, X1, X2, X3) :- <PREFIX#worm_ad_33_nl0_ce0>(X0, X1, X2) .
+<PREFIX#feeble_vi_33_nl0_ce0>(X0, X1), <PREFIX#collar_vi_33_nl0_ce1>(X0, X2) :- <PREFIX#test_vi_33_nl0_ce0>(X0, X1, X2) .
+<PREFIX#verse_vh_33_nl0_ce0>(X0, X1, X2), <PREFIX#open_vh_33_nl0_ce1>(X3, X4, X5, X6, X2) :- <PREFIX#building_vh_33_nl0_ce0>(X0, X1, X3, X4, X5) .
+<PREFIX#knot_vnm_33_nl0_ce0>(X0, X1, X2), <PREFIX#forgive_vnm_33_nl0_ce1>(X3, X4, X5), <PREFIX#yellow_vnm_33_nl0_ce2>(X2, X5) :- <PREFIX#wing_vh_14_nl0_ce0>(X0, X1, X2, X3) .
+<PREFIX#like_ad_34_nl0_ce0>(X0, X1, X2, X3, X4, X5) :- <PREFIX#spoon_ad_34_nl0_ce0>(X0, X1, X2, X3, X4) .
+<PREFIX#join_vi_34_nl0_ce0>(X0, X1, X2), <PREFIX#peace_vi_34_nl0_ce1>(X0, X3, X4) :- <PREFIX#enable_ad_9_nl0_ce0>(X0, X1, X2, X3, X4) .
+<PREFIX#rest_vh_34_nl0_ce0>(X0, X1, X2), <PREFIX#attorney_vh_34_nl0_ce1>(X3, X4, X5, X6, X2) :- <PREFIX#representative_vh_34_nl0_ce0>(X0, X1, X3, X4, X5) .
+<PREFIX#blue_vh_1_nl0_ce0>(X0, X1, X2, X3), <PREFIX#punishment_vnm_24_nl0_ce1>(X4, X5, X6, X7), <PREFIX#moon_vnm_32_nl0_ce2>(X3, X7) :- <PREFIX#effect_vnm_34_nl0_ce0>(X0, X1, X2, X3, X4, X5) .
+<PREFIX#authority_vnm_24_nl0_ce2>(X0, X1) :- <PREFIX#condition_ad_35_nl0_ce0>(X0) .
+<PREFIX#protest_vi_35_nl0_ce0>(X0, X1), <PREFIX#help_vi_35_nl0_ce1>(X0, X2) :- <PREFIX#pull_vi_35_nl0_ce0>(X0, X1, X2) .
+<PREFIX#seem_vh_35_nl0_ce0>(X0, X1), <PREFIX#agreement_vh_35_nl0_ce1>(X2, X3, X1) :- <PREFIX#paper_vh_35_nl0_ce0>(X0, X2) .
+<PREFIX#complete_vh_4_nl0_ce0>(X0, X1, X2), <PREFIX#deliver_vi_28_nl0_ce1>(X3, X4, X5), <PREFIX#weather_vnm_31_nl0_ce2>(X2, X5) :- <PREFIX#last_vnm_35_nl0_ce0>(X0, X1, X2, X3) .
+<PREFIX#copy_ad_36_nl0_ce0>(X0, X1, X2, X3, X4) :- <PREFIX#learning_ad_36_nl0_ce0>(X0, X1, X2, X3) .
+<PREFIX#develop_vi_36_nl0_ce0>(X0, X1), <PREFIX#band_vi_36_nl0_ce1>(X0, X2, X3) :- <PREFIX#last_vnm_35_nl0_ce0>(X0, X1, X2, X3) .
+<PREFIX#glove_vh_36_nl0_ce0>(X0, X1, X2), <PREFIX#jump_vh_36_nl0_ce1>(X3, X4, X5, X6, X2) :- <PREFIX#want_ad_30_nl0_ce0>(X0, X1, X3, X4, X5) .
+<PREFIX#farm_vnm_3_nl0_ce0>(X0, X1, X2), <PREFIX#society_vi_22_nl0_ce1>(X3, X4, X5), <PREFIX#examine_vnm_20_nl0_ce2>(X2, X5) :- <PREFIX#hard_vnm_36_nl0_ce0>(X0, X1, X2, X3) .
+<PREFIX#treat_ad_37_nl0_ce0>(X0, X1, X2, X3, X4, X5) :- <PREFIX#shake_ad_37_nl0_ce0>(X0, X1, X2, X3, X4) .
+<PREFIX#shut_vi_37_nl0_ce0>(X0, X1, X2), <PREFIX#approval_vi_37_nl0_ce1>(X0, X3, X4, X5) :- <PREFIX#record_vi_37_nl0_ce0>(X0, X1, X2, X3, X4, X5) .
+<PREFIX#let_vh_37_nl0_ce0>(X0, X1), <PREFIX#respect_vh_37_nl0_ce1>(X2, X3, X4, X1) :- <PREFIX#drive_vh_37_nl0_ce0>(X0, X2, X3) .
+<PREFIX#move_vnm_37_nl0_ce0>(X0, X1, X2), <PREFIX#die_vnm_37_nl0_ce1>(X3, X4, X5, X6), <PREFIX#bottle_vnm_37_nl0_ce2>(X2, X6) :- <PREFIX#sweet_vnm_37_nl0_ce0>(X0, X1, X2, X3, X4) .
+<PREFIX#kill_ad_38_nl0_ce0>(X0, X1, X2, X3) :- <PREFIX#paint_vnm_2_nl0_ce0>(X0, X1, X2) .
+<PREFIX#knowledge_vi_38_nl0_ce0>(X0, X1), <PREFIX#delicate_vi_38_nl0_ce1>(X0, X2, X3) :- <PREFIX#bucket_vh_8_nl0_ce0>(X0, X1, X2, X3) .
+<PREFIX#night_vh_38_nl0_ce0>(X0, X1, X2), <PREFIX#chemical_vh_38_nl0_ce1>(X3, X4, X5, X2) :- <PREFIX#bag_vh_38_nl0_ce0>(X0, X1, X3, X4) .
+<PREFIX#contain_vnm_38_nl0_ce0>(X0, X1, X2, X3), <PREFIX#breath_vnm_38_nl0_ce1>(X4, X5, X6, X7), <PREFIX#report_vnm_38_nl0_ce2>(X3, X7) :- <PREFIX#scissors_vnm_38_nl0_ce0>(X0, X1, X2, X3, X4, X5) .
+<PREFIX#reflect_vh_16_nl0_ce1>(X0, X1, X2, X3, X4, X5) :- <PREFIX#air_ad_39_nl0_ce0>(X0, X1, X2, X3, X4) .
+<PREFIX#record_vnm_23_nl0_ce2>(X0, X1), <PREFIX#leather_vnm_27_nl0_ce2>(X0, X2) :- <PREFIX#tree_vi_39_nl0_ce0>(X0, X1, X2) .
+<PREFIX#fly_vh_39_nl0_ce0>(X0, X1, X2), <PREFIX#cut_vh_39_nl0_ce1>(X3, X4, X5, X6, X2) :- <PREFIX#control_vh_39_nl0_ce0>(X0, X1, X3, X4, X5) .
+<PREFIX#summer_vnm_39_nl0_ce0>(X0, X1, X2), <PREFIX#way_vnm_39_nl0_ce1>(X3, X4, X5), <PREFIX#angry_vnm_39_nl0_ce2>(X2, X5) :- <PREFIX#force_vnm_19_nl0_ce0>(X0, X1, X2, X3) .
+<PREFIX#drain_ad_40_nl0_ce0>(X0, X1, X2, X3, X4) :- <PREFIX#last_vnm_35_nl0_ce0>(X0, X1, X2, X3) .
+<PREFIX#peace_vi_40_nl0_ce0>(X0, X1, X2), <PREFIX#indicate_vi_40_nl0_ce1>(X0, X3, X4, X5) :- <PREFIX#scissors_vnm_38_nl0_ce0>(X0, X1, X2, X3, X4, X5) .
+<PREFIX#move_vh_40_nl0_ce0>(X0, X1), <PREFIX#place_vh_40_nl0_ce1>(X2, X3, X4, X1) :- <PREFIX#stop_vh_21_nl0_ce0>(X0, X2, X3) .
+<PREFIX#ring_vnm_40_nl0_ce0>(X0, X1), <PREFIX#experience_vnm_40_nl0_ce1>(X2, X3, X4), <PREFIX#gold_vnm_40_nl0_ce2>(X1, X4) :- <PREFIX#regret_vnm_40_nl0_ce0>(X0, X1, X2) .
+<PREFIX#short_ad_41_nl0_ce0>(X0, X1, X2, X3, X4) :- <PREFIX#parallel_ad_41_nl0_ce0>(X0, X1, X2, X3) .
+<PREFIX#touch_vi_41_nl0_ce0>(X0, X1, X2), <PREFIX#separate_vi_41_nl0_ce1>(X0, X3, X4) :- <PREFIX#enable_ad_9_nl0_ce0>(X0, X1, X2, X3, X4) .
+<PREFIX#side_vh_41_nl0_ce0>(X0, X1, X2), <PREFIX#orange_vh_41_nl0_ce1>(X3, X4, X5, X6, X2) :- <PREFIX#join_vh_41_nl0_ce0>(X0, X1, X3, X4, X5) .
+<PREFIX#soft_vnm_29_nl0_ce1>(X0, X1, X2, X3), <PREFIX#invention_vh_26_nl0_ce0>(X4, X5, X6, X7), <PREFIX#feeble_vi_33_nl0_ce0>(X3, X7) :- <PREFIX#umbrella_vnm_41_nl0_ce0>(X0, X1, X2, X3, X4, X5) .
+<PREFIX#steel_ad_42_nl0_ce0>(X0, X1, X2, X3) :- <PREFIX#see_ad_42_nl0_ce0>(X0, X1, X2) .
+<PREFIX#skin_vi_24_nl0_ce1>(X0, X1, X2), <PREFIX#bee_vi_16_nl0_ce1>(X0, X3, X4) :- <PREFIX#reply_vi_42_nl0_ce0>(X0, X1, X2, X3, X4) .
+<PREFIX#sun_vh_42_nl0_ce0>(X0, X1, X2, X3), <PREFIX#connection_vh_42_nl0_ce1>(X4, X5, X6, X7, X3) :- <PREFIX#book_vh_42_nl0_ce0>(X0, X1, X2, X4, X5, X6) .
+<PREFIX#sense_vnm_42_nl0_ce0>(X0, X1, X2, X3), <PREFIX#exist_vnm_42_nl0_ce1>(X4, X5, X6, X7), <PREFIX#relate_vnm_42_nl0_ce2>(X3, X7) :- <PREFIX#sex_vnm_42_nl0_ce0>(X0, X1, X2, X3, X4, X5) .
+<PREFIX#prove_ad_43_nl0_ce0>(X0, X1, X2, X3, X4) :- <PREFIX#laugh_ad_13_nl0_ce0>(X0, X1, X2, X3) .
+<PREFIX#sea_ad_21_nl0_ce0>(X0, X1, X2, X3, X4, X5), <PREFIX#clock_ad_7_nl0_ce0>(X0, X6, X7, X8, X9, X10) :- <PREFIX#music_vi_43_nl0_ce0>(X0, X1, X2, X3, X4, X5, X6, X7, X8, X9, X10) .
+<PREFIX#body_vh_43_nl0_ce0>(X0, X1, X2), <PREFIX#day_vh_43_nl0_ce1>(X3, X4, X5, X2) :- <PREFIX#wing_vh_14_nl0_ce0>(X0, X1, X3, X4) .
+<PREFIX#deliver_vi_28_nl0_ce1>(X0, X1, X2), <PREFIX#tin_vnm_16_nl0_ce0>(X3, X4, X5), <PREFIX#simple_vnm_23_nl0_ce0>(X2, X5) :- <PREFIX#error_vnm_43_nl0_ce0>(X0, X1, X2, X3) .
+<PREFIX#person_ad_44_nl0_ce0>(X0, X1, X2, X3, X4, X5) :- <PREFIX#natural_ad_44_nl0_ce0>(X0, X1, X2, X3, X4) .
+<PREFIX#second_vnm_16_nl0_ce2>(X0, X1), <PREFIX#climb_vi_32_nl0_ce0>(X0, X2) :- <PREFIX#stone_vi_44_nl0_ce0>(X0, X1, X2) .
+<PREFIX#tray_vh_44_nl0_ce0>(X0, X1, X2), <PREFIX#found_vh_44_nl0_ce1>(X3, X4, X5, X6, X2) :- <PREFIX#air_ad_39_nl0_ce0>(X0, X1, X3, X4, X5) .
+<PREFIX#mouth_vnm_44_nl0_ce0>(X0, X1), <PREFIX#industry_vnm_44_nl0_ce1>(X2, X3, X4), <PREFIX#group_vnm_44_nl0_ce2>(X1, X4) :- <PREFIX#record_vnm_44_nl0_ce0>(X0, X1, X2) .
+<PREFIX#roll_ad_45_nl0_ce0>(X0, X1, X2, X3, X4, X5) :- <PREFIX#visit_ad_45_nl0_ce0>(X0, X1, X2, X3, X4) .
+<PREFIX#narrow_vi_45_nl0_ce0>(X0, X1), <PREFIX#disease_vi_45_nl0_ce1>(X0, X2, X3) :- <PREFIX#delicate_ad_6_nl0_ce0>(X0, X1, X2, X3) .
+<PREFIX#happen_vh_45_nl0_ce0>(X0, X1, X2), <PREFIX#shade_vh_45_nl0_ce1>(X3, X4, X5, X2) :- <PREFIX#become_vh_45_nl0_ce0>(X0, X1, X3, X4) .
+<PREFIX#garden_vnm_45_nl0_ce0>(X0, X1, X2), <PREFIX#contribute_vnm_45_nl0_ce1>(X3, X4, X5, X6), <PREFIX#yellow_vnm_45_nl0_ce2>(X2, X6) :- <PREFIX#make_ad_5_nl0_ce0>(X0, X1, X2, X3, X4) .
+<PREFIX#present_vnm_15_nl0_ce0>(X0, X1, X2) :- <PREFIX#gain_ad_46_nl0_ce0>(X0, X1) .
+<PREFIX#arch_vi_46_nl0_ce0>(X0, X1, X2), <PREFIX#compare_vi_46_nl0_ce1>(X0, X3, X4) :- <PREFIX#pass_vi_46_nl0_ce0>(X0, X1, X2, X3, X4) .
+<PREFIX#cloth_vh_46_nl0_ce0>(X0, X1, X2, X3), <PREFIX#meal_vh_46_nl0_ce1>(X4, X5, X6, X7, X3) :- <PREFIX#fill_vh_46_nl0_ce0>(X0, X1, X2, X4, X5, X6) .
+<PREFIX#grass_vnm_46_nl0_ce0>(X0, X1, X2, X3), <PREFIX#poison_vnm_46_nl0_ce1>(X4, X5, X6, X7), <PREFIX#office_vnm_46_nl0_ce2>(X3, X7) :- <PREFIX#wax_vnm_46_nl0_ce0>(X0, X1, X2, X3, X4, X5) .
+<PREFIX#last_ad_47_nl0_ce0>(X0, X1, X2, X3, X4, X5) :- <PREFIX#last_vnm_26_nl0_ce0>(X0, X1, X2, X3, X4) .
+<PREFIX#effect_vi_47_nl0_ce0>(X0, X1, X2), <PREFIX#sound_vi_47_nl0_ce1>(X0, X3, X4, X5) :- <PREFIX#division_vh_2_nl0_ce0>(X0, X1, X2, X3, X4, X5) .
+<PREFIX#solid_vh_47_nl0_ce0>(X0, X1), <PREFIX#fall_vh_47_nl0_ce1>(X2, X3, X4, X1) :- <PREFIX#nerve_vh_47_nl0_ce0>(X0, X2, X3) .
+<PREFIX#own_vnm_47_nl0_ce0>(X0, X1, X2), <PREFIX#intend_vnm_47_nl0_ce1>(X3, X4, X5), <PREFIX#true_vnm_47_nl0_ce2>(X2, X5) :- <PREFIX#apparatus_vnm_47_nl0_ce0>(X0, X1, X2, X3) .
+<PREFIX#loss_ad_48_nl0_ce0>(X0, X1, X2, X3, X4, X5, X6) :- <PREFIX#wax_vnm_46_nl0_ce0>(X0, X1, X2, X3, X4, X5) .
+<PREFIX#fact_vi_48_nl0_ce0>(X0, X1, X2, X3), <PREFIX#obtain_vi_48_nl0_ce1>(X0, X4, X5, X6) :- <PREFIX#winter_vh_16_nl0_ce0>(X0, X1, X2, X3, X4, X5, X6) .
+<PREFIX#clear_vh_48_nl0_ce0>(X0, X1, X2), <PREFIX#achieve_vh_48_nl0_ce1>(X3, X4, X5, X6, X2) :- <PREFIX#detail_vh_48_nl0_ce0>(X0, X1, X3, X4, X5) .
+<PREFIX#voice_vnm_48_nl0_ce0>(X0, X1, X2), <PREFIX#flower_vnm_48_nl0_ce1>(X3, X4, X5, X6), <PREFIX#must_vnm_48_nl0_ce2>(X2, X6) :- <PREFIX#possible_ad_21_nl0_ce0>(X0, X1, X2, X3, X4) .
+<PREFIX#whistle_ad_49_nl0_ce0>(X0, X1, X2, X3) :- <PREFIX#tree_vi_39_nl0_ce0>(X0, X1, X2) .
+<PREFIX#fish_vi_49_nl0_ce0>(X0, X1, X2), <PREFIX#tight_vi_49_nl0_ce1>(X0, X3, X4) :- <PREFIX#check_vi_49_nl0_ce0>(X0, X1, X2, X3, X4) .
+<PREFIX#language_vh_49_nl0_ce0>(X0, X1, X2), <PREFIX#bucket_vh_49_nl0_ce1>(X3, X4, X5, X6, X2) :- <PREFIX#past_vh_49_nl0_ce0>(X0, X1, X3, X4, X5) .
+<PREFIX#manager_vnm_49_nl0_ce0>(X0, X1), <PREFIX#arm_vnm_49_nl0_ce1>(X2, X3, X4), <PREFIX#process_vnm_49_nl0_ce2>(X1, X4) :- <PREFIX#voice_vnm_49_nl0_ce0>(X0, X1, X2) .
+<PREFIX#chalk_ad_50_nl0_ce0>(X0, X1, X2, X3, X4) :- <PREFIX#share_ad_50_nl0_ce0>(X0, X1, X2, X3) .
+<PREFIX#separate_vi_41_nl0_ce1>(X0, X1, X2), <PREFIX#use_vi_23_nl0_ce0>(X0, X3, X4) :- <PREFIX#insurance_vi_50_nl0_ce0>(X0, X1, X2, X3, X4) .
+<PREFIX#place_vnm_1_nl0_ce1>(X0, X1, X2, X3), <PREFIX#know_vh_15_nl0_ce1>(X4, X5, X6, X7, X3) :- <PREFIX#seat_vh_50_nl0_ce0>(X0, X1, X2, X4, X5, X6) .
+<PREFIX#brick_vnm_50_nl0_ce0>(X0, X1), <PREFIX#hold_vnm_50_nl0_ce1>(X2, X3, X4), <PREFIX#work_vnm_50_nl0_ce2>(X1, X4) :- <PREFIX#record_vnm_44_nl0_ce0>(X0, X1, X2) .
+<PREFIX#suggest_ad_51_nl0_ce0>(X0, X1, X2, X3, X4) :- <PREFIX#structure_vh_22_nl0_ce0>(X0, X1, X2, X3) .
+<PREFIX#yellow_vi_11_nl0_ce1>(X0, X1, X2), <PREFIX#kind_vi_3_nl0_ce0>(X0, X3, X4) :- <PREFIX#attack_vi_51_nl0_ce0>(X0, X1, X2, X3, X4) .
+<PREFIX#deliver_vh_51_nl0_ce0>(X0, X1), <PREFIX#round_vh_51_nl0_ce1>(X2, X3, X1) :- <PREFIX#feather_vi_21_nl0_ce0>(X0, X2) .
+<PREFIX#account_vh_9_nl0_ce0>(X0, X1, X2), <PREFIX#industry_vnm_44_nl0_ce1>(X3, X4, X5), <PREFIX#mouth_vnm_44_nl0_ce0>(X2, X5) :- <PREFIX#circle_vnm_51_nl0_ce0>(X0, X1, X2, X3) .
+<PREFIX#breath_vnm_38_nl0_ce1>(X0, X1, X2, X3) :- <PREFIX#chess_ad_52_nl0_ce0>(X0, X1, X2) .
+<PREFIX#light_vi_52_nl0_ce0>(X0, X1), <PREFIX#industry_vi_52_nl0_ce1>(X0, X2, X3) :- <PREFIX#comb_vi_52_nl0_ce0>(X0, X1, X2, X3) .
+<PREFIX#indicate_vi_40_nl0_ce1>(X0, X1, X2, X3), <PREFIX#charge_vh_3_nl0_ce1>(X4, X5, X6, X7, X3) :- <PREFIX#leather_vh_52_nl0_ce0>(X0, X1, X2, X4, X5, X6) .
+<PREFIX#snow_vnm_52_nl0_ce0>(X0, X1, X2), <PREFIX#smoke_vnm_52_nl0_ce1>(X3, X4, X5), <PREFIX#card_vnm_52_nl0_ce2>(X2, X5) :- <PREFIX#shut_vnm_52_nl0_ce0>(X0, X1, X2, X3) .
+<PREFIX#amount_vnm_18_nl0_ce1>(X0, X1, X2) :- <PREFIX#bed_ad_53_nl0_ce0>(X0, X1) .
+<PREFIX#peace_vi_40_nl0_ce0>(X0, X1, X2), <PREFIX#late_vi_7_nl0_ce1>(X0, X3, X4) :- <PREFIX#danger_vi_53_nl0_ce0>(X0, X1, X2, X3, X4) .
+<PREFIX#line_vh_53_nl0_ce0>(X0, X1, X2, X3), <PREFIX#watch_vh_53_nl0_ce1>(X4, X5, X6, X7, X3) :- <PREFIX#sneeze_vh_53_nl0_ce0>(X0, X1, X2, X4, X5, X6) .
+<PREFIX#relation_vnm_53_nl0_ce0>(X0, X1, X2, X3), <PREFIX#move_vnm_53_nl0_ce1>(X4, X5, X6, X7, X8), <PREFIX#music_vnm_53_nl0_ce2>(X3, X8) :- <PREFIX#fold_vnm_53_nl0_ce0>(X0, X1, X2, X3, X4, X5, X6) .
+<PREFIX#look_vi_13_nl0_ce1>(X0, X1, X2) :- <PREFIX#cruel_ad_54_nl0_ce0>(X0, X1) .
+<PREFIX#swim_vi_54_nl0_ce0>(X0, X1), <PREFIX#regret_vi_54_nl0_ce1>(X0, X2, X3) :- <PREFIX#respect_vnm_7_nl0_ce0>(X0, X1, X2, X3) .
+<PREFIX#discuss_vnm_32_nl0_ce1>(X0, X1, X2, X3), <PREFIX#paint_vh_24_nl0_ce1>(X4, X5, X6, X7, X3) :- <PREFIX#straight_vh_54_nl0_ce0>(X0, X1, X2, X4, X5, X6) .
+<PREFIX#private_vnm_54_nl0_ce0>(X0, X1, X2, X3), <PREFIX#blood_vnm_54_nl0_ce1>(X4, X5, X6, X7, X8), <PREFIX#lock_vnm_54_nl0_ce2>(X3, X8) :- <PREFIX#winter_vh_16_nl0_ce0>(X0, X1, X2, X3, X4, X5, X6) .
+<PREFIX#attack_vnm_19_nl0_ce0>(X0, X1, X2) :- <PREFIX#dress_ad_55_nl0_ce0>(X0, X1) .
+<PREFIX#reading_ad_32_nl0_ce0>(X0, X1, X2, X3, X4), <PREFIX#reason_ad_18_nl0_ce0>(X0, X5, X6, X7, X8) :- <PREFIX#porter_vi_55_nl0_ce0>(X0, X1, X2, X3, X4, X5, X6, X7, X8) .
+<PREFIX#sleep_vnm_12_nl0_ce0>(X0, X1, X2), <PREFIX#fertile_vh_7_nl0_ce1>(X3, X4, X5, X2) :- <PREFIX#private_vh_55_nl0_ce0>(X0, X1, X3, X4) .
+<PREFIX#delicate_vi_26_nl0_ce1>(X0, X1, X2), <PREFIX#own_vnm_47_nl0_ce0>(X3, X4, X5), <PREFIX#stone_vh_7_nl0_ce0>(X2, X5) :- <PREFIX#plough_vnm_55_nl0_ce0>(X0, X1, X2, X3) .
+<PREFIX#protest_ad_56_nl0_ce0>(X0, X1, X2, X3, X4) :- <PREFIX#place_vi_6_nl0_ce0>(X0, X1, X2, X3) .
+<PREFIX#error_vi_56_nl0_ce0>(X0, X1, X2), <PREFIX#twist_vi_56_nl0_ce1>(X0, X3, X4, X5) :- <PREFIX#early_vi_56_nl0_ce0>(X0, X1, X2, X3, X4, X5) .
+<PREFIX#learn_vh_56_nl0_ce0>(X0, X1), <PREFIX#loose_vh_56_nl0_ce1>(X2, X3, X4, X1) :- <PREFIX#write_vh_56_nl0_ce0>(X0, X2, X3) .
+<PREFIX#first_vnm_11_nl0_ce1>(X0, X1, X2, X3), <PREFIX#sense_vnm_42_nl0_ce0>(X4, X5, X6, X7), <PREFIX#parallel_vnm_2_nl0_ce0>(X3, X7) :- <PREFIX#secret_vnm_56_nl0_ce0>(X0, X1, X2, X3, X4, X5) .
+<PREFIX#feeble_ad_57_nl0_ce0>(X0, X1, X2, X3, X4, X5, X6) :- <PREFIX#sneeze_vh_53_nl0_ce0>(X0, X1, X2, X3, X4, X5) .
+<PREFIX#whistle_ad_49_nl0_ce0>(X0, X1, X2, X3), <PREFIX#damage_ad_33_nl0_ce0>(X0, X4, X5, X6) :- <PREFIX#map_vi_57_nl0_ce0>(X0, X1, X2, X3, X4, X5, X6) .
+<PREFIX#girl_vh_57_nl0_ce0>(X0, X1, X2), <PREFIX#cart_vh_57_nl0_ce1>(X3, X4, X5, X6, X2) :- <PREFIX#shoe_vh_57_nl0_ce0>(X0, X1, X3, X4, X5) .
+<PREFIX#offer_vnm_57_nl0_ce0>(X0, X1, X2, X3), <PREFIX#fertile_vnm_57_nl0_ce1>(X4, X5, X6, X7), <PREFIX#carry_vnm_57_nl0_ce2>(X3, X7) :- <PREFIX#must_vnm_57_nl0_ce0>(X0, X1, X2, X3, X4, X5) .
+<PREFIX#tree_ad_58_nl0_ce0>(X0, X1, X2, X3, X4, X5) :- <PREFIX#sing_ad_58_nl0_ce0>(X0, X1, X2, X3, X4) .
+<PREFIX#curve_vi_58_nl0_ce0m>(X0, X1), <PREFIX#play_vi_58_nl0_ce1>(X0, X2, X3) :- <PREFIX#curve_vi_58_nl0_ce0>(X0, X1, X2, X3) .
+<PREFIX#nation_vh_58_nl0_ce0>(X0, X1), <PREFIX#knock_vh_58_nl0_ce1>(X2, X3, X4, X1) :- <PREFIX#contact_vh_58_nl0_ce0>(X0, X2, X3) .
+<PREFIX#liquid_vnm_58_nl0_ce0>(X0, X1, X2, X3), <PREFIX#loose_vnm_58_nl0_ce1>(X4, X5, X6, X7), <PREFIX#lay_vnm_58_nl0_ce2>(X3, X7) :- <PREFIX#do_vnm_58_nl0_ce0>(X0, X1, X2, X3, X4, X5) .
+<PREFIX#green_vnm_8_nl0_ce1>(X0, X1, X2) :- <PREFIX#organization_ad_59_nl0_ce0>(X0, X1) .
+<PREFIX#substance_vi_59_nl0_ce0>(X0, X1, X2), <PREFIX#mean_vi_59_nl0_ce1>(X0, X3, X4, X5) :- <PREFIX#behavior_vi_59_nl0_ce0>(X0, X1, X2, X3, X4, X5) .
+<PREFIX#answer_vh_59_nl0_ce0>(X0, X1, X2), <PREFIX#play_vh_59_nl0_ce1>(X3, X4, X5, X2) :- <PREFIX#cover_vi_17_nl0_ce0>(X0, X1, X3, X4) .
+<PREFIX#knot_vnm_33_nl0_ce0>(X0, X1, X2), <PREFIX#move_vnm_37_nl0_ce0>(X3, X4, X5), <PREFIX#business_vi_11_nl0_ce0>(X2, X5) :- <PREFIX#need_vnm_59_nl0_ce0>(X0, X1, X2, X3) .
+<PREFIX#wax_ad_60_nl0_ce0>(X0, X1, X2, X3) :- <PREFIX#see_ad_42_nl0_ce0>(X0, X1, X2) .
+<PREFIX#female_vi_60_nl0_ce0>(X0, X1, X2), <PREFIX#jelly_vi_60_nl0_ce1>(X0, X3, X4, X5) :- <PREFIX#insurance_vi_14_nl0_ce0>(X0, X1, X2, X3, X4, X5) .
+<PREFIX#weight_vh_60_nl0_ce0>(X0, X1), <PREFIX#page_vh_60_nl0_ce1>(X2, X3, X1) :- <PREFIX#dress_ad_55_nl0_ce0>(X0, X2) .
+<PREFIX#fall_vnm_60_nl0_ce0>(X0, X1, X2), <PREFIX#common_vnm_60_nl0_ce1>(X3, X4, X5, X6), <PREFIX#safe_vnm_60_nl0_ce2>(X2, X6) :- <PREFIX#limit_vnm_60_nl0_ce0>(X0, X1, X2, X3, X4) .
+<PREFIX#use_ad_61_nl0_ce0>(X0, X1, X2, X3) :- <PREFIX#worm_ad_33_nl0_ce0>(X0, X1, X2) .
+<PREFIX#avoid_vi_61_nl0_ce0>(X0, X1, X2), <PREFIX#grey_vi_61_nl0_ce1>(X0, X3, X4, X5) :- <PREFIX#damage_vi_61_nl0_ce0>(X0, X1, X2, X3, X4, X5) .
+<PREFIX#blue_vh_61_nl0_ce0>(X0, X1, X2), <PREFIX#stick_vh_61_nl0_ce1>(X3, X4, X5, X2) :- <PREFIX#learning_ad_36_nl0_ce0>(X0, X1, X3, X4) .
+<PREFIX#delicate_vi_38_nl0_ce1>(X0, X1, X2), <PREFIX#pain_vnm_4_nl0_ce1>(X3, X4, X5), <PREFIX#mist_vnm_25_nl0_ce2>(X2, X5) :- <PREFIX#watch_vnm_61_nl0_ce0>(X0, X1, X2, X3) .
+<PREFIX#poison_ad_62_nl0_ce0>(X0, X1, X2, X3, X4) :- <PREFIX#back_ad_62_nl0_ce0>(X0, X1, X2, X3) .
+<PREFIX#eat_ad_8_nl0_ce0>(X0, X1, X2, X3, X4), <PREFIX#deep_ad_16_nl0_ce0>(X0, X5, X6, X7, X8) :- <PREFIX#brick_vi_62_nl0_ce0>(X0, X1, X2, X3, X4, X5, X6, X7, X8) .
+<PREFIX#smell_vh_62_nl0_ce0>(X0, X1, X2), <PREFIX#base_vh_62_nl0_ce1>(X3, X4, X5, X6, X2) :- <PREFIX#buy_vh_62_nl0_ce0>(X0, X1, X3, X4, X5) .
+<PREFIX#cushion_vnm_62_nl0_ce0>(X0, X1), <PREFIX#bell_vnm_62_nl0_ce1>(X2, X3), <PREFIX#could_vnm_62_nl0_ce2>(X1, X3) :- <PREFIX#new_vnm_62_nl0_ce0>(X0, X1) .
+<PREFIX#protest_ad_63_nl0_ce0>(X0, X1, X2, X3, X4, X5, X6, X7) :- <PREFIX#winter_vh_16_nl0_ce0>(X0, X1, X2, X3, X4, X5, X6) .
+<PREFIX#would_vi_63_nl0_ce0>(X0, X1), <PREFIX#gun_vi_63_nl0_ce1>(X0, X2) :- <PREFIX#glove_vi_63_nl0_ce0>(X0, X1, X2) .
+<PREFIX#conscious_vnm_13_nl0_ce0>(X0, X1, X2), <PREFIX#hate_vh_6_nl0_ce1>(X3, X4, X5, X2) :- <PREFIX#look_vh_63_nl0_ce0>(X0, X1, X3, X4) .
+<PREFIX#collar_vnm_63_nl0_ce0>(X0, X1, X2), <PREFIX#concern_vnm_63_nl0_ce1>(X3, X4, X5, X6), <PREFIX#science_vnm_63_nl0_ce2>(X2, X6) :- <PREFIX#eat_vnm_63_nl0_ce0>(X0, X1, X2, X3, X4) .
+<PREFIX#ray_ad_64_nl0_ce0>(X0, X1, X2, X3) :- <PREFIX#belong_vnm_18_nl0_ce0>(X0, X1, X2) .
+<PREFIX#neck_vi_64_nl0_ce0>(X0, X1), <PREFIX#encourage_vi_64_nl0_ce1>(X0, X2, X3) :- <PREFIX#clear_vi_64_nl0_ce0>(X0, X1, X2, X3) .
+<PREFIX#fly_vh_64_nl0_ce0>(X0, X1), <PREFIX#twist_vh_64_nl0_ce1>(X2, X3, X4, X1) :- <PREFIX#base_vh_64_nl0_ce0>(X0, X2, X3) .
+<PREFIX#use_vnm_64_nl0_ce0>(X0, X1), <PREFIX#grey_vnm_64_nl0_ce1>(X2, X3, X4), <PREFIX#horse_vnm_64_nl0_ce2>(X1, X4) :- <PREFIX#worm_ad_33_nl0_ce0>(X0, X1, X2) .
+<PREFIX#different_vi_1_nl0_ce0>(X0, X1, X2) :- <PREFIX#society_vi_1_nl0_ce1>(X3, X4, X5) .
+<PREFIX#blue_vh_1_nl0_ce0>(X0, X1, X2, X3) :- <PREFIX#describe_vh_1_nl0_ce1>(X4, X5, X6, X3, X7) .
+<PREFIX#rest_vnm_1_nl0_ce0>(X0, X1, X2) :- <PREFIX#expansion_vnm_1_nl0_ce2>(X3, X4) .
+<PREFIX#place_vnm_1_nl0_ce1>(X0, X1, X2, X3) :- <PREFIX#expansion_vnm_1_nl0_ce2>(X4, X5) .
+<PREFIX#approval_vi_2_nl0_ce0>(X0, X1, X2) :- <PREFIX#blow_vi_2_nl0_ce1>(X3, X4, X5) .
+<PREFIX#involve_vh_2_nl0_ce0>(X0, X1, X2, X3) :- <PREFIX#use_vh_2_nl0_ce1>(X4, X5, X6, X3, X7) .
+<PREFIX#parallel_vnm_2_nl0_ce0>(X0, X1) :- <PREFIX#handle_vnm_2_nl0_ce2>(X2, X3) .
+<PREFIX#collection_vnm_2_nl0_ce1>(X0, X1, X2) :- <PREFIX#handle_vnm_2_nl0_ce2>(X3, X4) .
+<PREFIX#kind_vi_3_nl0_ce0>(X0, X1, X2) :- <PREFIX#prove_vi_3_nl0_ce1>(X3, X4, X5) .
+<PREFIX#door_vh_3_nl0_ce0>(X0, X1, X2) :- <PREFIX#charge_vh_3_nl0_ce1>(X3, X4, X5, X2, X6) .
+<PREFIX#farm_vnm_3_nl0_ce0>(X0, X1, X2) :- <PREFIX#language_vnm_3_nl0_ce2>(X3, X4) .
+<PREFIX#political_vnm_3_nl0_ce1>(X0, X1, X2, X3) :- <PREFIX#language_vnm_3_nl0_ce2>(X4, X5) .
+<PREFIX#involve_vi_4_nl0_ce0>(X0, X1) :- <PREFIX#mention_vi_4_nl0_ce1>(X2, X3, X4) .
+<PREFIX#complete_vh_4_nl0_ce0>(X0, X1, X2) :- <PREFIX#count_vh_4_nl0_ce1>(X3, X4, X5, X2, X6) .
+<PREFIX#gold_vnm_4_nl0_ce0>(X0, X1) :- <PREFIX#accept_vnm_4_nl0_ce2>(X2, X3) .
+<PREFIX#pain_vnm_4_nl0_ce1>(X0, X1, X2) :- <PREFIX#accept_vnm_4_nl0_ce2>(X3, X4) .
+<PREFIX#pain_vi_5_nl0_ce0>(X0, X1, X2) :- <PREFIX#straight_vi_5_nl0_ce1>(X3, X4, X5) .
+<PREFIX#record_vh_5_nl0_ce0>(X0, X1, X2, X3) :- <PREFIX#probable_vh_5_nl0_ce1>(X4, X5, X6, X3, X7) .
+<PREFIX#boot_vnm_5_nl0_ce0>(X0, X1, X2, X3) :- <PREFIX#sea_vnm_5_nl0_ce2>(X4, X5) .
+<PREFIX#dependent_vnm_5_nl0_ce1>(X0, X1, X2, X3) :- <PREFIX#sea_vnm_5_nl0_ce2>(X4, X5) .
+<PREFIX#oven_vi_6_nl0_ce0>(X0, X1) :- <PREFIX#give_vi_6_nl0_ce1>(X2, X3, X4) .
+<PREFIX#animal_vh_6_nl0_ce0>(X0, X1) :- <PREFIX#hate_vh_6_nl0_ce1>(X2, X3, X1, X4) .
+<PREFIX#argue_vnm_6_nl0_ce0>(X0, X1) :- <PREFIX#summer_vnm_6_nl0_ce2>(X2, X3) .
+<PREFIX#late_vnm_6_nl0_ce1>(X0, X1, X2) :- <PREFIX#summer_vnm_6_nl0_ce2>(X3, X4) .
+<PREFIX#fly_vi_7_nl0_ce0>(X0, X1, X2) :- <PREFIX#late_vi_7_nl0_ce1>(X3, X4, X5) .
+<PREFIX#stone_vh_7_nl0_ce0>(X0, X1) :- <PREFIX#fertile_vh_7_nl0_ce1>(X2, X3, X1, X4) .
+<PREFIX#awake_vnm_7_nl0_ce0>(X0, X1, X2) :- <PREFIX#hammer_vnm_7_nl0_ce2>(X3, X4) .
+<PREFIX#church_vnm_7_nl0_ce1>(X0, X1, X2) :- <PREFIX#hammer_vnm_7_nl0_ce2>(X3, X4) .
+<PREFIX#complain_vi_8_nl0_ce0>(X0, X1, X2) :- <PREFIX#snake_vi_8_nl0_ce1>(X3, X4, X5) .
+<PREFIX#touch_vh_8_nl0_ce0>(X0, X1, X2) :- <PREFIX#settle_vh_8_nl0_ce1>(X3, X4, X2, X5) .
+<PREFIX#trick_vnm_8_nl0_ce0>(X0, X1, X2) :- <PREFIX#jump_vnm_8_nl0_ce2>(X3, X4) .
+<PREFIX#green_vnm_8_nl0_ce1>(X0, X1, X2) :- <PREFIX#jump_vnm_8_nl0_ce2>(X3, X4) .
+<PREFIX#degree_vi_9_nl0_ce0>(X0, X1, X2) :- <PREFIX#forgive_vi_9_nl0_ce1>(X3, X4, X5) .
+<PREFIX#account_vh_9_nl0_ce0>(X0, X1, X2) :- <PREFIX#fiction_vh_9_nl0_ce1>(X3, X4, X5, X2, X6) .
+<PREFIX#ring_vnm_9_nl0_ce0>(X0, X1, X2) :- <PREFIX#room_vnm_9_nl0_ce2>(X3, X4) .
+<PREFIX#voice_vnm_9_nl0_ce1>(X0, X1, X2, X3) :- <PREFIX#room_vnm_9_nl0_ce2>(X4, X5) .
+<PREFIX#come_vi_10_nl0_ce0>(X0, X1, X2) :- <PREFIX#long_vi_10_nl0_ce1>(X3, X4, X5) .
+<PREFIX#reply_vh_10_nl0_ce0>(X0, X1, X2) :- <PREFIX#require_vh_10_nl0_ce1>(X3, X4, X5, X2, X6) .
+<PREFIX#church_vnm_10_nl0_ce0>(X0, X1, X2, X3) :- <PREFIX#digestion_vnm_10_nl0_ce2>(X4, X5) .
+<PREFIX#point_vnm_10_nl0_ce1>(X0, X1, X2, X3, X4) :- <PREFIX#digestion_vnm_10_nl0_ce2>(X5, X6) .
+<PREFIX#business_vi_11_nl0_ce0>(X0, X1) :- <PREFIX#yellow_vi_11_nl0_ce1>(X2, X3, X4) .
+<PREFIX#beautiful_vh_11_nl0_ce0>(X0, X1, X2) :- <PREFIX#watch_vh_11_nl0_ce1>(X3, X4, X5, X2, X6) .
+<PREFIX#compare_vnm_11_nl0_ce0>(X0, X1, X2) :- <PREFIX#play_vnm_11_nl0_ce2>(X3, X4) .
+<PREFIX#first_vnm_11_nl0_ce1>(X0, X1, X2, X3) :- <PREFIX#play_vnm_11_nl0_ce2>(X4, X5) .
+<PREFIX#provide_vi_12_nl0_ce0>(X0, X1, X2) :- <PREFIX#secret_vi_12_nl0_ce1>(X3, X4, X5) .
+<PREFIX#try_vh_12_nl0_ce0>(X0, X1, X2, X3) :- <PREFIX#complex_vh_12_nl0_ce1>(X4, X5, X6, X3, X7) .
+<PREFIX#sleep_vnm_12_nl0_ce0>(X0, X1, X2) :- <PREFIX#engine_vnm_12_nl0_ce2>(X3, X4) .
+<PREFIX#measure_vnm_12_nl0_ce1>(X0, X1, X2) :- <PREFIX#engine_vnm_12_nl0_ce2>(X3, X4) .
+<PREFIX#thread_vi_13_nl0_ce0>(X0, X1, X2) :- <PREFIX#look_vi_13_nl0_ce1>(X3, X4, X5) .
+<PREFIX#wet_vh_13_nl0_ce0>(X0, X1, X2) :- <PREFIX#back_vh_13_nl0_ce1>(X3, X4, X2, X5) .
+<PREFIX#conscious_vnm_13_nl0_ce0>(X0, X1, X2) :- <PREFIX#loose_vnm_13_nl0_ce2>(X3, X4) .
+<PREFIX#wait_vnm_13_nl0_ce1>(X0, X1, X2, X3) :- <PREFIX#loose_vnm_13_nl0_ce2>(X4, X5) .
+<PREFIX#advertisement_vi_14_nl0_ce0>(X0, X1, X2) :- <PREFIX#smoke_vi_14_nl0_ce1>(X3, X4, X5, X6) .
+<PREFIX#coat_vh_14_nl0_ce0>(X0, X1, X2) :- <PREFIX#father_vh_14_nl0_ce1>(X3, X4, X2, X5) .
+<PREFIX#skin_vnm_14_nl0_ce0>(X0, X1, X2) :- <PREFIX#adjustment_vnm_14_nl0_ce2>(X3, X4) .
+<PREFIX#believe_vnm_14_nl0_ce1>(X0, X1, X2, X3) :- <PREFIX#adjustment_vnm_14_nl0_ce2>(X4, X5) .
+<PREFIX#jewel_vi_15_nl0_ce0>(X0, X1) :- <PREFIX#change_vi_15_nl0_ce1>(X2, X3) .
+<PREFIX#contain_vh_15_nl0_ce0>(X0, X1, X2) :- <PREFIX#know_vh_15_nl0_ce1>(X3, X4, X5, X2, X6) .
+<PREFIX#present_vnm_15_nl0_ce0>(X0, X1, X2) :- <PREFIX#butter_vnm_15_nl0_ce2>(X3, X4) .
+<PREFIX#sister_vnm_15_nl0_ce1>(X0, X1, X2) :- <PREFIX#butter_vnm_15_nl0_ce2>(X3, X4) .
+<PREFIX#involve_vi_16_nl0_ce0>(X0, X1, X2) :- <PREFIX#bee_vi_16_nl0_ce1>(X3, X4, X5) .
+<PREFIX#afford_vh_16_nl0_ce0>(X0, X1, X2, X3) :- <PREFIX#reflect_vh_16_nl0_ce1>(X4, X5, X6, X7, X3, X8) .
+<PREFIX#tin_vnm_16_nl0_ce0>(X0, X1, X2) :- <PREFIX#second_vnm_16_nl0_ce2>(X3, X4) .
+<PREFIX#reading_vnm_16_nl0_ce1>(X0, X1, X2, X3) :- <PREFIX#second_vnm_16_nl0_ce2>(X4, X5) .
+<PREFIX#hide_vi_17_nl0_ce0>(X0, X1) :- <PREFIX#shoe_vi_17_nl0_ce1>(X2, X3, X4) .
+<PREFIX#cross_vh_17_nl0_ce0>(X0, X1, X2) :- <PREFIX#act_vh_17_nl0_ce1>(X3, X4, X2, X5) .
+<PREFIX#size_vnm_17_nl0_ce0>(X0, X1, X2) :- <PREFIX#baby_vnm_17_nl0_ce2>(X3, X4) .
+<PREFIX#raise_vnm_17_nl0_ce1>(X0, X1, X2) :- <PREFIX#baby_vnm_17_nl0_ce2>(X3, X4) .
+<PREFIX#point_vi_18_nl0_ce0>(X0, X1) :- <PREFIX#band_vi_18_nl0_ce1>(X2, X3, X4) .
+<PREFIX#level_vh_18_nl0_ce0>(X0, X1, X2, X3) :- <PREFIX#present_vh_18_nl0_ce1>(X4, X5, X6, X7, X3, X8) .
+<PREFIX#oven_vnm_18_nl0_ce0>(X0, X1) :- <PREFIX#avoid_vnm_18_nl0_ce2>(X2, X3) .
+<PREFIX#amount_vnm_18_nl0_ce1>(X0, X1, X2) :- <PREFIX#avoid_vnm_18_nl0_ce2>(X3, X4) .
+<PREFIX#chalk_vi_19_nl0_ce0>(X0, X1, X2) :- <PREFIX#smile_vi_19_nl0_ce1>(X3, X4, X5, X6) .
+<PREFIX#arrange_vh_19_nl0_ce0>(X0, X1, X2) :- <PREFIX#brush_vh_19_nl0_ce1>(X3, X4, X2, X5) .
+<PREFIX#attack_vnm_19_nl0_ce0>(X0, X1, X2) :- <PREFIX#matter_vnm_19_nl0_ce2>(X3, X4) .
+<PREFIX#stitch_vnm_19_nl0_ce1>(X0, X1, X2) :- <PREFIX#matter_vnm_19_nl0_ce2>(X3, X4) .
+<PREFIX#violent_vi_20_nl0_ce0>(X0, X1, X2) :- <PREFIX#hide_vi_20_nl0_ce1>(X3, X4, X5) .
+<PREFIX#agencies_vh_20_nl0_ce0>(X0, X1, X2) :- <PREFIX#wave_vh_20_nl0_ce1>(X3, X4, X5, X2, X6) .
+<PREFIX#family_vnm_20_nl0_ce0>(X0, X1, X2) :- <PREFIX#examine_vnm_20_nl0_ce2>(X3, X4) .
+<PREFIX#remain_vnm_20_nl0_ce1>(X0, X1, X2, X3) :- <PREFIX#examine_vnm_20_nl0_ce2>(X4, X5) .
+<PREFIX#screw_vi_21_nl0_ce0>(X0) :- <PREFIX#cook_vi_21_nl0_ce1>(X1, X2) .
+<PREFIX#touch_vh_21_nl0_ce0>(X0, X1) :- <PREFIX#confirm_vh_21_nl0_ce1>(X2, X3, X1, X4) .
+<PREFIX#language_vnm_21_nl0_ce0>(X0, X1, X2) :- <PREFIX#involve_vnm_21_nl0_ce2>(X3, X4) .
+<PREFIX#end_vnm_21_nl0_ce1>(X0, X1, X2) :- <PREFIX#involve_vnm_21_nl0_ce2>(X3, X4) .
+<PREFIX#bed_vi_22_nl0_ce0>(X0, X1, X2) :- <PREFIX#society_vi_22_nl0_ce1>(X3, X4, X5) .
+<PREFIX#paper_vh_22_nl0_ce0>(X0, X1, X2) :- <PREFIX#mind_vh_22_nl0_ce1>(X3, X4, X2, X5) .
+<PREFIX#left_vnm_22_nl0_ce0>(X0, X1, X2) :- <PREFIX#blue_vnm_22_nl0_ce2>(X3, X4) .
+<PREFIX#branch_vnm_22_nl0_ce1>(X0, X1, X2) :- <PREFIX#blue_vnm_22_nl0_ce2>(X3, X4) .
+<PREFIX#use_vi_23_nl0_ce0>(X0, X1, X2) :- <PREFIX#white_vi_23_nl0_ce1>(X3, X4, X5) .
+<PREFIX#concern_vh_23_nl0_ce0>(X0, X1, X2) :- <PREFIX#example_vh_23_nl0_ce1>(X3, X4, X5, X2, X6) .
+<PREFIX#simple_vnm_23_nl0_ce0>(X0, X1) :- <PREFIX#record_vnm_23_nl0_ce2>(X2, X3) .
+<PREFIX#shake_vnm_23_nl0_ce1>(X0, X1, X2) :- <PREFIX#record_vnm_23_nl0_ce2>(X3, X4) .
+<PREFIX#have_vi_24_nl0_ce0>(X0, X1, X2) :- <PREFIX#skin_vi_24_nl0_ce1>(X3, X4, X5) .
+<PREFIX#system_vh_24_nl0_ce0>(X0, X1, X2, X3) :- <PREFIX#paint_vh_24_nl0_ce1>(X4, X5, X6, X3, X7) .
+<PREFIX#machine_vnm_24_nl0_ce0>(X0, X1, X2, X3) :- <PREFIX#authority_vnm_24_nl0_ce2>(X4, X5) .
+<PREFIX#punishment_vnm_24_nl0_ce1>(X0, X1, X2, X3) :- <PREFIX#authority_vnm_24_nl0_ce2>(X4, X5) .
+<PREFIX#electric_vi_25_nl0_ce0>(X0, X1) :- <PREFIX#dust_vi_25_nl0_ce1>(X2, X3, X4) .
+<PREFIX#face_vh_25_nl0_ce0>(X0, X1, X2) :- <PREFIX#oven_vh_25_nl0_ce1>(X3, X4, X2, X5) .
+<PREFIX#war_vnm_25_nl0_ce0>(X0, X1) :- <PREFIX#mist_vnm_25_nl0_ce2>(X2, X3) .
+<PREFIX#history_vnm_25_nl0_ce1>(X0, X1, X2) :- <PREFIX#mist_vnm_25_nl0_ce2>(X3, X4) .
+<PREFIX#provide_vi_26_nl0_ce0>(X0, X1) :- <PREFIX#delicate_vi_26_nl0_ce1>(X2, X3, X4) .
+<PREFIX#invention_vh_26_nl0_ce0>(X0, X1, X2, X3) :- <PREFIX#use_vh_26_nl0_ce1>(X4, X5, X6, X3, X7) .
+<PREFIX#sock_vnm_26_nl0_ce0>(X0, X1, X2) :- <PREFIX#express_vnm_26_nl0_ce2>(X3, X4) .
+<PREFIX#authority_vnm_26_nl0_ce1>(X0, X1, X2, X3) :- <PREFIX#express_vnm_26_nl0_ce2>(X4, X5) .
+<PREFIX#nation_vi_27_nl0_ce0>(X0, X1) :- <PREFIX#need_vi_27_nl0_ce1>(X2, X3, X4) .
+<PREFIX#have_vh_27_nl0_ce0>(X0, X1, X2) :- <PREFIX#separate_vh_27_nl0_ce1>(X3, X4, X2, X5) .
+<PREFIX#dark_vnm_27_nl0_ce0>(X0, X1, X2) :- <PREFIX#leather_vnm_27_nl0_ce2>(X3, X4) .
+<PREFIX#knot_vnm_27_nl0_ce1>(X0, X1, X2, X3) :- <PREFIX#leather_vnm_27_nl0_ce2>(X4, X5) .
+<PREFIX#imagine_vi_28_nl0_ce0>(X0, X1, X2) :- <PREFIX#deliver_vi_28_nl0_ce1>(X3, X4, X5) .
+<PREFIX#face_vh_28_nl0_ce0>(X0, X1, X2) :- <PREFIX#degree_vh_28_nl0_ce1>(X3, X4, X5, X2, X6) .
+<PREFIX#rise_vnm_28_nl0_ce0>(X0, X1, X2, X3) :- <PREFIX#return_vnm_28_nl0_ce2>(X4, X5) .
+<PREFIX#shut_vnm_28_nl0_ce1>(X0, X1, X2, X3) :- <PREFIX#return_vnm_28_nl0_ce2>(X4, X5) .
+<PREFIX#discover_vi_29_nl0_ce0>(X0, X1, X2) :- <PREFIX#edge_vi_29_nl0_ce1>(X3, X4, X5) .
+<PREFIX#thumb_vh_29_nl0_ce0>(X0, X1, X2, X3) :- <PREFIX#fall_vh_29_nl0_ce1>(X4, X5, X6, X3, X7) .
+<PREFIX#shame_vnm_29_nl0_ce0>(X0, X1, X2) :- <PREFIX#selection_vnm_29_nl0_ce2>(X3, X4) .
+<PREFIX#soft_vnm_29_nl0_ce1>(X0, X1, X2, X3) :- <PREFIX#selection_vnm_29_nl0_ce2>(X4, X5) .
+<PREFIX#plate_vi_30_nl0_ce0>(X0, X1) :- <PREFIX#lift_vi_30_nl0_ce1>(X2, X3, X4) .
+<PREFIX#protest_vh_30_nl0_ce0>(X0, X1, X2) :- <PREFIX#reply_vh_30_nl0_ce1>(X3, X4, X5, X2, X6) .
+<PREFIX#regret_vnm_30_nl0_ce0>(X0, X1) :- <PREFIX#work_vnm_30_nl0_ce2>(X2, X3) .
+<PREFIX#color_vnm_30_nl0_ce1>(X0, X1, X2) :- <PREFIX#work_vnm_30_nl0_ce2>(X3, X4) .
+<PREFIX#expert_vi_31_nl0_ce0>(X0, X1, X2) :- <PREFIX#sort_vi_31_nl0_ce1>(X3, X4, X5, X6) .
+<PREFIX#material_vh_31_nl0_ce0>(X0, X1, X2, X3) :- <PREFIX#cow_vh_31_nl0_ce1>(X4, X5, X6, X3, X7) .
+<PREFIX#canvas_vnm_31_nl0_ce0>(X0, X1) :- <PREFIX#weather_vnm_31_nl0_ce2>(X2, X3) .
+<PREFIX#count_vnm_31_nl0_ce1>(X0, X1, X2) :- <PREFIX#weather_vnm_31_nl0_ce2>(X3, X4) .
+<PREFIX#climb_vi_32_nl0_ce0>(X0, X1) :- <PREFIX#ill_vi_32_nl0_ce1>(X2, X3) .
+<PREFIX#test_vh_32_nl0_ce0>(X0, X1) :- <PREFIX#mine_vh_32_nl0_ce1>(X2, X1, X3) .
+<PREFIX#stitch_vnm_32_nl0_ce0>(X0, X1, X2) :- <PREFIX#moon_vnm_32_nl0_ce2>(X3, X4) .
+<PREFIX#discuss_vnm_32_nl0_ce1>(X0, X1, X2, X3) :- <PREFIX#moon_vnm_32_nl0_ce2>(X4, X5) .
+<PREFIX#feeble_vi_33_nl0_ce0>(X0, X1) :- <PREFIX#collar_vi_33_nl0_ce1>(X2, X3) .
+<PREFIX#verse_vh_33_nl0_ce0>(X0, X1, X2) :- <PREFIX#open_vh_33_nl0_ce1>(X3, X4, X5, X2, X6) .
+<PREFIX#knot_vnm_33_nl0_ce0>(X0, X1, X2) :- <PREFIX#yellow_vnm_33_nl0_ce2>(X3, X4) .
+<PREFIX#forgive_vnm_33_nl0_ce1>(X0, X1, X2) :- <PREFIX#yellow_vnm_33_nl0_ce2>(X3, X4) .
+<PREFIX#join_vi_34_nl0_ce0>(X0, X1, X2) :- <PREFIX#peace_vi_34_nl0_ce1>(X3, X4, X5) .
+<PREFIX#rest_vh_34_nl0_ce0>(X0, X1, X2) :- <PREFIX#attorney_vh_34_nl0_ce1>(X3, X4, X5, X2, X6) .
+<PREFIX#blue_vh_1_nl0_ce0>(X0, X1, X2, X3) :- <PREFIX#moon_vnm_32_nl0_ce2>(X4, X5) .
+<PREFIX#punishment_vnm_24_nl0_ce1>(X0, X1, X2, X3) :- <PREFIX#moon_vnm_32_nl0_ce2>(X4, X5) .
+<PREFIX#protest_vi_35_nl0_ce0>(X0, X1) :- <PREFIX#help_vi_35_nl0_ce1>(X2, X3) .
+<PREFIX#seem_vh_35_nl0_ce0>(X0, X1) :- <PREFIX#agreement_vh_35_nl0_ce1>(X2, X1, X3) .
+<PREFIX#complete_vh_4_nl0_ce0>(X0, X1, X2) :- <PREFIX#weather_vnm_31_nl0_ce2>(X3, X4) .
+<PREFIX#deliver_vi_28_nl0_ce1>(X0, X1, X2) :- <PREFIX#weather_vnm_31_nl0_ce2>(X3, X4) .
+<PREFIX#develop_vi_36_nl0_ce0>(X0, X1) :- <PREFIX#band_vi_36_nl0_ce1>(X2, X3, X4) .
+<PREFIX#glove_vh_36_nl0_ce0>(X0, X1, X2) :- <PREFIX#jump_vh_36_nl0_ce1>(X3, X4, X5, X2, X6) .
+<PREFIX#farm_vnm_3_nl0_ce0>(X0, X1, X2) :- <PREFIX#examine_vnm_20_nl0_ce2>(X3, X4) .
+<PREFIX#society_vi_22_nl0_ce1>(X0, X1, X2) :- <PREFIX#examine_vnm_20_nl0_ce2>(X3, X4) .
+<PREFIX#shut_vi_37_nl0_ce0>(X0, X1, X2) :- <PREFIX#approval_vi_37_nl0_ce1>(X3, X4, X5, X6) .
+<PREFIX#let_vh_37_nl0_ce0>(X0, X1) :- <PREFIX#respect_vh_37_nl0_ce1>(X2, X3, X1, X4) .
+<PREFIX#move_vnm_37_nl0_ce0>(X0, X1, X2) :- <PREFIX#bottle_vnm_37_nl0_ce2>(X3, X4) .
+<PREFIX#die_vnm_37_nl0_ce1>(X0, X1, X2, X3) :- <PREFIX#bottle_vnm_37_nl0_ce2>(X4, X5) .
+<PREFIX#knowledge_vi_38_nl0_ce0>(X0, X1) :- <PREFIX#delicate_vi_38_nl0_ce1>(X2, X3, X4) .
+<PREFIX#night_vh_38_nl0_ce0>(X0, X1, X2) :- <PREFIX#chemical_vh_38_nl0_ce1>(X3, X4, X2, X5) .
+<PREFIX#contain_vnm_38_nl0_ce0>(X0, X1, X2, X3) :- <PREFIX#report_vnm_38_nl0_ce2>(X4, X5) .
+<PREFIX#breath_vnm_38_nl0_ce1>(X0, X1, X2, X3) :- <PREFIX#report_vnm_38_nl0_ce2>(X4, X5) .
+<PREFIX#record_vnm_23_nl0_ce2>(X0, X1) :- <PREFIX#leather_vnm_27_nl0_ce2>(X2, X3) .
+<PREFIX#fly_vh_39_nl0_ce0>(X0, X1, X2) :- <PREFIX#cut_vh_39_nl0_ce1>(X3, X4, X5, X2, X6) .
+<PREFIX#summer_vnm_39_nl0_ce0>(X0, X1, X2) :- <PREFIX#angry_vnm_39_nl0_ce2>(X3, X4) .
+<PREFIX#way_vnm_39_nl0_ce1>(X0, X1, X2) :- <PREFIX#angry_vnm_39_nl0_ce2>(X3, X4) .
+<PREFIX#peace_vi_40_nl0_ce0>(X0, X1, X2) :- <PREFIX#indicate_vi_40_nl0_ce1>(X3, X4, X5, X6) .
+<PREFIX#move_vh_40_nl0_ce0>(X0, X1) :- <PREFIX#place_vh_40_nl0_ce1>(X2, X3, X1, X4) .
+<PREFIX#ring_vnm_40_nl0_ce0>(X0, X1) :- <PREFIX#gold_vnm_40_nl0_ce2>(X2, X3) .
+<PREFIX#experience_vnm_40_nl0_ce1>(X0, X1, X2) :- <PREFIX#gold_vnm_40_nl0_ce2>(X3, X4) .
+<PREFIX#touch_vi_41_nl0_ce0>(X0, X1, X2) :- <PREFIX#separate_vi_41_nl0_ce1>(X3, X4, X5) .
+<PREFIX#side_vh_41_nl0_ce0>(X0, X1, X2) :- <PREFIX#orange_vh_41_nl0_ce1>(X3, X4, X5, X2, X6) .
+<PREFIX#soft_vnm_29_nl0_ce1>(X0, X1, X2, X3) :- <PREFIX#feeble_vi_33_nl0_ce0>(X4, X5) .
+<PREFIX#invention_vh_26_nl0_ce0>(X0, X1, X2, X3) :- <PREFIX#feeble_vi_33_nl0_ce0>(X4, X5) .
+<PREFIX#skin_vi_24_nl0_ce1>(X0, X1, X2) :- <PREFIX#bee_vi_16_nl0_ce1>(X3, X4, X5) .
+<PREFIX#sun_vh_42_nl0_ce0>(X0, X1, X2, X3) :- <PREFIX#connection_vh_42_nl0_ce1>(X4, X5, X6, X3, X7) .
+<PREFIX#sense_vnm_42_nl0_ce0>(X0, X1, X2, X3) :- <PREFIX#relate_vnm_42_nl0_ce2>(X4, X5) .
+<PREFIX#exist_vnm_42_nl0_ce1>(X0, X1, X2, X3) :- <PREFIX#relate_vnm_42_nl0_ce2>(X4, X5) .
+<PREFIX#sea_ad_21_nl0_ce0>(X0, X1, X2, X3, X4, X5) :- <PREFIX#clock_ad_7_nl0_ce0>(X6, X7, X8, X9, X10, X11) .
+<PREFIX#body_vh_43_nl0_ce0>(X0, X1, X2) :- <PREFIX#day_vh_43_nl0_ce1>(X3, X4, X2, X5) .
+<PREFIX#deliver_vi_28_nl0_ce1>(X0, X1, X2) :- <PREFIX#simple_vnm_23_nl0_ce0>(X3, X4) .
+<PREFIX#tin_vnm_16_nl0_ce0>(X0, X1, X2) :- <PREFIX#simple_vnm_23_nl0_ce0>(X3, X4) .
+<PREFIX#second_vnm_16_nl0_ce2>(X0, X1) :- <PREFIX#climb_vi_32_nl0_ce0>(X2, X3) .
+<PREFIX#tray_vh_44_nl0_ce0>(X0, X1, X2) :- <PREFIX#found_vh_44_nl0_ce1>(X3, X4, X5, X2, X6) .
+<PREFIX#mouth_vnm_44_nl0_ce0>(X0, X1) :- <PREFIX#group_vnm_44_nl0_ce2>(X2, X3) .
+<PREFIX#industry_vnm_44_nl0_ce1>(X0, X1, X2) :- <PREFIX#group_vnm_44_nl0_ce2>(X3, X4) .
+<PREFIX#narrow_vi_45_nl0_ce0>(X0, X1) :- <PREFIX#disease_vi_45_nl0_ce1>(X2, X3, X4) .
+<PREFIX#happen_vh_45_nl0_ce0>(X0, X1, X2) :- <PREFIX#shade_vh_45_nl0_ce1>(X3, X4, X2, X5) .
+<PREFIX#garden_vnm_45_nl0_ce0>(X0, X1, X2) :- <PREFIX#yellow_vnm_45_nl0_ce2>(X3, X4) .
+<PREFIX#contribute_vnm_45_nl0_ce1>(X0, X1, X2, X3) :- <PREFIX#yellow_vnm_45_nl0_ce2>(X4, X5) .
+<PREFIX#arch_vi_46_nl0_ce0>(X0, X1, X2) :- <PREFIX#compare_vi_46_nl0_ce1>(X3, X4, X5) .
+<PREFIX#cloth_vh_46_nl0_ce0>(X0, X1, X2, X3) :- <PREFIX#meal_vh_46_nl0_ce1>(X4, X5, X6, X3, X7) .
+<PREFIX#grass_vnm_46_nl0_ce0>(X0, X1, X2, X3) :- <PREFIX#office_vnm_46_nl0_ce2>(X4, X5) .
+<PREFIX#poison_vnm_46_nl0_ce1>(X0, X1, X2, X3) :- <PREFIX#office_vnm_46_nl0_ce2>(X4, X5) .
+<PREFIX#effect_vi_47_nl0_ce0>(X0, X1, X2) :- <PREFIX#sound_vi_47_nl0_ce1>(X3, X4, X5, X6) .
+<PREFIX#solid_vh_47_nl0_ce0>(X0, X1) :- <PREFIX#fall_vh_47_nl0_ce1>(X2, X3, X1, X4) .
+<PREFIX#own_vnm_47_nl0_ce0>(X0, X1, X2) :- <PREFIX#true_vnm_47_nl0_ce2>(X3, X4) .
+<PREFIX#intend_vnm_47_nl0_ce1>(X0, X1, X2) :- <PREFIX#true_vnm_47_nl0_ce2>(X3, X4) .
+<PREFIX#fact_vi_48_nl0_ce0>(X0, X1, X2, X3) :- <PREFIX#obtain_vi_48_nl0_ce1>(X4, X5, X6, X7) .
+<PREFIX#clear_vh_48_nl0_ce0>(X0, X1, X2) :- <PREFIX#achieve_vh_48_nl0_ce1>(X3, X4, X5, X2, X6) .
+<PREFIX#voice_vnm_48_nl0_ce0>(X0, X1, X2) :- <PREFIX#must_vnm_48_nl0_ce2>(X3, X4) .
+<PREFIX#flower_vnm_48_nl0_ce1>(X0, X1, X2, X3) :- <PREFIX#must_vnm_48_nl0_ce2>(X4, X5) .
+<PREFIX#fish_vi_49_nl0_ce0>(X0, X1, X2) :- <PREFIX#tight_vi_49_nl0_ce1>(X3, X4, X5) .
+<PREFIX#language_vh_49_nl0_ce0>(X0, X1, X2) :- <PREFIX#bucket_vh_49_nl0_ce1>(X3, X4, X5, X2, X6) .
+<PREFIX#manager_vnm_49_nl0_ce0>(X0, X1) :- <PREFIX#process_vnm_49_nl0_ce2>(X2, X3) .
+<PREFIX#arm_vnm_49_nl0_ce1>(X0, X1, X2) :- <PREFIX#process_vnm_49_nl0_ce2>(X3, X4) .
+<PREFIX#separate_vi_41_nl0_ce1>(X0, X1, X2) :- <PREFIX#use_vi_23_nl0_ce0>(X3, X4, X5) .
+<PREFIX#place_vnm_1_nl0_ce1>(X0, X1, X2, X3) :- <PREFIX#know_vh_15_nl0_ce1>(X4, X5, X6, X7, X8) .
+<PREFIX#brick_vnm_50_nl0_ce0>(X0, X1) :- <PREFIX#work_vnm_50_nl0_ce2>(X2, X3) .
+<PREFIX#hold_vnm_50_nl0_ce1>(X0, X1, X2) :- <PREFIX#work_vnm_50_nl0_ce2>(X3, X4) .
+<PREFIX#yellow_vi_11_nl0_ce1>(X0, X1, X2) :- <PREFIX#kind_vi_3_nl0_ce0>(X3, X4, X5) .
+<PREFIX#deliver_vh_51_nl0_ce0>(X0, X1) :- <PREFIX#round_vh_51_nl0_ce1>(X2, X1, X3) .
+<PREFIX#account_vh_9_nl0_ce0>(X0, X1, X2) :- <PREFIX#mouth_vnm_44_nl0_ce0>(X3, X4) .
+<PREFIX#industry_vnm_44_nl0_ce1>(X0, X1, X2) :- <PREFIX#mouth_vnm_44_nl0_ce0>(X3, X4) .
+<PREFIX#light_vi_52_nl0_ce0>(X0, X1) :- <PREFIX#industry_vi_52_nl0_ce1>(X2, X3, X4) .
+<PREFIX#indicate_vi_40_nl0_ce1>(X0, X1, X2, X3) :- <PREFIX#charge_vh_3_nl0_ce1>(X4, X5, X6, X7, X8) .
+<PREFIX#snow_vnm_52_nl0_ce0>(X0, X1, X2) :- <PREFIX#card_vnm_52_nl0_ce2>(X3, X4) .
+<PREFIX#smoke_vnm_52_nl0_ce1>(X0, X1, X2) :- <PREFIX#card_vnm_52_nl0_ce2>(X3, X4) .
+<PREFIX#peace_vi_40_nl0_ce0>(X0, X1, X2) :- <PREFIX#late_vi_7_nl0_ce1>(X3, X4, X5) .
+<PREFIX#line_vh_53_nl0_ce0>(X0, X1, X2, X3) :- <PREFIX#watch_vh_53_nl0_ce1>(X4, X5, X6, X3, X7) .
+<PREFIX#relation_vnm_53_nl0_ce0>(X0, X1, X2, X3) :- <PREFIX#music_vnm_53_nl0_ce2>(X4, X5) .
+<PREFIX#move_vnm_53_nl0_ce1>(X0, X1, X2, X3, X4) :- <PREFIX#music_vnm_53_nl0_ce2>(X5, X6) .
+<PREFIX#swim_vi_54_nl0_ce0>(X0, X1) :- <PREFIX#regret_vi_54_nl0_ce1>(X2, X3, X4) .
+<PREFIX#discuss_vnm_32_nl0_ce1>(X0, X1, X2, X3) :- <PREFIX#paint_vh_24_nl0_ce1>(X4, X5, X6, X7, X8) .
+<PREFIX#private_vnm_54_nl0_ce0>(X0, X1, X2, X3) :- <PREFIX#lock_vnm_54_nl0_ce2>(X4, X5) .
+<PREFIX#blood_vnm_54_nl0_ce1>(X0, X1, X2, X3, X4) :- <PREFIX#lock_vnm_54_nl0_ce2>(X5, X6) .
+<PREFIX#reading_ad_32_nl0_ce0>(X0, X1, X2, X3, X4) :- <PREFIX#reason_ad_18_nl0_ce0>(X5, X6, X7, X8, X9) .
+<PREFIX#sleep_vnm_12_nl0_ce0>(X0, X1, X2) :- <PREFIX#fertile_vh_7_nl0_ce1>(X3, X4, X5, X6) .
+<PREFIX#delicate_vi_26_nl0_ce1>(X0, X1, X2) :- <PREFIX#stone_vh_7_nl0_ce0>(X3, X4) .
+<PREFIX#own_vnm_47_nl0_ce0>(X0, X1, X2) :- <PREFIX#stone_vh_7_nl0_ce0>(X3, X4) .
+<PREFIX#error_vi_56_nl0_ce0>(X0, X1, X2) :- <PREFIX#twist_vi_56_nl0_ce1>(X3, X4, X5, X6) .
+<PREFIX#learn_vh_56_nl0_ce0>(X0, X1) :- <PREFIX#loose_vh_56_nl0_ce1>(X2, X3, X1, X4) .
+<PREFIX#first_vnm_11_nl0_ce1>(X0, X1, X2, X3) :- <PREFIX#parallel_vnm_2_nl0_ce0>(X4, X5) .
+<PREFIX#sense_vnm_42_nl0_ce0>(X0, X1, X2, X3) :- <PREFIX#parallel_vnm_2_nl0_ce0>(X4, X5) .
+<PREFIX#whistle_ad_49_nl0_ce0>(X0, X1, X2, X3) :- <PREFIX#damage_ad_33_nl0_ce0>(X4, X5, X6, X7) .
+<PREFIX#girl_vh_57_nl0_ce0>(X0, X1, X2) :- <PREFIX#cart_vh_57_nl0_ce1>(X3, X4, X5, X2, X6) .
+<PREFIX#offer_vnm_57_nl0_ce0>(X0, X1, X2, X3) :- <PREFIX#carry_vnm_57_nl0_ce2>(X4, X5) .
+<PREFIX#fertile_vnm_57_nl0_ce1>(X0, X1, X2, X3) :- <PREFIX#carry_vnm_57_nl0_ce2>(X4, X5) .
+<PREFIX#curve_vi_58_nl0_ce0m>(X0, X1) :- <PREFIX#play_vi_58_nl0_ce1>(X2, X3, X4) .
+<PREFIX#nation_vh_58_nl0_ce0>(X0, X1) :- <PREFIX#knock_vh_58_nl0_ce1>(X2, X3, X1, X4) .
+<PREFIX#liquid_vnm_58_nl0_ce0>(X0, X1, X2, X3) :- <PREFIX#lay_vnm_58_nl0_ce2>(X4, X5) .
+<PREFIX#loose_vnm_58_nl0_ce1>(X0, X1, X2, X3) :- <PREFIX#lay_vnm_58_nl0_ce2>(X4, X5) .
+<PREFIX#substance_vi_59_nl0_ce0>(X0, X1, X2) :- <PREFIX#mean_vi_59_nl0_ce1>(X3, X4, X5, X6) .
+<PREFIX#answer_vh_59_nl0_ce0>(X0, X1, X2) :- <PREFIX#play_vh_59_nl0_ce1>(X3, X4, X2, X5) .
+<PREFIX#knot_vnm_33_nl0_ce0>(X0, X1, X2) :- <PREFIX#business_vi_11_nl0_ce0>(X3, X4) .
+<PREFIX#move_vnm_37_nl0_ce0>(X0, X1, X2) :- <PREFIX#business_vi_11_nl0_ce0>(X3, X4) .
+<PREFIX#female_vi_60_nl0_ce0>(X0, X1, X2) :- <PREFIX#jelly_vi_60_nl0_ce1>(X3, X4, X5, X6) .
+<PREFIX#weight_vh_60_nl0_ce0>(X0, X1) :- <PREFIX#page_vh_60_nl0_ce1>(X2, X1, X3) .
+<PREFIX#fall_vnm_60_nl0_ce0>(X0, X1, X2) :- <PREFIX#safe_vnm_60_nl0_ce2>(X3, X4) .
+<PREFIX#common_vnm_60_nl0_ce1>(X0, X1, X2, X3) :- <PREFIX#safe_vnm_60_nl0_ce2>(X4, X5) .
+<PREFIX#avoid_vi_61_nl0_ce0>(X0, X1, X2) :- <PREFIX#grey_vi_61_nl0_ce1>(X3, X4, X5, X6) .
+<PREFIX#blue_vh_61_nl0_ce0>(X0, X1, X2) :- <PREFIX#stick_vh_61_nl0_ce1>(X3, X4, X2, X5) .
+<PREFIX#delicate_vi_38_nl0_ce1>(X0, X1, X2) :- <PREFIX#mist_vnm_25_nl0_ce2>(X3, X4) .
+<PREFIX#pain_vnm_4_nl0_ce1>(X0, X1, X2) :- <PREFIX#mist_vnm_25_nl0_ce2>(X3, X4) .
+<PREFIX#eat_ad_8_nl0_ce0>(X0, X1, X2, X3, X4) :- <PREFIX#deep_ad_16_nl0_ce0>(X5, X6, X7, X8, X9) .
+<PREFIX#smell_vh_62_nl0_ce0>(X0, X1, X2) :- <PREFIX#base_vh_62_nl0_ce1>(X3, X4, X5, X2, X6) .
+<PREFIX#cushion_vnm_62_nl0_ce0>(X0, X1) :- <PREFIX#could_vnm_62_nl0_ce2>(X2, X3) .
+<PREFIX#bell_vnm_62_nl0_ce1>(X0, X1) :- <PREFIX#could_vnm_62_nl0_ce2>(X2, X3) .
+<PREFIX#would_vi_63_nl0_ce0>(X0, X1) :- <PREFIX#gun_vi_63_nl0_ce1>(X2, X3) .
+<PREFIX#conscious_vnm_13_nl0_ce0>(X0, X1, X2) :- <PREFIX#hate_vh_6_nl0_ce1>(X3, X4, X5, X6) .
+<PREFIX#collar_vnm_63_nl0_ce0>(X0, X1, X2) :- <PREFIX#science_vnm_63_nl0_ce2>(X3, X4) .
+<PREFIX#concern_vnm_63_nl0_ce1>(X0, X1, X2, X3) :- <PREFIX#science_vnm_63_nl0_ce2>(X4, X5) .
+<PREFIX#neck_vi_64_nl0_ce0>(X0, X1) :- <PREFIX#encourage_vi_64_nl0_ce1>(X2, X3, X4) .
+<PREFIX#fly_vh_64_nl0_ce0>(X0, X1) :- <PREFIX#twist_vh_64_nl0_ce1>(X2, X3, X1, X4) .
+<PREFIX#use_vnm_64_nl0_ce0>(X0, X1) :- <PREFIX#horse_vnm_64_nl0_ce2>(X2, X3) .
+<PREFIX#grey_vnm_64_nl0_ce1>(X0, X1, X2) :- <PREFIX#horse_vnm_64_nl0_ce2>(X3, X4) .
+<PREFIX#touch_vi_41_nl0_ce0>(X0, X1, X2) :- <PREFIX#base_vh_62_nl0_ce1>(X3, X4, X5, X6, X7) .
+<PREFIX#protest_ad_56_nl0_ce0>(X0, X1, X2, X3, X4) :- <PREFIX#let_vh_37_nl0_ce0>(X5, X6) .
+<PREFIX#narrow_vi_45_nl0_ce0>(X0, X1) :- <PREFIX#society_vi_22_nl0_ce1>(X2, X3, X4) .
+<PREFIX#end_vnm_21_nl0_ce1>(X0, X1, X2) :- <PREFIX#chemical_vh_38_nl0_ce1>(X3, X4, X5, X6) .
+<PREFIX#language_vh_49_nl0_ce0>(X0, X1, X2) :- <PREFIX#copy_ad_36_nl0_ce0>(X3, X4, X5, X6, X7) .
+<PREFIX#reading_vnm_16_nl0_ce1>(X0, X1, X2, X3) :- <PREFIX#leather_vnm_27_nl0_ce2>(X4, X5) .
+<PREFIX#authority_vnm_26_nl0_ce1>(X0, X1, X2, X3) :- <PREFIX#private_vnm_54_nl0_ce0>(X4, X5, X6, X7) .
+<PREFIX#bee_vi_16_nl0_ce1>(X0, X1, X2) :- <PREFIX#kind_vi_3_nl0_ce0>(X3, X4, X5) .
+<PREFIX#blue_vh_1_nl0_ce0>(X0, X1, X2, X3) :- <PREFIX#blue_vnm_22_nl0_ce2>(X4, X5) .
+<PREFIX#oven_vi_6_nl0_ce0>(X0, X1) :- <PREFIX#grey_vnm_64_nl0_ce1>(X2, X3, X4) .
+<PREFIX#oven_vnm_18_nl0_ce0>(X0, X1) :- <PREFIX#size_vnm_17_nl0_ce0>(X2, X3, X4) .
+<PREFIX#fly_vh_64_nl0_ce0>(X0, X1) :- <PREFIX#shake_vnm_23_nl0_ce1>(X2, X3, X4) .
+<PREFIX#found_vh_44_nl0_ce1>(X0, X1, X2, X3, X4) :- <PREFIX#kill_ad_38_nl0_ce0>(X5, X6, X7, X8) .
+<PREFIX#deep_ad_16_nl0_ce0>(X0, X1, X2, X3, X4) :- <PREFIX#forgive_vnm_33_nl0_ce1>(X5, X6, X7) .
+<PREFIX#know_vh_15_nl0_ce1>(X0, X1, X2, X3, X4) :- <PREFIX#use_ad_61_nl0_ce0>(X5, X6, X7, X8) .
+<PREFIX#jewel_vi_15_nl0_ce0>(X0, X1) :- <PREFIX#mine_vh_32_nl0_ce1>(X2, X3, X4) .
+<PREFIX#business_vi_11_nl0_ce0>(X0, X1) :- <PREFIX#shade_vh_45_nl0_ce1>(X2, X3, X4, X5) .
+
+@source <keep_vnm_10_nl0_ce0>[7] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/keep_vnm_10_nl0_ce0.csv") .
+1
+@source <report_vnm_1_nl0_ce0>[5] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/report_vnm_1_nl0_ce0.csv") .
+2
+@source <gain_ad_46_nl0_ce0>[2] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/gain_ad_46_nl0_ce0.csv") .
+3
+@source <soup_vi_22_nl0_ce0>[5] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/soup_vi_22_nl0_ce0.csv") .
+4
+@source <collect_vh_19_nl0_ce0>[4] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/collect_vh_19_nl0_ce0.csv") .
+5
+@source <new_vnm_62_nl0_ce0>[2] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/new_vnm_62_nl0_ce0.csv") .
+6
+@source <line_vi_10_nl0_ce0>[5] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/line_vi_10_nl0_ce0.csv") .
+7
+@source <respect_vnm_7_nl0_ce0>[4] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/respect_vnm_7_nl0_ce0.csv") .
+8
+@source <detail_vh_48_nl0_ce0>[5] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/detail_vh_48_nl0_ce0.csv") .
+9
+@source <poor_vh_12_nl0_ce0>[6] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/poor_vh_12_nl0_ce0.csv") .
+10
+@source <umbrella_vnm_41_nl0_ce0>[6] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/umbrella_vnm_41_nl0_ce0.csv") .
+11
+@source <base_vh_64_nl0_ce0>[3] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/base_vh_64_nl0_ce0.csv") .
+12
+@source <loose_vnm_32_nl0_ce0>[5] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/loose_vnm_32_nl0_ce0.csv") .
+13
+@source <degree_vh_32_nl0_ce0>[2] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/degree_vh_32_nl0_ce0.csv") .
+14
+@source <circle_vnm_51_nl0_ce0>[4] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/circle_vnm_51_nl0_ce0.csv") .
+15
+@source <do_vnm_58_nl0_ce0>[6] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/do_vnm_58_nl0_ce0.csv") .
+16
+@source <condition_ad_35_nl0_ce0>[1] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/condition_ad_35_nl0_ce0.csv") .
+17
+@source <poor_vnm_5_nl0_ce0>[6] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/poor_vnm_5_nl0_ce0.csv") .
+18
+@source <present_vnm_11_nl0_ce0>[5] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/present_vnm_11_nl0_ce0.csv") .
+19
+@source <fruit_vi_28_nl0_ce0>[5] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/fruit_vi_28_nl0_ce0.csv") .
+20
+@source <sex_vnm_42_nl0_ce0>[6] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/sex_vnm_42_nl0_ce0.csv") .
+21
+@source <paper_vh_35_nl0_ce0>[2] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/paper_vh_35_nl0_ce0.csv") .
+22
+@source <cut_vi_25_nl0_ce0>[4] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/cut_vi_25_nl0_ce0.csv") .
+23
+@source <wear_ad_25_nl0_ce0>[5] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/wear_ad_25_nl0_ce0.csv") .
+24
+@source <delicate_ad_6_nl0_ce0>[4] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/delicate_ad_6_nl0_ce0.csv") .
+25
+@source <wash_vh_23_nl0_ce0>[5] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/wash_vh_23_nl0_ce0.csv") .
+26
+@source <fill_vh_46_nl0_ce0>[6] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/fill_vh_46_nl0_ce0.csv") .
+27
+@source <chemical_ad_20_nl0_ce0>[5] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/chemical_ad_20_nl0_ce0.csv") .
+28
+@source <hard_vnm_36_nl0_ce0>[4] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/hard_vnm_36_nl0_ce0.csv") .
+29
+@source <error_vnm_43_nl0_ce0>[4] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/error_vnm_43_nl0_ce0.csv") .
+30
+@source <possible_ad_21_nl0_ce0>[5] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/possible_ad_21_nl0_ce0.csv") .
+31
+@source <feather_vi_21_nl0_ce0>[2] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/feather_vi_21_nl0_ce0.csv") .
+32
+@source <avoid_vh_18_nl0_ce0>[7] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/avoid_vh_18_nl0_ce0.csv") .
+33
+@source <special_vnm_29_nl0_ce0>[5] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/special_vnm_29_nl0_ce0.csv") .
+34
+@source <must_vnm_57_nl0_ce0>[6] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/must_vnm_57_nl0_ce0.csv") .
+35
+@source <record_vi_37_nl0_ce0>[6] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/record_vi_37_nl0_ce0.csv") .
+36
+@source <ornament_vh_17_nl0_ce0>[4] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/ornament_vh_17_nl0_ce0.csv") .
+37
+@source <chief_vnm_30_nl0_ce0>[3] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/chief_vnm_30_nl0_ce0.csv") .
+38
+@source <snake_vh_29_nl0_ce0>[6] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/snake_vh_29_nl0_ce0.csv") .
+39
+@source <wax_vnm_46_nl0_ce0>[6] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/wax_vnm_46_nl0_ce0.csv") .
+40
+@source <comb_vi_52_nl0_ce0>[4] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/comb_vi_52_nl0_ce0.csv") .
+41
+@source <natural_ad_44_nl0_ce0>[5] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/natural_ad_44_nl0_ce0.csv") .
+42
+@source <want_ad_30_nl0_ce0>[5] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/want_ad_30_nl0_ce0.csv") .
+43
+@source <disgust_ad_8_nl0_ce0>[4] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/disgust_ad_8_nl0_ce0.csv") .
+44
+@source <nerve_vh_47_nl0_ce0>[3] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/nerve_vh_47_nl0_ce0.csv") .
+45
+@source <become_vh_45_nl0_ce0>[4] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/become_vh_45_nl0_ce0.csv") .
+46
+@source <record_vnm_44_nl0_ce0>[3] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/record_vnm_44_nl0_ce0.csv") .
+47
+@source <complain_vh_5_nl0_ce0>[6] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/complain_vh_5_nl0_ce0.csv") .
+48
+@source <news_ad_17_nl0_ce0>[5] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/news_ad_17_nl0_ce0.csv") .
+49
+@source <stone_vi_44_nl0_ce0>[3] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/stone_vi_44_nl0_ce0.csv") .
+50
+@source <control_vh_39_nl0_ce0>[5] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/control_vh_39_nl0_ce0.csv") .
+51
+@source <drive_vh_37_nl0_ce0>[3] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/drive_vh_37_nl0_ce0.csv") .
+52
+@source <pen_vh_15_nl0_ce0>[5] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/pen_vh_15_nl0_ce0.csv") .
+53
+@source <run_ad_24_nl0_ce0>[6] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/run_ad_24_nl0_ce0.csv") .
+54
+@source <drink_vh_10_nl0_ce0>[5] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/drink_vh_10_nl0_ce0.csv") .
+55
+@source <belong_vnm_18_nl0_ce0>[3] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/belong_vnm_18_nl0_ce0.csv") .
+56
+@source <owner_vh_26_nl0_ce0>[6] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/owner_vh_26_nl0_ce0.csv") .
+57
+@source <scissors_vnm_38_nl0_ce0>[6] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/scissors_vnm_38_nl0_ce0.csv") .
+58
+@source <moon_vi_20_nl0_ce0>[5] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/moon_vi_20_nl0_ce0.csv") .
+59
+@source <certain_vnm_3_nl0_ce0>[5] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/certain_vnm_3_nl0_ce0.csv") .
+60
+@source <work_vi_18_nl0_ce0>[4] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/work_vi_18_nl0_ce0.csv") .
+61
+@source <brick_vi_62_nl0_ce0>[9] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/brick_vi_62_nl0_ce0.csv") .
+62
+@source <laugh_vh_25_nl0_ce0>[4] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/laugh_vh_25_nl0_ce0.csv") .
+63
+@source <thank_ad_16_nl0_ce0>[4] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/thank_ad_16_nl0_ce0.csv") .
+64
+@source <last_vi_4_nl0_ce0>[4] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/last_vi_4_nl0_ce0.csv") .
+65
+@source <hanging_vi_16_nl0_ce0>[5] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/hanging_vi_16_nl0_ce0.csv") .
+66
+@source <representative_vh_34_nl0_ce0>[5] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/representative_vh_34_nl0_ce0.csv") .
+67
+@source <stick_vh_30_nl0_ce0>[5] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/stick_vh_30_nl0_ce0.csv") .
+68
+@source <sky_ad_15_nl0_ce0>[3] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/sky_ad_15_nl0_ce0.csv") .
+69
+@source <make_ad_5_nl0_ce0>[5] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/make_ad_5_nl0_ce0.csv") .
+70
+@source <contact_vh_58_nl0_ce0>[3] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/contact_vh_58_nl0_ce0.csv") .
+71
+@source <air_ad_39_nl0_ce0>[5] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/air_ad_39_nl0_ce0.csv") .
+72
+@source <apparatus_vnm_47_nl0_ce0>[4] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/apparatus_vnm_47_nl0_ce0.csv") .
+73
+@source <shoe_vh_57_nl0_ce0>[5] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/shoe_vh_57_nl0_ce0.csv") .
+74
+@source <chin_vnm_13_nl0_ce0>[5] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/chin_vnm_13_nl0_ce0.csv") .
+75
+@source <cause_ad_31_nl0_ce0>[5] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/cause_ad_31_nl0_ce0.csv") .
+76
+@source <ice_vi_13_nl0_ce0>[5] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/ice_vi_13_nl0_ce0.csv") .
+77
+@source <flower_vi_30_nl0_ce0>[4] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/flower_vi_30_nl0_ce0.csv") .
+78
+@source <limit_vnm_60_nl0_ce0>[5] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/limit_vnm_60_nl0_ce0.csv") .
+79
+@source <prove_vh_13_nl0_ce0>[4] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/prove_vh_13_nl0_ce0.csv") .
+80
+@source <cover_vi_17_nl0_ce0>[4] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/cover_vi_17_nl0_ce0.csv") .
+81
+@source <book_vh_42_nl0_ce0>[6] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/book_vh_42_nl0_ce0.csv") .
+82
+@source <early_vi_56_nl0_ce0>[6] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/early_vi_56_nl0_ce0.csv") .
+83
+@source <note_vh_24_nl0_ce0>[6] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/note_vh_24_nl0_ce0.csv") .
+84
+@source <pass_vi_46_nl0_ce0>[5] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/pass_vi_46_nl0_ce0.csv") .
+85
+@source <need_vnm_59_nl0_ce0>[4] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/need_vnm_59_nl0_ce0.csv") .
+86
+@source <head_vnm_28_nl0_ce0>[6] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/head_vnm_28_nl0_ce0.csv") .
+87
+@source <curve_vi_58_nl0_ce0>[4] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/curve_vi_58_nl0_ce0.csv") .
+88
+@source <branch_vi_11_nl0_ce0>[4] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/branch_vi_11_nl0_ce0.csv") .
+89
+@source <spoon_ad_34_nl0_ce0>[5] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/spoon_ad_34_nl0_ce0.csv") .
+90
+@source <time_vnm_9_nl0_ce0>[5] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/time_vnm_9_nl0_ce0.csv") .
+91
+@source <green_ad_27_nl0_ce0>[4] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/green_ad_27_nl0_ce0.csv") .
+92
+@source <hide_vh_20_nl0_ce0>[5] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/hide_vh_20_nl0_ce0.csv") .
+93
+@source <insurance_vi_14_nl0_ce0>[6] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/insurance_vi_14_nl0_ce0.csv") .
+94
+@source <share_ad_50_nl0_ce0>[4] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/share_ad_50_nl0_ce0.csv") .
+95
+@source <expect_vnm_21_nl0_ce0>[4] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/expect_vnm_21_nl0_ce0.csv") .
+96
+@source <machine_vi_23_nl0_ce0>[5] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/machine_vi_23_nl0_ce0.csv") .
+97
+@source <sing_ad_58_nl0_ce0>[5] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/sing_ad_58_nl0_ce0.csv") .
+98
+@source <dress_ad_55_nl0_ce0>[2] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/dress_ad_55_nl0_ce0.csv") .
+99
+@source <stiff_vi_5_nl0_ce0>[5] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/stiff_vi_5_nl0_ce0.csv") .
+100
+@source <automatic_ad_29_nl0_ce0>[4] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/automatic_ad_29_nl0_ce0.csv") .
+101
+@source <automatic_vnm_22_nl0_ce0>[4] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/automatic_vnm_22_nl0_ce0.csv") .
+102
+@source <visit_vi_26_nl0_ce0>[4] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/visit_vi_26_nl0_ce0.csv") .
+103
+@source <eat_vnm_63_nl0_ce0>[5] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/eat_vnm_63_nl0_ce0.csv") .
+104
+@source <reply_vi_42_nl0_ce0>[5] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/reply_vi_42_nl0_ce0.csv") .
+105
+@source <sneeze_vh_53_nl0_ce0>[6] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/sneeze_vh_53_nl0_ce0.csv") .
+106
+@source <strong_vi_31_nl0_ce0>[6] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/strong_vi_31_nl0_ce0.csv") .
+107
+@source <whip_vh_11_nl0_ce0>[5] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/whip_vh_11_nl0_ce0.csv") .
+108
+@source <porter_vi_55_nl0_ce0>[9] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/porter_vi_55_nl0_ce0.csv") .
+109
+@source <insurance_vi_50_nl0_ce0>[5] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/insurance_vi_50_nl0_ce0.csv") .
+110
+@source <act_vnm_8_nl0_ce0>[4] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/act_vnm_8_nl0_ce0.csv") .
+111
+@source <pipe_ad_2_nl0_ce0>[5] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/pipe_ad_2_nl0_ce0.csv") .
+112
+@source <opinion_vi_9_nl0_ce0>[5] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/opinion_vi_9_nl0_ce0.csv") .
+113
+@source <cruel_ad_54_nl0_ce0>[2] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/cruel_ad_54_nl0_ce0.csv") .
+114
+@source <visit_ad_45_nl0_ce0>[5] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/visit_ad_45_nl0_ce0.csv") .
+115
+@source <effect_vnm_34_nl0_ce0>[6] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/effect_vnm_34_nl0_ce0.csv") .
+116
+@source <woman_vnm_31_nl0_ce0>[3] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/woman_vnm_31_nl0_ce0.csv") .
+117
+@source <straight_vh_54_nl0_ce0>[6] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/straight_vh_54_nl0_ce0.csv") .
+118
+@source <clear_vi_64_nl0_ce0>[4] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/clear_vi_64_nl0_ce0.csv") .
+119
+@source <check_vi_49_nl0_ce0>[5] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/check_vi_49_nl0_ce0.csv") .
+120
+@source <amount_vnm_4_nl0_ce0>[3] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/amount_vnm_4_nl0_ce0.csv") .
+121
+@source <test_ad_1_nl0_ce0>[3] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/test_ad_1_nl0_ce0.csv") .
+122
+@source <music_vi_43_nl0_ce0>[11] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/music_vi_43_nl0_ce0.csv") .
+123
+@source <building_vh_33_nl0_ce0>[5] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/building_vh_33_nl0_ce0.csv") .
+124
+@source <voice_vnm_49_nl0_ce0>[3] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/voice_vnm_49_nl0_ce0.csv") .
+125
+@source <garden_vi_3_nl0_ce0>[5] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/garden_vi_3_nl0_ce0.csv") .
+126
+@source <parallel_ad_41_nl0_ce0>[4] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/parallel_ad_41_nl0_ce0.csv") .
+127
+@source <private_vh_55_nl0_ce0>[4] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/private_vh_55_nl0_ce0.csv") .
+128
+@source <important_vh_7_nl0_ce0>[3] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/important_vh_7_nl0_ce0.csv") .
+129
+@source <attack_vi_51_nl0_ce0>[5] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/attack_vi_51_nl0_ce0.csv") .
+130
+@source <wall_vi_7_nl0_ce0>[5] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/wall_vi_7_nl0_ce0.csv") .
+131
+@source <stop_vh_21_nl0_ce0>[3] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/stop_vh_21_nl0_ce0.csv") .
+132
+@source <learning_ad_36_nl0_ce0>[4] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/learning_ad_36_nl0_ce0.csv") .
+133
+@source <sweet_vnm_37_nl0_ce0>[5] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/sweet_vnm_37_nl0_ce0.csv") .
+134
+@source <shut_vnm_52_nl0_ce0>[4] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/shut_vnm_52_nl0_ce0.csv") .
+135
+@source <laugh_ad_13_nl0_ce0>[4] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/laugh_ad_13_nl0_ce0.csv") .
+136
+@source <hat_vnm_12_nl0_ce0>[4] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/hat_vnm_12_nl0_ce0.csv") .
+137
+@source <see_ad_42_nl0_ce0>[3] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/see_ad_42_nl0_ce0.csv") .
+138
+@source <last_vnm_35_nl0_ce0>[4] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/last_vnm_35_nl0_ce0.csv") .
+139
+@source <last_vnm_26_nl0_ce0>[5] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/last_vnm_26_nl0_ce0.csv") .
+140
+@source <warn_vh_1_nl0_ce0>[6] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/warn_vh_1_nl0_ce0.csv") .
+141
+@source <wing_vh_14_nl0_ce0>[4] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/wing_vh_14_nl0_ce0.csv") .
+142
+@source <write_vh_56_nl0_ce0>[3] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/write_vh_56_nl0_ce0.csv") .
+143
+@source <place_vi_6_nl0_ce0>[4] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/place_vi_6_nl0_ce0.csv") .
+144
+@source <past_vh_49_nl0_ce0>[5] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/past_vh_49_nl0_ce0.csv") .
+145
+@source <tree_vi_39_nl0_ce0>[3] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/tree_vi_39_nl0_ce0.csv") .
+146
+@source <birth_vi_15_nl0_ce0>[3] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/birth_vi_15_nl0_ce0.csv") .
+147
+@source <government_vh_9_nl0_ce0>[5] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/government_vh_9_nl0_ce0.csv") .
+148
+@source <sticky_vnm_14_nl0_ce0>[5] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/sticky_vnm_14_nl0_ce0.csv") .
+149
+@source <wind_vnm_25_nl0_ce0>[3] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/wind_vnm_25_nl0_ce0.csv") .
+150
+@source <guide_vh_27_nl0_ce0>[4] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/guide_vh_27_nl0_ce0.csv") .
+151
+@source <selection_vh_6_nl0_ce0>[3] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/selection_vh_6_nl0_ce0.csv") .
+152
+@source <paint_vnm_2_nl0_ce0>[3] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/paint_vnm_2_nl0_ce0.csv") .
+153
+@source <buy_vh_62_nl0_ce0>[5] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/buy_vh_62_nl0_ce0.csv") .
+154
+@source <impulse_ad_10_nl0_ce0>[3] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/impulse_ad_10_nl0_ce0.csv") .
+155
+@source <bed_ad_53_nl0_ce0>[2] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/bed_ad_53_nl0_ce0.csv") .
+156
+@source <chess_ad_52_nl0_ce0>[3] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/chess_ad_52_nl0_ce0.csv") .
+157
+@source <watch_vnm_61_nl0_ce0>[4] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/watch_vnm_61_nl0_ce0.csv") .
+158
+@source <fold_vnm_53_nl0_ce0>[7] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/fold_vnm_53_nl0_ce0.csv") .
+159
+@source <leather_vh_52_nl0_ce0>[6] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/leather_vh_52_nl0_ce0.csv") .
+160
+@source <separate_vnm_24_nl0_ce0>[6] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/separate_vnm_24_nl0_ce0.csv") .
+161
+@source <stamp_ad_12_nl0_ce0>[5] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/stamp_ad_12_nl0_ce0.csv") .
+162
+@source <behavior_vi_59_nl0_ce0>[6] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/behavior_vi_59_nl0_ce0.csv") .
+163
+@source <structure_vh_22_nl0_ce0>[4] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/structure_vh_22_nl0_ce0.csv") .
+164
+@source <forgive_vi_24_nl0_ce0>[5] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/forgive_vi_24_nl0_ce0.csv") .
+165
+@source <enable_ad_9_nl0_ce0>[5] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/enable_ad_9_nl0_ce0.csv") .
+166
+@source <pencil_vh_4_nl0_ce0>[5] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/pencil_vh_4_nl0_ce0.csv") .
+167
+@source <test_vi_33_nl0_ce0>[3] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/test_vi_33_nl0_ce0.csv") .
+168
+@source <worry_ad_4_nl0_ce0>[4] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/worry_ad_4_nl0_ce0.csv") .
+169
+@source <nail_ad_28_nl0_ce0>[4] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/nail_ad_28_nl0_ce0.csv") .
+170
+@source <society_vi_1_nl0_ce0>[5] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/society_vi_1_nl0_ce0.csv") .
+171
+@source <join_vh_41_nl0_ce0>[5] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/join_vh_41_nl0_ce0.csv") .
+172
+@source <ready_vnm_6_nl0_ce0>[3] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/ready_vnm_6_nl0_ce0.csv") .
+173
+@source <power_vi_19_nl0_ce0>[6] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/power_vi_19_nl0_ce0.csv") .
+174
+@source <back_ad_62_nl0_ce0>[4] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/back_ad_62_nl0_ce0.csv") .
+175
+@source <seed_vi_27_nl0_ce0>[4] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/seed_vi_27_nl0_ce0.csv") .
+176
+@source <mixed_vi_2_nl0_ce0>[5] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/mixed_vi_2_nl0_ce0.csv") .
+177
+@source <seat_vh_50_nl0_ce0>[6] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/seat_vh_50_nl0_ce0.csv") .
+178
+@source <danger_vi_53_nl0_ce0>[5] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/danger_vi_53_nl0_ce0.csv") .
+179
+@source <bright_vi_12_nl0_ce0>[5] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/bright_vi_12_nl0_ce0.csv") .
+180
+@source <will_ad_7_nl0_ce0>[5] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/will_ad_7_nl0_ce0.csv") .
+181
+@source <harbor_vi_8_nl0_ce0>[5] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/harbor_vi_8_nl0_ce0.csv") .
+182
+@source <control_ad_11_nl0_ce0>[4] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/control_ad_11_nl0_ce0.csv") .
+183
+@source <bath_ad_14_nl0_ce0>[3] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/bath_ad_14_nl0_ce0.csv") .
+184
+@source <winter_vh_16_nl0_ce0>[7] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/winter_vh_16_nl0_ce0.csv") .
+185
+@source <friend_ad_22_nl0_ce0>[6] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/friend_ad_22_nl0_ce0.csv") .
+186
+@source <map_vi_57_nl0_ce0>[7] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/map_vi_57_nl0_ce0.csv") .
+187
+@source <chief_vnm_17_nl0_ce0>[4] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/chief_vnm_17_nl0_ce0.csv") .
+188
+@source <regret_vnm_40_nl0_ce0>[3] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/regret_vnm_40_nl0_ce0.csv") .
+189
+@source <pull_vi_35_nl0_ce0>[3] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/pull_vi_35_nl0_ce0.csv") .
+190
+@source <secret_vnm_56_nl0_ce0>[6] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/secret_vnm_56_nl0_ce0.csv") .
+191
+@source <meal_vnm_27_nl0_ce0>[5] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/meal_vnm_27_nl0_ce0.csv") .
+192
+@source <whistle_vh_31_nl0_ce0>[6] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/whistle_vh_31_nl0_ce0.csv") .
+193
+@source <raise_vi_29_nl0_ce0>[5] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/raise_vi_29_nl0_ce0.csv") .
+194
+@source <committee_vnm_15_nl0_ce0>[4] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/committee_vnm_15_nl0_ce0.csv") .
+195
+@source <bucket_vh_8_nl0_ce0>[4] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/bucket_vh_8_nl0_ce0.csv") .
+196
+@source <imagine_ad_23_nl0_ce0>[6] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/imagine_ad_23_nl0_ce0.csv") .
+197
+@source <damage_vi_61_nl0_ce0>[6] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/damage_vi_61_nl0_ce0.csv") .
+198
+@source <avoid_vi_32_nl0_ce0>[3] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/avoid_vi_32_nl0_ce0.csv") .
+199
+@source <become_ad_32_nl0_ce0>[4] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/become_ad_32_nl0_ce0.csv") .
+200
+@source <ring_vh_3_nl0_ce0>[5] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/ring_vh_3_nl0_ce0.csv") .
+201
+@source <bag_vh_38_nl0_ce0>[4] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/bag_vh_38_nl0_ce0.csv") .
+202
+@source <nose_vh_28_nl0_ce0>[5] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/nose_vh_28_nl0_ce0.csv") .
+203
+@source <copy_vnm_23_nl0_ce0>[3] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/copy_vnm_23_nl0_ce0.csv") .
+204
+@source <library_ad_3_nl0_ce0>[4] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/library_ad_3_nl0_ce0.csv") .
+205
+@source <force_vnm_19_nl0_ce0>[4] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/force_vnm_19_nl0_ce0.csv") .
+206
+@source <quiet_ad_19_nl0_ce0>[3] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/quiet_ad_19_nl0_ce0.csv") .
+207
+@source <division_vh_2_nl0_ce0>[6] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/division_vh_2_nl0_ce0.csv") .
+208
+@source <look_vh_63_nl0_ce0>[4] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/look_vh_63_nl0_ce0.csv") .
+209
+@source <shake_ad_37_nl0_ce0>[5] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/shake_ad_37_nl0_ce0.csv") .
+210
+@source <publish_ad_18_nl0_ce0>[4] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/publish_ad_18_nl0_ce0.csv") .
+211
+@source <loud_vnm_16_nl0_ce0>[5] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/loud_vnm_16_nl0_ce0.csv") .
+212
+@source <buy_vnm_20_nl0_ce0>[5] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/buy_vnm_20_nl0_ce0.csv") .
+213
+@source <glove_vi_63_nl0_ce0>[3] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/glove_vi_63_nl0_ce0.csv") .
+214
+@source <plough_vnm_55_nl0_ce0>[4] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/plough_vnm_55_nl0_ce0.csv") .
+215
+@source <worm_ad_33_nl0_ce0>[3] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/worm_ad_33_nl0_ce0.csv") .
+216
+@source <organization_ad_59_nl0_ce0>[2] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/organization_ad_59_nl0_ce0.csv") .
+217
+@source <examine_ad_26_nl0_ce0>[4] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/ONT-256/data/examine_ad_26_nl0_ce0.csv") .
+218
+Finish Loading data, cost 1011 ms
+Abduction on query: ?(X0,X1,X2) :- <PREFIX#parallel_vnm_2_nl0_ce0>(X0, X1), <PREFIX#glove_vh_36_nl0_ce0>(X1, X2, X3), <PREFIX#handle_vnm_2_nl0_ce2>(X1, X4), <PREFIX#measure_vnm_12_nl0_ce1>(X5, X1, X6), <PREFIX#set_ad_13_nl0_ce0>(X7, X1, X8, X9, X10), <PREFIX#swim_vi_54_nl0_ce0>(X1, X11) .
+Observation: <PREFIX#parallel_vnm_2_nl0_ce0>(X0, X1), <PREFIX#glove_vh_36_nl0_ce0>(X1, X2, X3), <PREFIX#handle_vnm_2_nl0_ce2>(X1, X4), <PREFIX#measure_vnm_12_nl0_ce1>(X5, X1, X6), <PREFIX#set_ad_13_nl0_ce0>(X7, X1, X8, X9, X10), <PREFIX#swim_vi_54_nl0_ce0>(X1, X11), <ANS>(X0, X1, X2)
+Number of Explanations: (Compact) 34 (Full) 308 Size(Compact): 203 Size(Full): 1238 cost: 71846 ms
+Abduction on query: ?(X0,X1,X2) :- <PREFIX#parallel_vnm_2_nl0_ce0>(X0, X1), <PREFIX#glove_vh_36_nl0_ce0>(X1, X2, X3), <PREFIX#handle_vnm_2_nl0_ce2>(X1, X4), <PREFIX#measure_vnm_12_nl0_ce1>(X5, X1, X6), <PREFIX#set_ad_13_nl0_ce0>(X7, X1, X8, X9, X10), <PREFIX#swim_vi_54_nl0_ce0>(X1, X11) .
+Observation: <PREFIX#parallel_vnm_2_nl0_ce0>(X0, X1), <PREFIX#glove_vh_36_nl0_ce0>(X1, X2, X3), <PREFIX#handle_vnm_2_nl0_ce2>(X1, X4), <PREFIX#measure_vnm_12_nl0_ce1>(X5, X1, X6), <PREFIX#set_ad_13_nl0_ce0>(X7, X1, X8, X9, X10), <PREFIX#swim_vi_54_nl0_ce0>(X1, X11), <ANS>(X0, X1, X2)
+Number of Explanations: (Compact) 34 (Full) 308 Size(Compact): 203 Size(Full): 1238 cost: 8822 ms
+Abduction on query: ?(X0,X1,X2,X3,X4) :- <PREFIX#cushion_vnm_62_nl0_ce0>(X0, X1), <PREFIX#thread_vi_13_nl0_ce0>(X5, X0, X6), <PREFIX#relation_vnm_53_nl0_ce0>(X2, X0, X3, X4), <PREFIX#wonder_ad_30_nl0_ce0>(X7, X8, X0, X9, X10, X11), <PREFIX#jump_vh_36_nl0_ce1>(X0, X12, X13, X14, X15), <PREFIX#delicate_vi_38_nl0_ce1>(X0, X16, X17), <PREFIX#nation_vi_27_nl0_ce0>(X0, X18), <PREFIX#settle_vh_8_nl0_ce1>(X16, X19, X20, X21) .
+Observation: <PREFIX#cushion_vnm_62_nl0_ce0>(X0, X1), <PREFIX#thread_vi_13_nl0_ce0>(X5, X0, X6), <PREFIX#relation_vnm_53_nl0_ce0>(X2, X0, X3, X4), <PREFIX#wonder_ad_30_nl0_ce0>(X7, X8, X0, X9, X10, X11), <PREFIX#jump_vh_36_nl0_ce1>(X0, X12, X13, X14, X15), <PREFIX#delicate_vi_38_nl0_ce1>(X0, X16, X17), <PREFIX#nation_vi_27_nl0_ce0>(X0, X18), <PREFIX#settle_vh_8_nl0_ce1>(X16, X19, X20, X21), <ANS>(X0, X1, X2, X3, X4)

@@ -1,0 +1,433 @@
+Finish Parsing Files ...
+<PREFIX#give_vp_8_nl0_ce0>(X0, X1) :- <PREFIX#testpredicate_0326>(X0, X1) .
+<PREFIX#test_cp_1_nl0_ce0copy1_0>(X0, X1, X2, X3, X4) :- <PREFIX#test_cp_1_nl0_ce0>(X0, X1, X2, X3, X4) .
+<PREFIX#cheese_hp_1_nl0_ce0__HP1FR0_from_0_to_4999>(X0, X1, X2, X3, X4) :- <PREFIX#cheese_hp_1_nl0_ce0>(X5, X0, X1, X2, X3, X4) .
+<PREFIX#cheese_hp_1_nl0_ce0__HP1FR1_from_5000_to_9999>(X0, X1, X2, X3, X4) :- <PREFIX#cheese_hp_1_nl0_ce0>(X5, X0, X1, X2, X3, X4) .
+<PREFIX#past_su_1_nl0_ce0>(X0, X1, X2, X3, X4, X5, X6, X7) :- <PREFIX#board_su_1_nl0_ce0>(X0, X1, X2, X3, X4, X5) .
+<PREFIX#discover_vp_1_nl0_ce0>(X0, X1, X2), <PREFIX#different_vp_1_nl0_ce1>(X3, X4, X2) :- <PREFIX#letter_vp_1_nl0_ce0>(X0, X1, X3, X4) .
+<PREFIX#reveal_cp_2_nl0_ce0copy2_1>(X0, X1, X2, X3, X4) :- <PREFIX#reveal_cp_2_nl0_ce0>(X0, X1, X2, X3, X4) .
+<PREFIX#pipe_hp_2_nl0_ce0__HP2FR0_from_0_to_4999>(X0, X1, X2) :- <PREFIX#pipe_hp_2_nl0_ce0>(X3, X0, X1, X2) .
+<PREFIX#pipe_hp_2_nl0_ce0__HP2FR1_from_5000_to_9999>(X0, X1, X2) :- <PREFIX#pipe_hp_2_nl0_ce0>(X3, X0, X1, X2) .
+<PREFIX#branch_su_2_nl0_ce0>(X0, X1, X2, X3, X4, X5, X6, X7, X8) :- <PREFIX#order_su_2_nl0_ce0>(X0, X1, X2, X3, X4, X5, X6) .
+<PREFIX#involve_vp_2_nl0_ce0>(X0, X1, X2, X3), <PREFIX#use_vp_2_nl0_ce1>(X4, X5, X6, X7, X3) :- <PREFIX#approval_vp_2_nl0_ce0>(X0, X1, X2, X4, X5, X6, X7) .
+<PREFIX#paint_cp_3_nl0_ce0copy3_2>(X0, X1, X2) :- <PREFIX#paint_cp_3_nl0_ce0>(X0, X1, X2) .
+<PREFIX#regular_hp_3_nl0_ce0__HP3FR0_from_0_to_4999>(X0, X1, X2, X3, X4) :- <PREFIX#regular_hp_3_nl0_ce0>(X5, X0, X1, X2, X3, X4) .
+<PREFIX#regular_hp_3_nl0_ce0__HP3FR1_from_5000_to_9999>(X0, X1, X2, X3, X4) :- <PREFIX#regular_hp_3_nl0_ce0>(X5, X0, X1, X2, X3, X4) .
+<PREFIX#paint_su_3_nl0_ce0>(X0, X1, X2, X3, X4) :- <PREFIX#library_su_3_nl0_ce0>(X0, X1, X2) .
+<PREFIX#slow_vp_3_nl0_ce0>(X0, X1), <PREFIX#word_vp_3_nl0_ce1>(X2, X1) :- <PREFIX#garden_vp_3_nl0_ce0>(X0, X2) .
+<PREFIX#kind_cp_4_nl0_ce0copy4_3>(X0, X1, X2) :- <PREFIX#kind_cp_4_nl0_ce0>(X0, X1, X2) .
+<PREFIX#violent_hp_4_nl0_ce0__HP4FR0_from_0_to_4999>(X0, X1) :- <PREFIX#violent_hp_4_nl0_ce0>(X2, X0, X1) .
+<PREFIX#violent_hp_4_nl0_ce0__HP4FR1_from_5000_to_9999>(X0, X1) :- <PREFIX#violent_hp_4_nl0_ce0>(X2, X0, X1) .
+<PREFIX#bent_su_4_nl0_ce0>(X0, X1, X2, X3, X4, X5, X6) :- <PREFIX#love_su_4_nl0_ce0>(X0, X1, X2, X3, X4) .
+<PREFIX#language_vp_4_nl0_ce0>(X0, X1), <PREFIX#worry_vp_4_nl0_ce1>(X2, X1) :- <PREFIX#silk_vp_4_nl0_ce0>(X0, X2) .
+<PREFIX#chalk_cp_5_nl0_ce0copy5_4>(X0, X1) :- <PREFIX#chalk_cp_5_nl0_ce0>(X0, X1) .
+<PREFIX#start_hp_5_nl0_ce0__HP5FR0_from_0_to_4999>(X0, X1, X2) :- <PREFIX#start_hp_5_nl0_ce0>(X3, X0, X1, X2) .
+<PREFIX#start_hp_5_nl0_ce0__HP5FR1_from_5000_to_9999>(X0, X1, X2) :- <PREFIX#start_hp_5_nl0_ce0>(X3, X0, X1, X2) .
+<PREFIX#clean_su_5_nl0_ce0>(X0, X1, X2, X3) :- <PREFIX#last_su_5_nl0_ce0>(X0, X1) .
+<PREFIX#state_vp_5_nl0_ce0>(X0, X1), <PREFIX#egg_vp_5_nl0_ce1>(X2, X1) :- <PREFIX#mention_vp_5_nl0_ce0>(X0, X2) .
+<PREFIX#agency_cp_6_nl0_ce0copy6_5>(X0, X1) :- <PREFIX#agency_cp_6_nl0_ce0>(X0, X1) .
+<PREFIX#amount_hp_6_nl0_ce0__HP6FR0_from_0_to_4999>(X0, X1, X2, X3) :- <PREFIX#amount_hp_6_nl0_ce0>(X4, X0, X1, X2, X3) .
+<PREFIX#amount_hp_6_nl0_ce0__HP6FR1_from_5000_to_9999>(X0, X1, X2, X3) :- <PREFIX#amount_hp_6_nl0_ce0>(X4, X0, X1, X2, X3) .
+<PREFIX#accept_su_6_nl0_ce0>(X0, X1, X2, X3) :- <PREFIX#leather_su_6_nl0_ce0>(X0, X1) .
+<PREFIX#stiff_vp_6_nl0_ce0>(X0, X1, X2), <PREFIX#feeling_vp_6_nl0_ce1>(X3, X4, X2) :- <PREFIX#probable_vp_6_nl0_ce0>(X0, X1, X3, X4) .
+<PREFIX#connect_cp_7_nl0_ce0copy7_6>(X0, X1, X2) :- <PREFIX#connect_cp_7_nl0_ce0>(X0, X1, X2) .
+<PREFIX#root_hp_7_nl0_ce0__HP7FR0_from_0_to_4999>(X0, X1, X2) :- <PREFIX#root_hp_7_nl0_ce0>(X3, X0, X1, X2) .
+<PREFIX#root_hp_7_nl0_ce0__HP7FR1_from_5000_to_9999>(X0, X1, X2) :- <PREFIX#root_hp_7_nl0_ce0>(X3, X0, X1, X2) .
+<PREFIX#settle_su_7_nl0_ce0>(X0, X1, X2, X3, X4, X5) :- <PREFIX#question_su_7_nl0_ce0>(X0, X1, X2, X3) .
+<PREFIX#agencies_vp_7_nl0_ce0>(X0, X1, X2), <PREFIX#flat_vp_7_nl0_ce1>(X3, X4, X2) :- <PREFIX#poor_vp_7_nl0_ce0>(X0, X1, X3, X4) .
+<PREFIX#train_cp_8_nl0_ce0copy8_7>(X0, X1) :- <PREFIX#train_cp_8_nl0_ce0>(X0, X1) .
+<PREFIX#sea_hp_8_nl0_ce0__HP8FR0_from_0_to_4999>(X0, X1) :- <PREFIX#sea_hp_8_nl0_ce0>(X2, X0, X1) .
+<PREFIX#sea_hp_8_nl0_ce0__HP8FR1_from_5000_to_9999>(X0, X1) :- <PREFIX#sea_hp_8_nl0_ce0>(X2, X0, X1) .
+<PREFIX#stomach_su_8_nl0_ce0>(X0, X1, X2, X3) :- <PREFIX#bath_su_8_nl0_ce0>(X0, X1) .
+<PREFIX#give_vp_8_nl0_ce0>(X0, X1), <PREFIX#selection_vp_8_nl0_ce1>(X2, X3, X1) :- <PREFIX#return_vp_8_nl0_ce0>(X0, X2, X3) .
+<PREFIX#window_cp_9_nl0_ce0copy9_8>(X0, X1, X2, X3) :- <PREFIX#window_cp_9_nl0_ce0>(X0, X1, X2, X3) .
+<PREFIX#hate_hp_9_nl0_ce0__HP9FR0_from_0_to_4999>(X0, X1) :- <PREFIX#hate_hp_9_nl0_ce0>(X2, X0, X1) .
+<PREFIX#hate_hp_9_nl0_ce0__HP9FR1_from_5000_to_9999>(X0, X1) :- <PREFIX#hate_hp_9_nl0_ce0>(X2, X0, X1) .
+<PREFIX#late_su_9_nl0_ce0>(X0, X1, X2, X3, X4, X5) :- <PREFIX#win_su_9_nl0_ce0>(X0, X1, X2, X3) .
+<PREFIX#tail_vp_9_nl0_ce0>(X0, X1), <PREFIX#clock_vp_9_nl0_ce1>(X2, X1) :- <PREFIX#shut_vp_9_nl0_ce0>(X0, X2) .
+<PREFIX#express_cp_10_nl0_ce0copy10_9>(X0, X1, X2, X3) :- <PREFIX#express_cp_10_nl0_ce0>(X0, X1, X2, X3) .
+<PREFIX#hollow_hp_10_nl0_ce0__HP10FR0_from_0_to_4999>(X0, X1, X2, X3, X4) :- <PREFIX#hollow_hp_10_nl0_ce0>(X5, X0, X1, X2, X3, X4) .
+<PREFIX#hollow_hp_10_nl0_ce0__HP10FR1_from_5000_to_9999>(X0, X1, X2, X3, X4) :- <PREFIX#hollow_hp_10_nl0_ce0>(X5, X0, X1, X2, X3, X4) .
+<PREFIX#fertile_su_10_nl0_ce0>(X0, X1, X2, X3, X4) :- <PREFIX#support_su_10_nl0_ce0>(X0, X1, X2) .
+<PREFIX#disgust_vp_10_nl0_ce0>(X0, X1, X2, X3), <PREFIX#shut_vp_10_nl0_ce1>(X4, X5, X6, X3) :- <PREFIX#condition_vp_10_nl0_ce0>(X0, X1, X2, X4, X5, X6) .
+<PREFIX#experience_cp_11_nl0_ce0copy11_10>(X0, X1, X2) :- <PREFIX#experience_cp_11_nl0_ce0>(X0, X1, X2) .
+<PREFIX#eat_hp_11_nl0_ce0__HP11FR0_from_0_to_4999>(X0, X1) :- <PREFIX#eat_hp_11_nl0_ce0>(X2, X0, X1) .
+<PREFIX#eat_hp_11_nl0_ce0__HP11FR1_from_5000_to_9999>(X0, X1) :- <PREFIX#eat_hp_11_nl0_ce0>(X2, X0, X1) .
+<PREFIX#opinion_su_11_nl0_ce0>(X0, X1, X2, X3) :- <PREFIX#foot_su_11_nl0_ce0>(X0, X1) .
+<PREFIX#exchange_vp_11_nl0_ce0>(X0, X1), <PREFIX#discover_vp_11_nl0_ce1>(X2, X1) :- <PREFIX#snake_vp_11_nl0_ce0>(X0, X2) .
+<PREFIX#touch_cp_12_nl0_ce0copy12_11>(X0, X1, X2, X3) :- <PREFIX#touch_cp_12_nl0_ce0>(X0, X1, X2, X3) .
+<PREFIX#hollow_hp_12_nl0_ce0__HP12FR0_from_0_to_4999>(X0, X1) :- <PREFIX#hollow_hp_12_nl0_ce0>(X2, X0, X1) .
+<PREFIX#hollow_hp_12_nl0_ce0__HP12FR1_from_5000_to_9999>(X0, X1) :- <PREFIX#hollow_hp_12_nl0_ce0>(X2, X0, X1) .
+<PREFIX#enable_su_12_nl0_ce0>(X0, X1, X2, X3, X4) :- <PREFIX#observation_su_12_nl0_ce0>(X0, X1, X2) .
+<PREFIX#tall_vp_12_nl0_ce0>(X0, X1, X2), <PREFIX#base_vp_12_nl0_ce1>(X3, X4, X5, X2) :- <PREFIX#fruit_vp_12_nl0_ce0>(X0, X1, X3, X4, X5) .
+<PREFIX#speak_cp_13_nl0_ce0copy13_12>(X0, X1) :- <PREFIX#speak_cp_13_nl0_ce0>(X0, X1) .
+<PREFIX#degree_hp_13_nl0_ce0__HP13FR0_from_0_to_4999>(X0, X1) :- <PREFIX#degree_hp_13_nl0_ce0>(X2, X0, X1) .
+<PREFIX#degree_hp_13_nl0_ce0__HP13FR1_from_5000_to_9999>(X0, X1) :- <PREFIX#degree_hp_13_nl0_ce0>(X2, X0, X1) .
+<PREFIX#desire_su_13_nl0_ce0>(X0, X1, X2, X3) :- <PREFIX#weight_su_13_nl0_ce0>(X0, X1) .
+<PREFIX#train_vp_13_nl0_ce0>(X0, X1), <PREFIX#beat_vp_13_nl0_ce1>(X2, X1) :- <PREFIX#fiction_vp_13_nl0_ce0>(X0, X2) .
+<PREFIX#hammer_cp_14_nl0_ce0copy14_13>(X0, X1, X2, X3, X4) :- <PREFIX#hammer_cp_14_nl0_ce0>(X0, X1, X2, X3, X4) .
+<PREFIX#impulse_hp_14_nl0_ce0__HP14FR0_from_0_to_4999>(X0, X1, X2, X3, X4) :- <PREFIX#impulse_hp_14_nl0_ce0>(X5, X0, X1, X2, X3, X4) .
+<PREFIX#impulse_hp_14_nl0_ce0__HP14FR1_from_5000_to_9999>(X0, X1, X2, X3, X4) :- <PREFIX#impulse_hp_14_nl0_ce0>(X5, X0, X1, X2, X3, X4) .
+<PREFIX#ink_su_14_nl0_ce0>(X0, X1, X2, X3) :- <PREFIX#stop_su_14_nl0_ce0>(X0, X1) .
+<PREFIX#insurance_vp_14_nl0_ce0>(X0, X1), <PREFIX#rhythm_vp_14_nl0_ce1>(X2, X1) :- <PREFIX#basin_vp_14_nl0_ce0>(X0, X2) .
+<PREFIX#fiction_cp_15_nl0_ce0copy15_14>(X0, X1, X2) :- <PREFIX#fiction_cp_15_nl0_ce0>(X0, X1, X2) .
+<PREFIX#require_hp_15_nl0_ce0__HP15FR0_from_0_to_4999>(X0, X1, X2, X3, X4, X5, X6) :- <PREFIX#require_hp_15_nl0_ce0>(X7, X0, X1, X2, X3, X4, X5, X6) .
+<PREFIX#require_hp_15_nl0_ce0__HP15FR1_from_5000_to_9999>(X0, X1, X2, X3, X4, X5, X6) :- <PREFIX#require_hp_15_nl0_ce0>(X7, X0, X1, X2, X3, X4, X5, X6) .
+<PREFIX#digestion_su_15_nl0_ce0>(X0, X1, X2, X3, X4, X5) :- <PREFIX#thin_su_15_nl0_ce0>(X0, X1, X2, X3) .
+<PREFIX#office_vp_15_nl0_ce0>(X0, X1, X2), <PREFIX#talk_vp_15_nl0_ce1>(X3, X4, X5, X2) :- <PREFIX#rough_vp_15_nl0_ce0>(X0, X1, X3, X4, X5) .
+<PREFIX#regard_cp_16_nl0_ce0copy16_15>(X0, X1, X2) :- <PREFIX#regard_cp_16_nl0_ce0>(X0, X1, X2) .
+<PREFIX#whip_hp_16_nl0_ce0__HP16FR0_from_0_to_4999>(X0, X1, X2, X3, X4, X5) :- <PREFIX#whip_hp_16_nl0_ce0>(X6, X0, X1, X2, X3, X4, X5) .
+<PREFIX#whip_hp_16_nl0_ce0__HP16FR1_from_5000_to_9999>(X0, X1, X2, X3, X4, X5) :- <PREFIX#whip_hp_16_nl0_ce0>(X6, X0, X1, X2, X3, X4, X5) .
+<PREFIX#check_su_16_nl0_ce0>(X0, X1, X2, X3, X4, X5) :- <PREFIX#beautiful_su_16_nl0_ce0>(X0, X1, X2, X3) .
+<PREFIX#key_vp_16_nl0_ce0>(X0, X1, X2, X3), <PREFIX#cry_vp_16_nl0_ce1>(X4, X5, X6, X3) :- <PREFIX#side_vp_16_nl0_ce0>(X0, X1, X2, X4, X5, X6) .
+<PREFIX#regular_hp_3_nl0_ce0copy17_16>(X0, X1, X2, X3, X4, X5) :- <PREFIX#regular_hp_3_nl0_ce0>(X0, X1, X2, X3, X4, X5) .
+<PREFIX#check_hp_17_nl0_ce0__HP17FR0_from_0_to_4999>(X0, X1, X2, X3) :- <PREFIX#check_hp_17_nl0_ce0>(X4, X0, X1, X2, X3) .
+<PREFIX#check_hp_17_nl0_ce0__HP17FR1_from_5000_to_9999>(X0, X1, X2, X3) :- <PREFIX#check_hp_17_nl0_ce0>(X4, X0, X1, X2, X3) .
+<PREFIX#acid_su_17_nl0_ce0>(X0, X1, X2, X3) :- <PREFIX#rhythm_su_17_nl0_ce0>(X0, X1) .
+<PREFIX#bell_vp_17_nl0_ce0>(X0, X1), <PREFIX#trousers_vp_17_nl0_ce1>(X2, X3, X1) :- <PREFIX#poor_vp_17_nl0_ce0>(X0, X2, X3) .
+<PREFIX#probable_vp_6_nl0_ce0copy18_17>(X0, X1, X2, X3) :- <PREFIX#probable_vp_6_nl0_ce0>(X0, X1, X2, X3) .
+<PREFIX#try_hp_18_nl0_ce0__HP18FR0_from_0_to_4999>(X0, X1, X2) :- <PREFIX#try_hp_18_nl0_ce0>(X3, X0, X1, X2) .
+<PREFIX#try_hp_18_nl0_ce0__HP18FR1_from_5000_to_9999>(X0, X1, X2) :- <PREFIX#try_hp_18_nl0_ce0>(X3, X0, X1, X2) .
+<PREFIX#sleep_su_18_nl0_ce0>(X0, X1, X2, X3, X4, X5) :- <PREFIX#orange_su_18_nl0_ce0>(X0, X1, X2, X3) .
+<PREFIX#hard_vp_18_nl0_ce0>(X0, X1), <PREFIX#set_vp_18_nl0_ce1>(X2, X1) :- <PREFIX#laugh_vp_18_nl0_ce0>(X0, X2) .
+<PREFIX#remain_cp_19_nl0_ce0copy19_18>(X0, X1, X2, X3, X4, X5) :- <PREFIX#remain_cp_19_nl0_ce0>(X0, X1, X2, X3, X4, X5) .
+<PREFIX#bulb_hp_19_nl0_ce0__HP19FR0_from_0_to_4999>(X0, X1, X2, X3, X4) :- <PREFIX#bulb_hp_19_nl0_ce0>(X5, X0, X1, X2, X3, X4) .
+<PREFIX#bulb_hp_19_nl0_ce0__HP19FR1_from_5000_to_9999>(X0, X1, X2, X3, X4) :- <PREFIX#bulb_hp_19_nl0_ce0>(X5, X0, X1, X2, X3, X4) .
+<PREFIX#check_su_16_nl0_ce0>(X0, X1, X2, X3, X4, X5) :- <PREFIX#male_su_19_nl0_ce0>(X0, X1, X2, X3) .
+<PREFIX#promise_vp_19_nl0_ce0>(X0, X1), <PREFIX#pot_vp_19_nl0_ce1>(X2, X1) :- <PREFIX#hurt_vp_19_nl0_ce0>(X0, X2) .
+<PREFIX#agency_cp_6_nl0_ce0copy20_19>(X0, X1) :- <PREFIX#agency_cp_6_nl0_ce0>(X0, X1) .
+<PREFIX#rough_vp_15_nl0_ce0__HP20FR0_from_0_to_4999>(X0, X1, X2, X3) :- <PREFIX#rough_vp_15_nl0_ce0>(X4, X0, X1, X2, X3) .
+<PREFIX#rough_vp_15_nl0_ce0__HP20FR1_from_5000_to_9999>(X0, X1, X2, X3) :- <PREFIX#rough_vp_15_nl0_ce0>(X4, X0, X1, X2, X3) .
+<PREFIX#remain_cp_19_nl0_ce0copy19_18>(X0, X1, X2, X3, X4, X5) :- <PREFIX#add_su_20_nl0_ce0>(X0, X1, X2, X3) .
+<PREFIX#eye_vp_20_nl0_ce0>(X0, X1), <PREFIX#cork_vp_20_nl0_ce1>(X2, X3, X1) :- <PREFIX#learn_vp_20_nl0_ce0>(X0, X2, X3) .
+<PREFIX#lead_cp_21_nl0_ce0copy21_20>(X0, X1, X2, X3) :- <PREFIX#lead_cp_21_nl0_ce0>(X0, X1, X2, X3) .
+<PREFIX#advertisement_hp_21_nl0_ce0__HP21FR0_from_0_to_4999>(X0, X1) :- <PREFIX#advertisement_hp_21_nl0_ce0>(X2, X0, X1) .
+<PREFIX#advertisement_hp_21_nl0_ce0__HP21FR1_from_5000_to_9999>(X0, X1) :- <PREFIX#advertisement_hp_21_nl0_ce0>(X2, X0, X1) .
+<PREFIX#regular_hp_3_nl0_ce0__HP3FR1_from_5000_to_9999>(X0, X1, X2, X3, X4) :- <PREFIX#sudden_su_21_nl0_ce0>(X0, X1, X2) .
+<PREFIX#root_hp_7_nl0_ce0__HP7FR0_from_0_to_4999>(X0, X1, X2), <PREFIX#selection_vp_8_nl0_ce1>(X3, X4, X2) :- <PREFIX#coat_vp_21_nl0_ce0>(X0, X1, X3, X4) .
+<PREFIX#receive_cp_22_nl0_ce0copy22_21>(X0, X1, X2) :- <PREFIX#receive_cp_22_nl0_ce0>(X0, X1, X2) .
+<PREFIX#steel_hp_22_nl0_ce0__HP22FR0_from_0_to_4999>(X0, X1, X2, X3) :- <PREFIX#steel_hp_22_nl0_ce0>(X4, X0, X1, X2, X3) .
+<PREFIX#steel_hp_22_nl0_ce0__HP22FR1_from_5000_to_9999>(X0, X1, X2, X3) :- <PREFIX#steel_hp_22_nl0_ce0>(X4, X0, X1, X2, X3) .
+<PREFIX#eye_su_22_nl0_ce0>(X0, X1, X2, X3) :- <PREFIX#rhythm_su_17_nl0_ce0>(X0, X1) .
+<PREFIX#ticket_vp_22_nl0_ce0>(X0, X1), <PREFIX#warn_vp_22_nl0_ce1>(X2, X3, X1) :- <PREFIX#industry_vp_22_nl0_ce0>(X0, X2, X3) .
+<PREFIX#jewel_cp_23_nl0_ce0copy23_22>(X0, X1, X2, X3, X4) :- <PREFIX#jewel_cp_23_nl0_ce0>(X0, X1, X2, X3, X4) .
+<PREFIX#window_cp_9_nl0_ce0__HP23FR0_from_0_to_4999>(X0, X1, X2) :- <PREFIX#window_cp_9_nl0_ce0>(X3, X0, X1, X2) .
+<PREFIX#window_cp_9_nl0_ce0__HP23FR1_from_5000_to_9999>(X0, X1, X2) :- <PREFIX#window_cp_9_nl0_ce0>(X3, X0, X1, X2) .
+<PREFIX#hollow_hp_10_nl0_ce0__HP10FR0_from_0_to_4999>(X0, X1, X2, X3, X4) :- <PREFIX#will_su_23_nl0_ce0>(X0, X1, X2) .
+<PREFIX#check_su_16_nl0_ce0>(X0, X1, X2, X3, X4, X5), <PREFIX#whip_hp_16_nl0_ce0__HP16FR0_from_0_to_4999>(X6, X7, X8, X9, X10, X5) :- <PREFIX#committee_vp_23_nl0_ce0>(X0, X1, X2, X3, X4, X6, X7, X8, X9, X10) .
+<PREFIX#beat_vp_13_nl0_ce1>(X0, X1) :- <PREFIX#toe_cp_24_nl0_ce0>(X0, X1) .
+<PREFIX#glove_hp_24_nl0_ce0__HP24FR0_from_0_to_4999>(X0, X1, X2, X3) :- <PREFIX#glove_hp_24_nl0_ce0>(X4, X0, X1, X2, X3) .
+<PREFIX#glove_hp_24_nl0_ce0__HP24FR1_from_5000_to_9999>(X0, X1, X2, X3) :- <PREFIX#glove_hp_24_nl0_ce0>(X4, X0, X1, X2, X3) .
+<PREFIX#sun_su_24_nl0_ce0>(X0, X1, X2, X3, X4, X5, X6, X7) :- <PREFIX#hollow_hp_10_nl0_ce0>(X0, X1, X2, X3, X4, X5) .
+<PREFIX#clean_vp_24_nl0_ce0>(X0, X1), <PREFIX#smell_vp_24_nl0_ce1>(X2, X3, X1) :- <PREFIX#kind_cp_4_nl0_ce0>(X0, X2, X3) .
+<PREFIX#cheese_hp_1_nl0_ce0__HP1FR0_from_0_to_4999>(X0, X1, X2, X3, X4) :- <PREFIX#involve_cp_25_nl0_ce0>(X0, X1, X2, X3, X4) .
+<PREFIX#express_cp_10_nl0_ce0__HP25FR0_from_0_to_4999>(X0, X1, X2) :- <PREFIX#express_cp_10_nl0_ce0>(X3, X0, X1, X2) .
+<PREFIX#express_cp_10_nl0_ce0__HP25FR1_from_5000_to_9999>(X0, X1, X2) :- <PREFIX#express_cp_10_nl0_ce0>(X3, X0, X1, X2) .
+<PREFIX#glove_hp_24_nl0_ce0__HP24FR1_from_5000_to_9999>(X0, X1, X2, X3) :- <PREFIX#round_su_25_nl0_ce0>(X0, X1) .
+<PREFIX#push_vp_25_nl0_ce0>(X0, X1), <PREFIX#fixed_vp_25_nl0_ce1>(X2, X1) :- <PREFIX#laugh_vp_25_nl0_ce0>(X0, X2) .
+<PREFIX#baby_cp_26_nl0_ce0copy26_23>(X0, X1, X2) :- <PREFIX#baby_cp_26_nl0_ce0>(X0, X1, X2) .
+<PREFIX#require_hp_15_nl0_ce0__HP26FR0_from_0_to_4999>(X0, X1, X2, X3, X4, X5, X6) :- <PREFIX#require_hp_15_nl0_ce0>(X7, X0, X1, X2, X3, X4, X5, X6) .
+<PREFIX#require_hp_15_nl0_ce0__HP26FR1_from_5000_to_9999>(X0, X1, X2, X3, X4, X5, X6) :- <PREFIX#require_hp_15_nl0_ce0>(X7, X0, X1, X2, X3, X4, X5, X6) .
+<PREFIX#news_su_26_nl0_ce0>(X0, X1, X2, X3) :- <PREFIX#grip_su_26_nl0_ce0>(X0, X1) .
+<PREFIX#cover_vp_26_nl0_ce0>(X0, X1), <PREFIX#cry_vp_26_nl0_ce1>(X2, X3, X1) :- <PREFIX#roof_vp_26_nl0_ce0>(X0, X2, X3) .
+<PREFIX#advertisement_hp_21_nl0_ce0__HP21FR1_from_5000_to_9999>(X0, X1) :- <PREFIX#stocking_cp_27_nl0_ce0>(X0, X1) .
+<PREFIX#begin_hp_27_nl0_ce0__HP27FR0_from_0_to_4999>(X0, X1, X2) :- <PREFIX#begin_hp_27_nl0_ce0>(X3, X0, X1, X2) .
+<PREFIX#begin_hp_27_nl0_ce0__HP27FR1_from_5000_to_9999>(X0, X1, X2) :- <PREFIX#begin_hp_27_nl0_ce0>(X3, X0, X1, X2) .
+<PREFIX#act_su_27_nl0_ce0>(X0, X1, X2, X3, X4, X5) :- <PREFIX#expert_su_27_nl0_ce0>(X0, X1, X2, X3) .
+<PREFIX#avoid_vp_27_nl0_ce0>(X0, X1), <PREFIX#card_vp_27_nl0_ce1>(X2, X1) :- <PREFIX#bath_su_8_nl0_ce0>(X0, X2) .
+<PREFIX#win_su_9_nl0_ce0copy28_24>(X0, X1, X2, X3) :- <PREFIX#win_su_9_nl0_ce0>(X0, X1, X2, X3) .
+<PREFIX#walk_hp_28_nl0_ce0__HP28FR0_from_0_to_4999>(X0, X1, X2, X3, X4, X5, X6) :- <PREFIX#walk_hp_28_nl0_ce0>(X7, X0, X1, X2, X3, X4, X5, X6) .
+<PREFIX#walk_hp_28_nl0_ce0__HP28FR1_from_5000_to_9999>(X0, X1, X2, X3, X4, X5, X6) :- <PREFIX#walk_hp_28_nl0_ce0>(X7, X0, X1, X2, X3, X4, X5, X6) .
+<PREFIX#fat_su_28_nl0_ce0>(X0, X1, X2, X3, X4, X5) :- <PREFIX#touch_cp_12_nl0_ce0>(X0, X1, X2, X3) .
+<PREFIX#like_vp_28_nl0_ce0>(X0, X1), <PREFIX#oven_vp_28_nl0_ce1>(X2, X3, X1) :- <PREFIX#meal_vp_28_nl0_ce0>(X0, X2, X3) .
+<PREFIX#impulse_hp_14_nl0_ce0__HP14FR1_from_5000_to_9999>(X0, X1, X2, X3, X4) :- <PREFIX#sky_cp_29_nl0_ce0>(X0, X1, X2, X3, X4) .
+<PREFIX#amount_hp_6_nl0_ce0__HP29FR0_from_0_to_4999>(X0, X1, X2, X3) :- <PREFIX#amount_hp_6_nl0_ce0>(X4, X0, X1, X2, X3) .
+<PREFIX#amount_hp_6_nl0_ce0__HP29FR1_from_5000_to_9999>(X0, X1, X2, X3) :- <PREFIX#amount_hp_6_nl0_ce0>(X4, X0, X1, X2, X3) .
+<PREFIX#tax_su_29_nl0_ce0>(X0, X1, X2, X3, X4) :- <PREFIX#lock_su_29_nl0_ce0>(X0, X1, X2) .
+<PREFIX#lie_vp_29_nl0_ce0>(X0, X1), <PREFIX#oven_vp_29_nl0_ce1>(X2, X3, X1) :- <PREFIX#belong_vp_29_nl0_ce0>(X0, X2, X3) .
+<PREFIX#amount_cp_30_nl0_ce0copy30_25>(X0, X1, X2, X3, X4) :- <PREFIX#amount_cp_30_nl0_ce0>(X0, X1, X2, X3, X4) .
+<PREFIX#begin_hp_27_nl0_ce0__HP27FR1_from_5000_to_9999>(X0, X1, X2) :- <PREFIX#slow_hp_30_nl0_ce0>(X3, X0, X1, X2) .
+<PREFIX#pipe_hp_2_nl0_ce0__HP2FR1_from_5000_to_9999>(X0, X1, X2) :- <PREFIX#slow_hp_30_nl0_ce0>(X3, X0, X1, X2) .
+<PREFIX#regard_cp_16_nl0_ce0copy16_15>(X0, X1, X2) :- <PREFIX#study_su_30_nl0_ce0>(X0) .
+<PREFIX#sort_vp_30_nl0_ce0>(X0, X1, X2), <PREFIX#hope_vp_30_nl0_ce1>(X3, X4, X5, X2) :- <PREFIX#copy_vp_30_nl0_ce0>(X0, X1, X3, X4, X5) .
+<PREFIX#jewel_cp_23_nl0_ce0copy31_26>(X0, X1, X2, X3, X4) :- <PREFIX#jewel_cp_23_nl0_ce0>(X0, X1, X2, X3, X4) .
+<PREFIX#advertisement_hp_31_nl0_ce0__HP31FR0_from_0_to_4999>(X0, X1, X2, X3, X4, X5) :- <PREFIX#advertisement_hp_31_nl0_ce0>(X6, X0, X1, X2, X3, X4, X5) .
+<PREFIX#advertisement_hp_31_nl0_ce0__HP31FR1_from_5000_to_9999>(X0, X1, X2, X3, X4, X5) :- <PREFIX#advertisement_hp_31_nl0_ce0>(X6, X0, X1, X2, X3, X4, X5) .
+<PREFIX#matter_su_31_nl0_ce0>(X0, X1, X2, X3, X4, X5, X6) :- <PREFIX#seat_su_31_nl0_ce0>(X0, X1, X2, X3, X4) .
+<PREFIX#design_vp_31_nl0_ce0>(X0, X1), <PREFIX#fit_vp_31_nl0_ce1>(X2, X1) :- <PREFIX#dress_vp_31_nl0_ce0>(X0, X2) .
+<PREFIX#check_hp_17_nl0_ce0copy32_27>(X0, X1, X2, X3, X4) :- <PREFIX#check_hp_17_nl0_ce0>(X0, X1, X2, X3, X4) .
+<PREFIX#moon_hp_32_nl0_ce0__HP32FR0_from_0_to_4999>(X0, X1, X2, X3, X4, X5, X6, X7) :- <PREFIX#moon_hp_32_nl0_ce0>(X8, X0, X1, X2, X3, X4, X5, X6, X7) .
+<PREFIX#moon_hp_32_nl0_ce0__HP32FR1_from_5000_to_9999>(X0, X1, X2, X3, X4, X5, X6, X7) :- <PREFIX#moon_hp_32_nl0_ce0>(X8, X0, X1, X2, X3, X4, X5, X6, X7) .
+<PREFIX#copper_su_32_nl0_ce0>(X0, X1, X2, X3) :- <PREFIX#hide_su_32_nl0_ce0>(X0, X1) .
+<PREFIX#wave_vp_32_nl0_ce0>(X0, X1, X2, X3), <PREFIX#buy_vp_32_nl0_ce1>(X4, X5, X6, X3) :- <PREFIX#impulse_hp_14_nl0_ce0>(X0, X1, X2, X4, X5, X6) .
+<PREFIX#discover_vp_1_nl0_ce0>(X0, X1, X2) :- <PREFIX#different_vp_1_nl0_ce1>(X3, X4, X5) .
+<PREFIX#involve_vp_2_nl0_ce0>(X0, X1, X2, X3) :- <PREFIX#use_vp_2_nl0_ce1>(X4, X5, X6, X7, X8) .
+<PREFIX#slow_vp_3_nl0_ce0>(X0, X1) :- <PREFIX#word_vp_3_nl0_ce1>(X2, X3) .
+<PREFIX#language_vp_4_nl0_ce0>(X0, X1) :- <PREFIX#worry_vp_4_nl0_ce1>(X2, X3) .
+<PREFIX#state_vp_5_nl0_ce0>(X0, X1) :- <PREFIX#egg_vp_5_nl0_ce1>(X2, X3) .
+<PREFIX#stiff_vp_6_nl0_ce0>(X0, X1, X2) :- <PREFIX#feeling_vp_6_nl0_ce1>(X3, X4, X5) .
+<PREFIX#agencies_vp_7_nl0_ce0>(X0, X1, X2) :- <PREFIX#flat_vp_7_nl0_ce1>(X3, X4, X5) .
+<PREFIX#give_vp_8_nl0_ce0>(X0, X1) :- <PREFIX#selection_vp_8_nl0_ce1>(X2, X3, X4) .
+<PREFIX#tail_vp_9_nl0_ce0>(X0, X1) :- <PREFIX#clock_vp_9_nl0_ce1>(X2, X3) .
+<PREFIX#disgust_vp_10_nl0_ce0>(X0, X1, X2, X3) :- <PREFIX#shut_vp_10_nl0_ce1>(X4, X5, X6, X7) .
+<PREFIX#exchange_vp_11_nl0_ce0>(X0, X1) :- <PREFIX#discover_vp_11_nl0_ce1>(X2, X3) .
+<PREFIX#tall_vp_12_nl0_ce0>(X0, X1, X2) :- <PREFIX#base_vp_12_nl0_ce1>(X3, X4, X5, X6) .
+<PREFIX#train_vp_13_nl0_ce0>(X0, X1) :- <PREFIX#beat_vp_13_nl0_ce1>(X2, X3) .
+<PREFIX#insurance_vp_14_nl0_ce0>(X0, X1) :- <PREFIX#rhythm_vp_14_nl0_ce1>(X2, X3) .
+<PREFIX#office_vp_15_nl0_ce0>(X0, X1, X2) :- <PREFIX#talk_vp_15_nl0_ce1>(X3, X4, X5, X6) .
+<PREFIX#key_vp_16_nl0_ce0>(X0, X1, X2, X3) :- <PREFIX#cry_vp_16_nl0_ce1>(X4, X5, X6, X7) .
+<PREFIX#bell_vp_17_nl0_ce0>(X0, X1) :- <PREFIX#trousers_vp_17_nl0_ce1>(X2, X3, X4) .
+<PREFIX#hard_vp_18_nl0_ce0>(X0, X1) :- <PREFIX#set_vp_18_nl0_ce1>(X2, X3) .
+<PREFIX#promise_vp_19_nl0_ce0>(X0, X1) :- <PREFIX#pot_vp_19_nl0_ce1>(X2, X3) .
+<PREFIX#eye_vp_20_nl0_ce0>(X0, X1) :- <PREFIX#cork_vp_20_nl0_ce1>(X2, X3, X4) .
+<PREFIX#root_hp_7_nl0_ce0__HP7FR0_from_0_to_4999>(X0, X1, X2) :- <PREFIX#selection_vp_8_nl0_ce1>(X3, X4, X5) .
+<PREFIX#ticket_vp_22_nl0_ce0>(X0, X1) :- <PREFIX#warn_vp_22_nl0_ce1>(X2, X3, X4) .
+<PREFIX#check_su_16_nl0_ce0>(X0, X1, X2, X3, X4, X5) :- <PREFIX#whip_hp_16_nl0_ce0__HP16FR0_from_0_to_4999>(X6, X7, X8, X9, X10, X11) .
+<PREFIX#clean_vp_24_nl0_ce0>(X0, X1) :- <PREFIX#smell_vp_24_nl0_ce1>(X2, X3, X4) .
+<PREFIX#push_vp_25_nl0_ce0>(X0, X1) :- <PREFIX#fixed_vp_25_nl0_ce1>(X2, X3) .
+<PREFIX#cover_vp_26_nl0_ce0>(X0, X1) :- <PREFIX#cry_vp_26_nl0_ce1>(X2, X3, X4) .
+<PREFIX#avoid_vp_27_nl0_ce0>(X0, X1) :- <PREFIX#card_vp_27_nl0_ce1>(X2, X3) .
+<PREFIX#like_vp_28_nl0_ce0>(X0, X1) :- <PREFIX#oven_vp_28_nl0_ce1>(X2, X3, X4) .
+<PREFIX#lie_vp_29_nl0_ce0>(X0, X1) :- <PREFIX#oven_vp_29_nl0_ce1>(X2, X3, X4) .
+<PREFIX#sort_vp_30_nl0_ce0>(X0, X1, X2) :- <PREFIX#hope_vp_30_nl0_ce1>(X3, X4, X5, X6) .
+<PREFIX#design_vp_31_nl0_ce0>(X0, X1) :- <PREFIX#fit_vp_31_nl0_ce1>(X2, X3) .
+<PREFIX#wave_vp_32_nl0_ce0>(X0, X1, X2, X3) :- <PREFIX#buy_vp_32_nl0_ce1>(X4, X5, X6, X7) .
+<PREFIX#jewel_cp_23_nl0_ce0copy23_22>(X0, X1, X2, X3, X4) :- <PREFIX#hollow_hp_12_nl0_ce0__HP12FR0_from_0_to_4999>(X5, X6) .
+<PREFIX#cry_vp_16_nl0_ce1>(X0, X1, X2, X3) :- <PREFIX#window_cp_9_nl0_ce0copy9_8>(X4, X5, X6, X7) .
+<PREFIX#involve_vp_2_nl0_ce0>(X0, X1, X2, X3) :- <PREFIX#chalk_cp_5_nl0_ce0copy5_4>(X4, X5) .
+<PREFIX#check_hp_17_nl0_ce0copy32_27>(X0, X1, X2, X3, X4) :- <PREFIX#smell_vp_24_nl0_ce1>(X5, X6, X7) .
+<PREFIX#like_vp_28_nl0_ce0>(X0, X1) :- <PREFIX#jewel_cp_23_nl0_ce0copy23_22>(X2, X3, X4, X5, X6) .
+<PREFIX#like_vp_28_nl0_ce0>(X0, X1) :- <PREFIX#kind_cp_4_nl0_ce0copy4_3>(X2, X3, X4) .
+<PREFIX#beat_vp_13_nl0_ce1>(X0, X1) :- <PREFIX#amount_cp_30_nl0_ce0copy30_25>(X2, X3, X4, X5, X6) .
+
+@source <roof_vp_26_nl0_ce0>[3] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/STB-128/data/roof_vp_26_nl0_ce0.csv") .
+1
+@source <whip_hp_16_nl0_ce0>[7] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/STB-128/data/whip_hp_16_nl0_ce0.csv") .
+2
+@source <bath_su_8_nl0_ce0>[2] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/STB-128/data/bath_su_8_nl0_ce0.csv") .
+3
+@source <cheese_hp_1_nl0_ce0>[6] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/STB-128/data/cheese_hp_1_nl0_ce0.csv") .
+4
+@source <order_su_2_nl0_ce0>[7] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/STB-128/data/order_su_2_nl0_ce0.csv") .
+5
+@source <orange_su_18_nl0_ce0>[4] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/STB-128/data/orange_su_18_nl0_ce0.csv") .
+6
+@source <receive_cp_22_nl0_ce0>[3] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/STB-128/data/receive_cp_22_nl0_ce0.csv") .
+7
+@source <rough_vp_15_nl0_ce0>[5] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/STB-128/data/rough_vp_15_nl0_ce0.csv") .
+8
+@source <belong_vp_29_nl0_ce0>[3] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/STB-128/data/belong_vp_29_nl0_ce0.csv") .
+9
+@source <sudden_su_21_nl0_ce0>[3] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/STB-128/data/sudden_su_21_nl0_ce0.csv") .
+10
+@source <last_su_5_nl0_ce0>[2] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/STB-128/data/last_su_5_nl0_ce0.csv") .
+11
+@source <add_su_20_nl0_ce0>[4] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/STB-128/data/add_su_20_nl0_ce0.csv") .
+12
+@source <touch_cp_12_nl0_ce0>[4] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/STB-128/data/touch_cp_12_nl0_ce0.csv") .
+13
+@source <walk_hp_28_nl0_ce0>[8] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/STB-128/data/walk_hp_28_nl0_ce0.csv") .
+14
+@source <start_hp_5_nl0_ce0>[4] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/STB-128/data/start_hp_5_nl0_ce0.csv") .
+15
+@source <hollow_hp_10_nl0_ce0>[6] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/STB-128/data/hollow_hp_10_nl0_ce0.csv") .
+16
+@source <question_su_7_nl0_ce0>[4] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/STB-128/data/question_su_7_nl0_ce0.csv") .
+17
+@source <reveal_cp_2_nl0_ce0>[5] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/STB-128/data/reveal_cp_2_nl0_ce0.csv") .
+18
+@source <advertisement_hp_21_nl0_ce0>[3] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/STB-128/data/advertisement_hp_21_nl0_ce0.csv") .
+19
+@source <sea_hp_8_nl0_ce0>[3] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/STB-128/data/sea_hp_8_nl0_ce0.csv") .
+20
+@source <try_hp_18_nl0_ce0>[4] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/STB-128/data/try_hp_18_nl0_ce0.csv") .
+21
+@source <support_su_10_nl0_ce0>[3] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/STB-128/data/support_su_10_nl0_ce0.csv") .
+22
+@source <laugh_vp_18_nl0_ce0>[2] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/STB-128/data/laugh_vp_18_nl0_ce0.csv") .
+23
+@source <will_su_23_nl0_ce0>[3] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/STB-128/data/will_su_23_nl0_ce0.csv") .
+24
+@source <seat_su_31_nl0_ce0>[5] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/STB-128/data/seat_su_31_nl0_ce0.csv") .
+25
+@source <degree_hp_13_nl0_ce0>[3] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/STB-128/data/degree_hp_13_nl0_ce0.csv") .
+26
+@source <train_cp_8_nl0_ce0>[2] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/STB-128/data/train_cp_8_nl0_ce0.csv") .
+27
+@source <agency_cp_6_nl0_ce0>[2] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/STB-128/data/agency_cp_6_nl0_ce0.csv") .
+28
+@source <grip_su_26_nl0_ce0>[2] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/STB-128/data/grip_su_26_nl0_ce0.csv") .
+29
+@source <silk_vp_4_nl0_ce0>[2] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/STB-128/data/silk_vp_4_nl0_ce0.csv") .
+30
+@source <snake_vp_11_nl0_ce0>[2] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/STB-128/data/snake_vp_11_nl0_ce0.csv") .
+31
+@source <express_cp_10_nl0_ce0>[4] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/STB-128/data/express_cp_10_nl0_ce0.csv") .
+32
+@source <hate_hp_9_nl0_ce0>[3] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/STB-128/data/hate_hp_9_nl0_ce0.csv") .
+33
+@source <toe_cp_24_nl0_ce0>[2] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/STB-128/data/toe_cp_24_nl0_ce0.csv") .
+34
+@source <industry_vp_22_nl0_ce0>[3] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/STB-128/data/industry_vp_22_nl0_ce0.csv") .
+35
+@source <copy_vp_30_nl0_ce0>[5] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/STB-128/data/copy_vp_30_nl0_ce0.csv") .
+36
+@source <advertisement_hp_31_nl0_ce0>[7] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/STB-128/data/advertisement_hp_31_nl0_ce0.csv") .
+37
+@source <beautiful_su_16_nl0_ce0>[4] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/STB-128/data/beautiful_su_16_nl0_ce0.csv") .
+38
+@source <experience_cp_11_nl0_ce0>[3] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/STB-128/data/experience_cp_11_nl0_ce0.csv") .
+39
+@source <condition_vp_10_nl0_ce0>[6] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/STB-128/data/condition_vp_10_nl0_ce0.csv") .
+40
+@source <speak_cp_13_nl0_ce0>[2] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/STB-128/data/speak_cp_13_nl0_ce0.csv") .
+41
+@source <probable_vp_6_nl0_ce0>[4] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/STB-128/data/probable_vp_6_nl0_ce0.csv") .
+42
+@source <paint_cp_3_nl0_ce0>[3] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/STB-128/data/paint_cp_3_nl0_ce0.csv") .
+43
+@source <remain_cp_19_nl0_ce0>[6] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/STB-128/data/remain_cp_19_nl0_ce0.csv") .
+44
+@source <regular_hp_3_nl0_ce0>[6] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/STB-128/data/regular_hp_3_nl0_ce0.csv") .
+45
+@source <basin_vp_14_nl0_ce0>[2] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/STB-128/data/basin_vp_14_nl0_ce0.csv") .
+46
+@source <library_su_3_nl0_ce0>[3] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/STB-128/data/library_su_3_nl0_ce0.csv") .
+47
+@source <lock_su_29_nl0_ce0>[3] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/STB-128/data/lock_su_29_nl0_ce0.csv") .
+48
+@source <window_cp_9_nl0_ce0>[4] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/STB-128/data/window_cp_9_nl0_ce0.csv") .
+49
+@source <thin_su_15_nl0_ce0>[4] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/STB-128/data/thin_su_15_nl0_ce0.csv") .
+50
+@source <love_su_4_nl0_ce0>[5] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/STB-128/data/love_su_4_nl0_ce0.csv") .
+51
+@source <study_su_30_nl0_ce0>[1] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/STB-128/data/study_su_30_nl0_ce0.csv") .
+52
+@source <leather_su_6_nl0_ce0>[2] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/STB-128/data/leather_su_6_nl0_ce0.csv") .
+53
+@source <approval_vp_2_nl0_ce0>[7] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/STB-128/data/approval_vp_2_nl0_ce0.csv") .
+54
+@source <weight_su_13_nl0_ce0>[2] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/STB-128/data/weight_su_13_nl0_ce0.csv") .
+55
+@source <fiction_cp_15_nl0_ce0>[3] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/STB-128/data/fiction_cp_15_nl0_ce0.csv") .
+56
+@source <steel_hp_22_nl0_ce0>[5] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/STB-128/data/steel_hp_22_nl0_ce0.csv") .
+57
+@source <bulb_hp_19_nl0_ce0>[6] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/STB-128/data/bulb_hp_19_nl0_ce0.csv") .
+58
+@source <fiction_vp_13_nl0_ce0>[2] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/STB-128/data/fiction_vp_13_nl0_ce0.csv") .
+59
+@source <rhythm_su_17_nl0_ce0>[2] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/STB-128/data/rhythm_su_17_nl0_ce0.csv") .
+60
+@source <stop_su_14_nl0_ce0>[2] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/STB-128/data/stop_su_14_nl0_ce0.csv") .
+61
+@source <return_vp_8_nl0_ce0>[3] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/STB-128/data/return_vp_8_nl0_ce0.csv") .
+62
+@source <lead_cp_21_nl0_ce0>[4] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/STB-128/data/lead_cp_21_nl0_ce0.csv") .
+63
+@source <board_su_1_nl0_ce0>[6] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/STB-128/data/board_su_1_nl0_ce0.csv") .
+64
+@source <involve_cp_25_nl0_ce0>[5] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/STB-128/data/involve_cp_25_nl0_ce0.csv") .
+65
+@source <hammer_cp_14_nl0_ce0>[5] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/STB-128/data/hammer_cp_14_nl0_ce0.csv") .
+66
+@source <chalk_cp_5_nl0_ce0>[2] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/STB-128/data/chalk_cp_5_nl0_ce0.csv") .
+67
+@source <hollow_hp_12_nl0_ce0>[3] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/STB-128/data/hollow_hp_12_nl0_ce0.csv") .
+68
+@source <letter_vp_1_nl0_ce0>[4] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/STB-128/data/letter_vp_1_nl0_ce0.csv") .
+69
+@source <dress_vp_31_nl0_ce0>[2] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/STB-128/data/dress_vp_31_nl0_ce0.csv") .
+70
+@source <glove_hp_24_nl0_ce0>[5] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/STB-128/data/glove_hp_24_nl0_ce0.csv") .
+71
+@source <shut_vp_9_nl0_ce0>[2] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/STB-128/data/shut_vp_9_nl0_ce0.csv") .
+72
+@source <kind_cp_4_nl0_ce0>[3] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/STB-128/data/kind_cp_4_nl0_ce0.csv") .
+73
+@source <begin_hp_27_nl0_ce0>[4] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/STB-128/data/begin_hp_27_nl0_ce0.csv") .
+74
+@source <sky_cp_29_nl0_ce0>[5] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/STB-128/data/sky_cp_29_nl0_ce0.csv") .
+75
+@source <pipe_hp_2_nl0_ce0>[4] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/STB-128/data/pipe_hp_2_nl0_ce0.csv") .
+76
+@source <side_vp_16_nl0_ce0>[6] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/STB-128/data/side_vp_16_nl0_ce0.csv") .
+77
+@source <connect_cp_7_nl0_ce0>[3] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/STB-128/data/connect_cp_7_nl0_ce0.csv") .
+78
+@source <regard_cp_16_nl0_ce0>[3] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/STB-128/data/regard_cp_16_nl0_ce0.csv") .
+79
+@source <poor_vp_7_nl0_ce0>[4] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/STB-128/data/poor_vp_7_nl0_ce0.csv") .
+80
+@source <poor_vp_17_nl0_ce0>[3] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/STB-128/data/poor_vp_17_nl0_ce0.csv") .
+81
+@source <round_su_25_nl0_ce0>[2] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/STB-128/data/round_su_25_nl0_ce0.csv") .
+82
+@source <baby_cp_26_nl0_ce0>[3] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/STB-128/data/baby_cp_26_nl0_ce0.csv") .
+83
+@source <committee_vp_23_nl0_ce0>[10] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/STB-128/data/committee_vp_23_nl0_ce0.csv") .
+84
+@source <expert_su_27_nl0_ce0>[4] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/STB-128/data/expert_su_27_nl0_ce0.csv") .
+85
+@source <root_hp_7_nl0_ce0>[4] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/STB-128/data/root_hp_7_nl0_ce0.csv") .
+86
+@source <garden_vp_3_nl0_ce0>[2] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/STB-128/data/garden_vp_3_nl0_ce0.csv") .
+87
+@source <check_hp_17_nl0_ce0>[5] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/STB-128/data/check_hp_17_nl0_ce0.csv") .
+88
+@source <amount_cp_30_nl0_ce0>[5] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/STB-128/data/amount_cp_30_nl0_ce0.csv") .
+89
+@source <moon_hp_32_nl0_ce0>[9] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/STB-128/data/moon_hp_32_nl0_ce0.csv") .
+90
+@source <impulse_hp_14_nl0_ce0>[6] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/STB-128/data/impulse_hp_14_nl0_ce0.csv") .
+91
+@source <jewel_cp_23_nl0_ce0>[5] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/STB-128/data/jewel_cp_23_nl0_ce0.csv") .
+92
+@source <learn_vp_20_nl0_ce0>[3] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/STB-128/data/learn_vp_20_nl0_ce0.csv") .
+93
+@source <amount_hp_6_nl0_ce0>[5] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/STB-128/data/amount_hp_6_nl0_ce0.csv") .
+94
+@source <violent_hp_4_nl0_ce0>[3] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/STB-128/data/violent_hp_4_nl0_ce0.csv") .
+95
+@source <hurt_vp_19_nl0_ce0>[2] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/STB-128/data/hurt_vp_19_nl0_ce0.csv") .
+96
+@source <eat_hp_11_nl0_ce0>[3] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/STB-128/data/eat_hp_11_nl0_ce0.csv") .
+97
+@source <laugh_vp_25_nl0_ce0>[2] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/STB-128/data/laugh_vp_25_nl0_ce0.csv") .
+98
+@source <slow_hp_30_nl0_ce0>[4] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/STB-128/data/slow_hp_30_nl0_ce0.csv") .
+99
+@source <mention_vp_5_nl0_ce0>[2] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/STB-128/data/mention_vp_5_nl0_ce0.csv") .
+100
+@source <stocking_cp_27_nl0_ce0>[2] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/STB-128/data/stocking_cp_27_nl0_ce0.csv") .
+101
+@source <foot_su_11_nl0_ce0>[2] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/STB-128/data/foot_su_11_nl0_ce0.csv") .
+102
+@source <test_cp_1_nl0_ce0>[5] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/STB-128/data/test_cp_1_nl0_ce0.csv") .
+103
+@source <male_su_19_nl0_ce0>[4] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/STB-128/data/male_su_19_nl0_ce0.csv") .
+104
+@source <fruit_vp_12_nl0_ce0>[5] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/STB-128/data/fruit_vp_12_nl0_ce0.csv") .
+105
+@source <observation_su_12_nl0_ce0>[3] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/STB-128/data/observation_su_12_nl0_ce0.csv") .
+106
+@source <coat_vp_21_nl0_ce0>[4] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/STB-128/data/coat_vp_21_nl0_ce0.csv") .
+107
+@source <hide_su_32_nl0_ce0>[2] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/STB-128/data/hide_su_32_nl0_ce0.csv") .
+108
+@source <require_hp_15_nl0_ce0>[8] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/STB-128/data/require_hp_15_nl0_ce0.csv") .
+109
+@source <win_su_9_nl0_ce0>[4] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/STB-128/data/win_su_9_nl0_ce0.csv") .
+110
+@source <meal_vp_28_nl0_ce0>[3] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/STB-128/data/meal_vp_28_nl0_ce0.csv") .
+111
+Finish Loading data, cost 532 ms
+Abduction on query: ?(X0) :- <PREFIX#give_vp_8_nl0_ce0>(X1, X2), <PREFIX#bell_vp_17_nl0_ce0>(X3, X1), <PREFIX#beat_vp_13_nl0_ce1>(X1, X4), <PREFIX#train_cp_8_nl0_ce0copy8_7>(X1, X0) .
+Observation: <PREFIX#give_vp_8_nl0_ce0>(X1, X2), <PREFIX#bell_vp_17_nl0_ce0>(X3, X1), <PREFIX#beat_vp_13_nl0_ce1>(X1, X4), <PREFIX#train_cp_8_nl0_ce0copy8_7>(X1, X0), <ANS>(X0)
+Number of Explanations: (Compact) 12 (Full) 10095 Size(Compact): 57 Size(Full): 40305 cost: 21833 ms
+Abduction on query: ?(X0) :- <PREFIX#give_vp_8_nl0_ce0>(X1, X2), <PREFIX#bell_vp_17_nl0_ce0>(X3, X1), <PREFIX#beat_vp_13_nl0_ce1>(X1, X4), <PREFIX#train_cp_8_nl0_ce0copy8_7>(X1, X0) .
+Observation: <PREFIX#give_vp_8_nl0_ce0>(X1, X2), <PREFIX#bell_vp_17_nl0_ce0>(X3, X1), <PREFIX#beat_vp_13_nl0_ce1>(X1, X4), <PREFIX#train_cp_8_nl0_ce0copy8_7>(X1, X0), <ANS>(X0)
+Number of Explanations: (Compact) 12 (Full) 10095 Size(Compact): 57 Size(Full): 40305 cost: 3784 ms
+Abduction on query: ?(X0,X1,X2,X3,X4,X5,X6,X7,X8,X9) :- <PREFIX#rough_vp_15_nl0_ce0__HP20FR0_from_0_to_4999>(X0, X3, X1, X2), <PREFIX#talk_vp_15_nl0_ce1>(X5, X1, X4, X10), <PREFIX#rough_vp_15_nl0_ce0__HP20FR1_from_5000_to_9999>(X7, X6, X8, X4), <PREFIX#office_vp_15_nl0_ce0>(X9, X7, X11) .
+Observation: <PREFIX#rough_vp_15_nl0_ce0__HP20FR0_from_0_to_4999>(X0, X3, X1, X2), <PREFIX#talk_vp_15_nl0_ce1>(X5, X1, X4, X10), <PREFIX#rough_vp_15_nl0_ce0__HP20FR1_from_5000_to_9999>(X7, X6, X8, X4), <PREFIX#office_vp_15_nl0_ce0>(X9, X7, X11), <ANS>(X0, X1, X2, X3, X4, X5, X6, X7, X8, X9)
