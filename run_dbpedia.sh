@@ -1,15 +1,14 @@
 #!/bin/bash
 
-queries=../benchmarks/DBpedia/queries_0424.dlp
-ontologies=(rules_test11_lr1000 0504_test13_final 0504_test10_final rules_test7_lr5 0504_test8_final 0504_test9_final 0504_test9_final 0504_test9_final)
-datasets=(data_test7_5k data_test7_5k data_test7_5k data_test7_5k data_test7_5k data_test7_5k data_test7_10k data_test7_20k)
+ontologies=(rules_len2_dep1 rules_len2_dep5 rules_len2_dep10 rules_len3_dep10 rules_len3_dep10 rules_len3_dep10)
+datasets=(data_5k data_5k data_5k data_5k data_10k data_20k)
 
-for ((i=2;i<3;i++))
+for ((i=0;i<6;i++))
 do
     echo "********"$i"********"
     for ((m=0;m<3;m++))
     do
-        java -Xms8g -Xmx8g -jar drewer.jar -o ../benchmarks/DBpedia/${ontologies[$i]}".dlp" -d ../benchmarks/DBpedia/${datasets[$i]} -q $queries -m $m > results/DBpedia/"exp"$i"_m"$m".out"
+        java -Xms8g -Xmx8g -jar drewer.jar -o ../benchmarks/DBpedia/${ontologies[$i]}".dlp" -d ../benchmarks/DBpedia/${datasets[$i]} -q benchmarks/DBpedia/queries.dlp -m $m > results/DBpedia/"exp"$i"_m"$m".out"
     echo "m"${m}" done"
     done
     echo "*****************"

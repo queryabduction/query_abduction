@@ -1,0 +1,6 @@
+?() :- isOwnerOf("creditcard177",fc), Account(fc).
+?() :- isOwnerOf("creditcard177",fc), Account(fc).
+?() :- hasCreditCard("account1762",fc), Client(fc).
+?() :- hasOwner(fc,"creditcard177"), Payment(fc).
+?() :- Running("creditcard177"), Region("creditcard177").
+?() :- Account(fc), Junior(fc).

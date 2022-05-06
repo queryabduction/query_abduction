@@ -1,0 +1,223 @@
+<http://vicodi.org/ontology#Time-Dependent-Relation>(X0) :- <http://vicodi.org/ontology#isRelationMemberOf>(X3, X0).
+<http://vicodi.org/ontology#Location>(X0) :- <http://vicodi.org/ontology#hasLocationPartMember>(X3, X0).
+<http://vicodi.org/ontology#Category>(X0) :- <http://vicodi.org/ontology#hasCategory>(X3, X0).
+<http://vicodi.org/ontology#VicodiOI>(X0) :- <http://vicodi.org/ontology#related>(X3, X0).
+<http://vicodi.org/ontology#Location-Part-Relation>(X0) :- <http://vicodi.org/ontology#isLocationPartMemberOf>(X3, X0).
+<http://vicodi.org/ontology#Location-Part-Relation>(X0) :- <http://vicodi.org/ontology#isLocationContainerMemberOf>(X3, X0).
+<http://vicodi.org/ontology#Role>(X0) :- <http://vicodi.org/ontology#hasRole>(X3, X0).
+<http://vicodi.org/ontology#Time>(X0) :- <http://vicodi.org/ontology#exists>(X3, X0).
+<http://vicodi.org/ontology#Location>(X0) :- <http://vicodi.org/ontology#hasLocationContainerMember>(X3, X0).
+<http://vicodi.org/ontology#Time-Dependent>(X0) :- <http://vicodi.org/ontology#hasRelationMember>(X3, X0).
+<http://vicodi.org/ontology#Time-Dependent>(X0) :- <http://vicodi.org/ontology#hasCategory>(X0, X3).
+<http://vicodi.org/ontology#Flavour>(X0) :- <http://vicodi.org/ontology#hasRole>(X0, X3).
+<http://vicodi.org/ontology#VicodiOI>(X0) :- <http://vicodi.org/ontology#related>(X0, X3).
+<http://vicodi.org/ontology#Location>(X0) :- <http://vicodi.org/ontology#isLocationPartMemberOf>(X0, X3).
+<http://vicodi.org/ontology#Time-Dependent>(X0) :- <http://vicodi.org/ontology#exists>(X0, X3).
+<http://vicodi.org/ontology#Location-Part-Relation>(X0) :- <http://vicodi.org/ontology#hasLocationContainerMember>(X0, X3).
+<http://vicodi.org/ontology#Time-Dependent>(X0) :- <http://vicodi.org/ontology#isRelationMemberOf>(X0, X3).
+<http://vicodi.org/ontology#Location>(X0) :- <http://vicodi.org/ontology#isLocationContainerMemberOf>(X0, X3).
+<http://vicodi.org/ontology#Location-Part-Relation>(X0) :- <http://vicodi.org/ontology#hasLocationPartMember>(X0, X3).
+<http://vicodi.org/ontology#Time-Dependent-Relation>(X0) :- <http://vicodi.org/ontology#hasRelationMember>(X0, X3).
+<http://vicodi.org/ontology#isRelationMemberOf>(X0, X1) :- <http://vicodi.org/ontology#isLocationPartMemberOf>(X0, X1).
+<http://vicodi.org/ontology#related>(X0, X1) :- <http://vicodi.org/ontology#exists>(X0, X1).
+<http://vicodi.org/ontology#related>(X0, X1) :- <http://vicodi.org/ontology#hasCategory>(X0, X1).
+<http://vicodi.org/ontology#related>(X0, X1) :- <http://vicodi.org/ontology#isRelationMemberOf>(X0, X1).
+<http://vicodi.org/ontology#isRelationMemberOf>(X0, X1) :- <http://vicodi.org/ontology#isLocationContainerMemberOf>(X0, X1).
+<http://vicodi.org/ontology#related>(X0, X1) :- <http://vicodi.org/ontology#hasRole>(X0, X1).
+<http://vicodi.org/ontology#hasRelationMember>(X0, X1) :- <http://vicodi.org/ontology#hasLocationContainerMember>(X0, X1).
+<http://vicodi.org/ontology#related>(X0, X1) :- <http://vicodi.org/ontology#hasRelationMember>(X0, X1).
+<http://vicodi.org/ontology#hasRelationMember>(X0, X1) :- <http://vicodi.org/ontology#hasLocationPartMember>(X0, X1).
+<http://vicodi.org/ontology#Abstract-Notion>(X0) :- <http://vicodi.org/ontology#Ideology>(X0).
+<http://vicodi.org/ontology#Scientist>(X0) :- <http://vicodi.org/ontology#Economist>(X0).
+<http://vicodi.org/ontology#Creator>(X0) :- <http://vicodi.org/ontology#Architect>(X0).
+<http://vicodi.org/ontology#Flavour>(X0) :- <http://vicodi.org/ontology#Object>(X0).
+<http://vicodi.org/ontology#Work-of-Art>(X0) :- <http://vicodi.org/ontology#Painting>(X0).
+<http://vicodi.org/ontology#Natural-Object>(X0) :- <http://vicodi.org/ontology#Disease>(X0).
+<http://vicodi.org/ontology#Political-Organisation>(X0) :- <http://vicodi.org/ontology#Governmental-Organisation>(X0).
+<http://vicodi.org/ontology#Building>(X0) :- <http://vicodi.org/ontology#Abbey>(X0).
+<http://vicodi.org/ontology#Creator>(X0) :- <http://vicodi.org/ontology#Film-Maker>(X0).
+<http://vicodi.org/ontology#Economic-Organisation>(X0) :- <http://vicodi.org/ontology#Economic-Enterprise>(X0).
+<http://vicodi.org/ontology#Location>(X0) :- <http://vicodi.org/ontology#Intra-State-Group>(X0).
+<http://vicodi.org/ontology#Conceptual-Object>(X0) :- <http://vicodi.org/ontology#Ritual>(X0).
+<http://vicodi.org/ontology#Flavour>(X0) :- <http://vicodi.org/ontology#Event>(X0).
+<http://vicodi.org/ontology#Scientist>(X0) :- <http://vicodi.org/ontology#Psychologist>(X0).
+<http://vicodi.org/ontology#Artefact>(X0) :- <http://vicodi.org/ontology#Liturgical-Object>(X0).
+<http://vicodi.org/ontology#Event>(X0) :- <http://vicodi.org/ontology#Battle>(X0).
+<http://vicodi.org/ontology#Abstract-Notion>(X0) :- <http://vicodi.org/ontology#Artistic-Style>(X0).
+<http://vicodi.org/ontology#Building>(X0) :- <http://vicodi.org/ontology#Monastery>(X0).
+<http://vicodi.org/ontology#Artefact>(X0) :- <http://vicodi.org/ontology#Clothing>(X0).
+<http://vicodi.org/ontology#VicodiOI>(X0) :- <http://vicodi.org/ontology#Time-Dependent>(X0).
+<http://vicodi.org/ontology#Work-of-Art>(X0) :- <http://vicodi.org/ontology#Piece-of-Music>(X0).
+<http://vicodi.org/ontology#Artefact>(X0) :- <http://vicodi.org/ontology#Pollution>(X0).
+<http://vicodi.org/ontology#Event>(X0) :- <http://vicodi.org/ontology#Fictional-Event>(X0).
+<http://vicodi.org/ontology#Person-Role>(X0) :- <http://vicodi.org/ontology#Criminal>(X0).
+<http://vicodi.org/ontology#Building>(X0) :- <http://vicodi.org/ontology#Cathedral>(X0).
+<http://vicodi.org/ontology#Individual>(X0) :- <http://vicodi.org/ontology#Fictional-Person>(X0).
+<http://vicodi.org/ontology#Event>(X0) :- <http://vicodi.org/ontology#Non-Military-Conflict>(X0).
+<http://vicodi.org/ontology#Person-Role>(X0) :- <http://vicodi.org/ontology#Leader>(X0).
+<http://vicodi.org/ontology#Person-Role>(X0) :- <http://vicodi.org/ontology#Other-Religious-Person>(X0).
+<http://vicodi.org/ontology#Ideology>(X0) :- <http://vicodi.org/ontology#Religious-Ideology>(X0).
+<http://vicodi.org/ontology#Head-of-State>(X0) :- <http://vicodi.org/ontology#Sultan>(X0).
+<http://vicodi.org/ontology#Role>(X0) :- <http://vicodi.org/ontology#Symbol>(X0).
+<http://vicodi.org/ontology#Abstract-Notion>(X0) :- <http://vicodi.org/ontology#Language>(X0).
+<http://vicodi.org/ontology#Symbol>(X0) :- <http://vicodi.org/ontology#National-Symbol>(X0).
+<http://vicodi.org/ontology#Organisation>(X0) :- <http://vicodi.org/ontology#Military-Organisation>(X0).
+<http://vicodi.org/ontology#Symbol>(X0) :- <http://vicodi.org/ontology#Economic-Symbol>(X0).
+<http://vicodi.org/ontology#Abstract-Notion>(X0) :- <http://vicodi.org/ontology#Art-Form>(X0).
+<http://vicodi.org/ontology#Artefact>(X0) :- <http://vicodi.org/ontology#Armament>(X0).
+<http://vicodi.org/ontology#Event>(X0) :- <http://vicodi.org/ontology#Legislation>(X0).
+<http://vicodi.org/ontology#Military-Organisation>(X0) :- <http://vicodi.org/ontology#Military-Unit>(X0).
+<http://vicodi.org/ontology#Object>(X0) :- <http://vicodi.org/ontology#Natural-Object>(X0).
+<http://vicodi.org/ontology#Abstract-Notion>(X0) :- <http://vicodi.org/ontology#Intellectual-Construct>(X0).
+<http://vicodi.org/ontology#Cultural-Organisation>(X0) :- <http://vicodi.org/ontology#Religious-Organisation>(X0).
+<http://vicodi.org/ontology#Head-of-State>(X0) :- <http://vicodi.org/ontology#Emperor>(X0).
+<http://vicodi.org/ontology#Time-Dependent>(X0) :- <http://vicodi.org/ontology#Time-Dependent-Relation>(X0).
+<http://vicodi.org/ontology#Object>(X0) :- <http://vicodi.org/ontology#Conceptual-Object>(X0).
+<http://vicodi.org/ontology#Secular-Leader>(X0) :- <http://vicodi.org/ontology#Magnate>(X0).
+<http://vicodi.org/ontology#Flavour>(X0) :- <http://vicodi.org/ontology#Abstract-Notion>(X0).
+<http://vicodi.org/ontology#Geographical-Feature>(X0) :- <http://vicodi.org/ontology#Geographical-Region>(X0).
+<http://vicodi.org/ontology#Event>(X0) :- <http://vicodi.org/ontology#Geographical-Discovery>(X0).
+<http://vicodi.org/ontology#Social-Group>(X0) :- <http://vicodi.org/ontology#Social-Stratum>(X0).
+<http://vicodi.org/ontology#Flavour>(X0) :- <http://vicodi.org/ontology#Individual>(X0).
+<http://vicodi.org/ontology#Movement>(X0) :- <http://vicodi.org/ontology#Religious-Movement>(X0).
+<http://vicodi.org/ontology#Person-Role>(X0) :- <http://vicodi.org/ontology#Professor>(X0).
+<http://vicodi.org/ontology#Event>(X0) :- <http://vicodi.org/ontology#Treaty>(X0).
+<http://vicodi.org/ontology#Cultural-Organisation>(X0) :- <http://vicodi.org/ontology#Masonic-Lodge>(X0).
+<http://vicodi.org/ontology#Creator>(X0) :- <http://vicodi.org/ontology#Artist>(X0).
+<http://vicodi.org/ontology#Person-Role>(X0) :- <http://vicodi.org/ontology#Inventor>(X0).
+<http://vicodi.org/ontology#Head-of-State>(X0) :- <http://vicodi.org/ontology#King>(X0).
+<http://vicodi.org/ontology#Head-of-State>(X0) :- <http://vicodi.org/ontology#Queen>(X0).
+<http://vicodi.org/ontology#Abstract-Notion>(X0) :- <http://vicodi.org/ontology#Measurable-Trend>(X0).
+<http://vicodi.org/ontology#Secular-Leader>(X0) :- <http://vicodi.org/ontology#Head-of-Government>(X0).
+<http://vicodi.org/ontology#Movement>(X0) :- <http://vicodi.org/ontology#Artistic-Movement>(X0).
+<http://vicodi.org/ontology#Natural-Object>(X0) :- <http://vicodi.org/ontology#Commodity>(X0).
+<http://vicodi.org/ontology#Time>(X0) :- <http://vicodi.org/ontology#FuzzyTemporalInterval>(X0).
+<http://vicodi.org/ontology#Person-Role>(X0) :- <http://vicodi.org/ontology#Physician>(X0).
+<http://vicodi.org/ontology#Economic-Organisation>(X0) :- <http://vicodi.org/ontology#Trades-Union>(X0).
+<http://vicodi.org/ontology#Entertainer>(X0) :- <http://vicodi.org/ontology#Dancer>(X0).
+<http://vicodi.org/ontology#Location>(X0) :- <http://vicodi.org/ontology#Geographical-Feature>(X0).
+<http://vicodi.org/ontology#Organisation>(X0) :- <http://vicodi.org/ontology#Management-Organisation>(X0).
+<http://vicodi.org/ontology#Geographical-Feature>(X0) :- <http://vicodi.org/ontology#Water>(X0).
+<http://vicodi.org/ontology#Event>(X0) :- <http://vicodi.org/ontology#Uprising>(X0).
+<http://vicodi.org/ontology#Person-Role>(X0) :- <http://vicodi.org/ontology#Sportsman>(X0).
+<http://vicodi.org/ontology#Event>(X0) :- <http://vicodi.org/ontology#Life-Event>(X0).
+<http://vicodi.org/ontology#Event>(X0) :- <http://vicodi.org/ontology#Crime>(X0).
+<http://vicodi.org/ontology#Symbol>(X0) :- <http://vicodi.org/ontology#Religious-Symbol>(X0).
+<http://vicodi.org/ontology#Individual>(X0) :- <http://vicodi.org/ontology#Person>(X0).
+<http://vicodi.org/ontology#Vehicle>(X0) :- <http://vicodi.org/ontology#Ship>(X0).
+<http://vicodi.org/ontology#Person-Role>(X0) :- <http://vicodi.org/ontology#Saint>(X0).
+<http://vicodi.org/ontology#Discoverer>(X0) :- <http://vicodi.org/ontology#Astronaut>(X0).
+<http://vicodi.org/ontology#Head-of-State>(X0) :- <http://vicodi.org/ontology#Prince>(X0).
+<http://vicodi.org/ontology#Magnate>(X0) :- <http://vicodi.org/ontology#Business-Leader>(X0).
+<http://vicodi.org/ontology#Functionary>(X0) :- <http://vicodi.org/ontology#Diplomat>(X0).
+<http://vicodi.org/ontology#Artist>(X0) :- <http://vicodi.org/ontology#Sculptor>(X0).
+<http://vicodi.org/ontology#Intellectual-Construct>(X0) :- <http://vicodi.org/ontology#Field-of-Knowledge>(X0).
+<http://vicodi.org/ontology#Person-Role>(X0) :- <http://vicodi.org/ontology#Functionary>(X0).
+<http://vicodi.org/ontology#Political-Organisation>(X0) :- <http://vicodi.org/ontology#League>(X0).
+<http://vicodi.org/ontology#Conceptual-Object>(X0) :- <http://vicodi.org/ontology#Badge>(X0).
+<http://vicodi.org/ontology#Natural-Object>(X0) :- <http://vicodi.org/ontology#Animal>(X0).
+<http://vicodi.org/ontology#Artist>(X0) :- <http://vicodi.org/ontology#Painter>(X0).
+<http://vicodi.org/ontology#Religious-Leader>(X0) :- <http://vicodi.org/ontology#Pope>(X0).
+<http://vicodi.org/ontology#Time-Dependent-Relation>(X0) :- <http://vicodi.org/ontology#Location-Part-Relation>(X0).
+<http://vicodi.org/ontology#Writing>(X0) :- <http://vicodi.org/ontology#Pamphlet>(X0).
+<http://vicodi.org/ontology#Secular-Leader>(X0) :- <http://vicodi.org/ontology#Head-of-State>(X0).
+<http://vicodi.org/ontology#Organisation>(X0) :- <http://vicodi.org/ontology#Political-Organisation>(X0).
+<http://vicodi.org/ontology#Time-Dependent>(X0) :- <http://vicodi.org/ontology#Role>(X0).
+<http://vicodi.org/ontology#Event>(X0) :- <http://vicodi.org/ontology#Cultural-Agreement>(X0).
+<http://vicodi.org/ontology#Organisation>(X0) :- <http://vicodi.org/ontology#Economic-Organisation>(X0).
+<http://vicodi.org/ontology#Location>(X0) :- <http://vicodi.org/ontology#Political-Region>(X0).
+<http://vicodi.org/ontology#Secular-Leader>(X0) :- <http://vicodi.org/ontology#Trades-Unionist>(X0).
+<http://vicodi.org/ontology#Social-Group>(X0) :- <http://vicodi.org/ontology#Dynasty>(X0).
+<http://vicodi.org/ontology#Event>(X0) :- <http://vicodi.org/ontology#Public-Oration>(X0).
+<http://vicodi.org/ontology#Natural-Object>(X0) :- <http://vicodi.org/ontology#Food>(X0).
+<http://vicodi.org/ontology#Location>(X0) :- <http://vicodi.org/ontology#Country>(X0).
+<http://vicodi.org/ontology#Artefact>(X0) :- <http://vicodi.org/ontology#Building>(X0).
+<http://vicodi.org/ontology#Political-Organisation>(X0) :- <http://vicodi.org/ontology#International-Alliance>(X0).
+<http://vicodi.org/ontology#Creator>(X0) :- <http://vicodi.org/ontology#Dramaturge>(X0).
+<http://vicodi.org/ontology#Religious-Organisation>(X0) :- <http://vicodi.org/ontology#Religious-Community>(X0).
+<http://vicodi.org/ontology#Artist>(X0) :- <http://vicodi.org/ontology#Composer>(X0).
+<http://vicodi.org/ontology#Flavour>(X0) :- <http://vicodi.org/ontology#Location>(X0).
+<http://vicodi.org/ontology#Natural-Object>(X0) :- <http://vicodi.org/ontology#Environment>(X0).
+<http://vicodi.org/ontology#Entertainer>(X0) :- <http://vicodi.org/ontology#Musician>(X0).
+<http://vicodi.org/ontology#Management-Organisation>(X0) :- <http://vicodi.org/ontology#Board>(X0).
+<http://vicodi.org/ontology#Artefact>(X0) :- <http://vicodi.org/ontology#Work-of-Art>(X0).
+<http://vicodi.org/ontology#Symbol>(X0) :- <http://vicodi.org/ontology#Political-Symbol>(X0).
+<http://vicodi.org/ontology#Political-Organisation>(X0) :- <http://vicodi.org/ontology#Party>(X0).
+<http://vicodi.org/ontology#Functionary>(X0) :- <http://vicodi.org/ontology#Jurist>(X0).
+<http://vicodi.org/ontology#Object>(X0) :- <http://vicodi.org/ontology#Artefact>(X0).
+<http://vicodi.org/ontology#Ideology>(X0) :- <http://vicodi.org/ontology#Secular-Ideology>(X0).
+<http://vicodi.org/ontology#Writing>(X0) :- <http://vicodi.org/ontology#Book>(X0).
+<http://vicodi.org/ontology#Flavour>(X0) :- <http://vicodi.org/ontology#Organisation>(X0).
+<http://vicodi.org/ontology#Social-Group>(X0) :- <http://vicodi.org/ontology#Movement>(X0).
+<http://vicodi.org/ontology#Leader>(X0) :- <http://vicodi.org/ontology#Secular-Leader>(X0).
+<http://vicodi.org/ontology#Event>(X0) :- <http://vicodi.org/ontology#Population-Movement>(X0).
+<http://vicodi.org/ontology#Artefact>(X0) :- <http://vicodi.org/ontology#Structure>(X0).
+<http://vicodi.org/ontology#Person-Role>(X0) :- <http://vicodi.org/ontology#Philanthropist>(X0).
+<http://vicodi.org/ontology#Work-of-Art>(X0) :- <http://vicodi.org/ontology#Sculpture>(X0).
+<http://vicodi.org/ontology#Event>(X0) :- <http://vicodi.org/ontology#Disaster>(X0).
+<http://vicodi.org/ontology#Movement>(X0) :- <http://vicodi.org/ontology#Intellectual-Movement>(X0).
+<http://vicodi.org/ontology#Event>(X0) :- <http://vicodi.org/ontology#Period>(X0).
+<http://vicodi.org/ontology#Religious-Organisation>(X0) :- <http://vicodi.org/ontology#Religious-Order>(X0).
+<http://vicodi.org/ontology#Location>(X0) :- <http://vicodi.org/ontology#Settlement>(X0).
+<http://vicodi.org/ontology#Social-Group>(X0) :- <http://vicodi.org/ontology#Stereotype-Group>(X0).
+<http://vicodi.org/ontology#Artefact>(X0) :- <http://vicodi.org/ontology#Scientific-Instrument>(X0).
+<http://vicodi.org/ontology#Event>(X0) :- <http://vicodi.org/ontology#Election>(X0).
+<http://vicodi.org/ontology#Organisation>(X0) :- <http://vicodi.org/ontology#International-Organisation>(X0).
+<http://vicodi.org/ontology#Settlement>(X0) :- <http://vicodi.org/ontology#City>(X0).
+<http://vicodi.org/ontology#Person-Role>(X0) :- <http://vicodi.org/ontology#Cleric>(X0).
+<http://vicodi.org/ontology#Social-Group>(X0) :- <http://vicodi.org/ontology#Ethnic-Group>(X0).
+<http://vicodi.org/ontology#Artefact>(X0) :- <http://vicodi.org/ontology#Writing>(X0).
+<http://vicodi.org/ontology#Event>(X0) :- <http://vicodi.org/ontology#Trial>(X0).
+<http://vicodi.org/ontology#Vehicle>(X0) :- <http://vicodi.org/ontology#Train>(X0).
+<http://vicodi.org/ontology#Flavour>(X0) :- <http://vicodi.org/ontology#Social-Group>(X0).
+<http://vicodi.org/ontology#Creator>(X0) :- <http://vicodi.org/ontology#Publisher>(X0).
+<http://vicodi.org/ontology#VicodiOI>(X0) :- <http://vicodi.org/ontology#Time>(X0).
+<http://vicodi.org/ontology#Artefact>(X0) :- <http://vicodi.org/ontology#Relic>(X0).
+<http://vicodi.org/ontology#Economic-Organisation>(X0) :- <http://vicodi.org/ontology#Trade-Association>(X0).
+<http://vicodi.org/ontology#Creator>(X0) :- <http://vicodi.org/ontology#Engineer>(X0).
+<http://vicodi.org/ontology#Organisation>(X0) :- <http://vicodi.org/ontology#Cultural-Organisation>(X0).
+<http://vicodi.org/ontology#Minister>(X0) :- <http://vicodi.org/ontology#Foreign-Minister>(X0).
+<http://vicodi.org/ontology#Religious-Leader>(X0) :- <http://vicodi.org/ontology#Church-Reformer>(X0).
+<http://vicodi.org/ontology#Person-Role>(X0) :- <http://vicodi.org/ontology#Theologian>(X0).
+<http://vicodi.org/ontology#Conceptual-Object>(X0) :- <http://vicodi.org/ontology#Religious-Practice>(X0).
+<http://vicodi.org/ontology#Abstract-Notion>(X0) :- <http://vicodi.org/ontology#Idea>(X0).
+<http://vicodi.org/ontology#Creator>(X0) :- <http://vicodi.org/ontology#Journalist>(X0).
+<http://vicodi.org/ontology#Scientist>(X0) :- <http://vicodi.org/ontology#Philosopher>(X0).
+<http://vicodi.org/ontology#Building>(X0) :- <http://vicodi.org/ontology#Church>(X0).
+<http://vicodi.org/ontology#Writing>(X0) :- <http://vicodi.org/ontology#Journal>(X0).
+<http://vicodi.org/ontology#Time-Dependent>(X0) :- <http://vicodi.org/ontology#Flavour>(X0).
+<http://vicodi.org/ontology#Creator>(X0) :- <http://vicodi.org/ontology#Author>(X0).
+<http://vicodi.org/ontology#Religious-Leader>(X0) :- <http://vicodi.org/ontology#Other-Religious-Leader>(X0).
+<http://vicodi.org/ontology#Religious-Leader>(X0) :- <http://vicodi.org/ontology#Ecclesiarch>(X0).
+<http://vicodi.org/ontology#Entertainer>(X0) :- <http://vicodi.org/ontology#Actor>(X0).
+<http://vicodi.org/ontology#Person-Role>(X0) :- <http://vicodi.org/ontology#Creator>(X0).
+<http://vicodi.org/ontology#Functionary>(X0) :- <http://vicodi.org/ontology#Minister>(X0).
+<http://vicodi.org/ontology#Writing>(X0) :- <http://vicodi.org/ontology#Newspaper>(X0).
+<http://vicodi.org/ontology#Life-Event>(X0) :- <http://vicodi.org/ontology#Illness>(X0).
+<http://vicodi.org/ontology#Educational-Organisation>(X0) :- <http://vicodi.org/ontology#University>(X0).
+<http://vicodi.org/ontology#Leader>(X0) :- <http://vicodi.org/ontology#Clerical-Leader>(X0).
+<http://vicodi.org/ontology#Leader>(X0) :- <http://vicodi.org/ontology#Religious-Leader>(X0).
+<http://vicodi.org/ontology#Geographical-Feature>(X0) :- <http://vicodi.org/ontology#Landmark>(X0).
+<http://vicodi.org/ontology#Person-Role>(X0) :- <http://vicodi.org/ontology#Military-Person>(X0).
+<http://vicodi.org/ontology#Conceptual-Object>(X0) :- <http://vicodi.org/ontology#Pastime>(X0).
+<http://vicodi.org/ontology#Event>(X0) :- <http://vicodi.org/ontology#Economic-Process>(X0).
+<http://vicodi.org/ontology#Event>(X0) :- <http://vicodi.org/ontology#Meeting>(X0).
+<http://vicodi.org/ontology#Settlement>(X0) :- <http://vicodi.org/ontology#Village>(X0).
+<http://vicodi.org/ontology#Event>(X0) :- <http://vicodi.org/ontology#Technical-Scientific-Advance>(X0).
+<http://vicodi.org/ontology#Person-Role>(X0) :- <http://vicodi.org/ontology#Scientist>(X0).
+<http://vicodi.org/ontology#Entertainer>(X0) :- <http://vicodi.org/ontology#Conductor>(X0).
+<http://vicodi.org/ontology#Organisation>(X0) :- <http://vicodi.org/ontology#Educational-Organisation>(X0).
+<http://vicodi.org/ontology#Role>(X0) :- <http://vicodi.org/ontology#Person-Role>(X0).
+<http://vicodi.org/ontology#Scientist>(X0) :- <http://vicodi.org/ontology#Geographer>(X0).
+<http://vicodi.org/ontology#Functionary>(X0) :- <http://vicodi.org/ontology#Politician>(X0).
+<http://vicodi.org/ontology#Time>(X0) :- <http://vicodi.org/ontology#TemporalInterval>(X0).
+<http://vicodi.org/ontology#Person-Role>(X0) :- <http://vicodi.org/ontology#Discoverer>(X0).
+<http://vicodi.org/ontology#VicodiOI>(X0) :- <http://vicodi.org/ontology#Category>(X0).
+<http://vicodi.org/ontology#Event>(X0) :- <http://vicodi.org/ontology#War>(X0).
+<http://vicodi.org/ontology#Political-Organisation>(X0) :- <http://vicodi.org/ontology#Representative-Institution>(X0).
+<http://vicodi.org/ontology#Person-Role>(X0) :- <http://vicodi.org/ontology#Entertainer>(X0).
+<http://vicodi.org/ontology#Movement>(X0) :- <http://vicodi.org/ontology#Secular-Movement>(X0).
+<http://vicodi.org/ontology#Artefact>(X0) :- <http://vicodi.org/ontology#Vehicle>(X0).
+<http://vicodi.org/ontology#Event>(X0) :- <http://vicodi.org/ontology#Scandal>(X0).
+<http://vicodi.org/ontology#Event>(X0) :- <http://vicodi.org/ontology#Period-in-Office>(X0).
+<http://vicodi.org/ontology#related>(X1, X0) :- <http://vicodi.org/ontology#related>(X0, X1).

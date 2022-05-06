@@ -1,96 +1,99 @@
 Finish Parsing Files ...
-<http://www.owl-ontologies.com/unnamed.owl#SexValue>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#MaleSex>(X0) .
-<http://www.owl-ontologies.com/unnamed.owl#Client>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#Man>(X0) .
-<http://www.owl-ontologies.com/unnamed.owl#SexValue>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#FemaleSex>(X0) .
-<http://www.owl-ontologies.com/unnamed.owl#Credit>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#InterestsCredited>(X0) .
-<http://www.owl-ontologies.com/unnamed.owl#AgeValue>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#From18To25>(X0) .
-<http://www.owl-ontologies.com/unnamed.owl#Payment>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#isPermanentOrderFor>(X1, X0), <http://www.owl-ontologies.com/unnamed.owl#PermanentOrder>(X1) .
-<http://www.owl-ontologies.com/unnamed.owl#MaleSex>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#Man>(X1), <http://www.owl-ontologies.com/unnamed.owl#hasSexValue>(X1, X0) .
-<http://www.owl-ontologies.com/unnamed.owl#Region>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#NorthBohemia>(X0) .
-<http://www.owl-ontologies.com/unnamed.owl#StatementIssuanceFrequencyValue>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#AfterTransaction>(X0) .
-<http://www.owl-ontologies.com/unnamed.owl#StatementIssuanceFrequencyValue>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#Weekly>(X0) .
-<http://www.owl-ontologies.com/unnamed.owl#Withdrawal>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#CashWithdrawal>(X0) .
-<http://www.owl-ontologies.com/unnamed.owl#Region>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#CentralBohemia>(X0) .
-<http://www.owl-ontologies.com/unnamed.owl#Running>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#DebtRunningLoan>(X0) .
-<http://www.owl-ontologies.com/unnamed.owl#Region>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#SouthMoravia>(X0) .
-<http://www.owl-ontologies.com/unnamed.owl#LoanStatusValue>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#ProblemStatus>(X0) .
-<http://www.owl-ontologies.com/unnamed.owl#IsLoanOf>(X0, X1) :- <http://www.owl-ontologies.com/unnamed.owl#hasLoan>(X1, X0) .
-<http://www.owl-ontologies.com/unnamed.owl#isOwnerOf>(X0, X1) :- <http://www.owl-ontologies.com/unnamed.owl#hasOwner>(X1, X0) .
-<http://www.owl-ontologies.com/unnamed.owl#hasOwner>(X0, X1) :- <http://www.owl-ontologies.com/unnamed.owl#isOwnerOf>(X1, X0) .
-<http://www.owl-ontologies.com/unnamed.owl#isCreditCardOf>(X0, X1) :- <http://www.owl-ontologies.com/unnamed.owl#hasCreditCard>(X1, X0) .
-<http://www.owl-ontologies.com/unnamed.owl#hasCreditCard>(X0, X1) :- <http://www.owl-ontologies.com/unnamed.owl#isCreditCardOf>(X1, X0) .
-<http://www.owl-ontologies.com/unnamed.owl#Region>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#SouthBohemia>(X0) .
-<http://www.owl-ontologies.com/unnamed.owl#Payment>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#HouseholdPayment>(X0) .
 <http://www.owl-ontologies.com/unnamed.owl#PermanentOrder>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#hasPermanentOrder>(X1, X0) .
-<http://www.owl-ontologies.com/unnamed.owl#AgeValue>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#Above65>(X0) .
-<http://www.owl-ontologies.com/unnamed.owl#Running>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#OKRunningLoan>(X0) .
 <http://www.owl-ontologies.com/unnamed.owl#Account>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#isOwnerOf>(X1, X0) .
-<http://www.owl-ontologies.com/unnamed.owl#Payment>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#LoanPayment>(X0) .
-<http://www.owl-ontologies.com/unnamed.owl#Payment>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#isWithdrawalFor>(X1, X0) .
-<http://www.owl-ontologies.com/unnamed.owl#Withdrawal>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#CreditCardWithdrawal>(X0) .
-<http://www.owl-ontologies.com/unnamed.owl#Client>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#isCreditCardOf>(X1, X0) .
-<http://www.owl-ontologies.com/unnamed.owl#CreditCard>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#isCreditCardOf>(X0, X1) .
 <http://www.owl-ontologies.com/unnamed.owl#LoanStatusValue>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#hasLoanStatusValue>(X1, X0) .
-<http://www.owl-ontologies.com/unnamed.owl#Client>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#isOwnerOf>(X0, X1) .
-<http://www.owl-ontologies.com/unnamed.owl#Account>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#isTransactionFrom>(X1, X0) .
-<http://www.owl-ontologies.com/unnamed.owl#Loan>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#IsLoanOf>(X0, X1) .
+<http://www.owl-ontologies.com/unnamed.owl#Client>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#isCreditCardOf>(X1, X0) .
 <http://www.owl-ontologies.com/unnamed.owl#SexValue>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#hasSexValue>(X1, X0) .
-<http://www.owl-ontologies.com/unnamed.owl#Client>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#hasSexValue>(X0, X1) .
-<http://www.owl-ontologies.com/unnamed.owl#StatementIssuanceFrequencyValue>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#hasStatementIssuanceFrequency>(X1, X0) .
-<http://www.owl-ontologies.com/unnamed.owl#Loan>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#hasLoanStatusValue>(X0, X1) .
+<http://www.owl-ontologies.com/unnamed.owl#Account>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#isTransactionFrom>(X1, X0) .
 <http://www.owl-ontologies.com/unnamed.owl#Region>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#livesIn>(X1, X0) .
+<http://www.owl-ontologies.com/unnamed.owl#StatementIssuanceFrequencyValue>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#hasStatementIssuanceFrequency>(X1, X0) .
 <http://www.owl-ontologies.com/unnamed.owl#CreditCard>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#hasCreditCard>(X1, X0) .
-<http://www.owl-ontologies.com/unnamed.owl#Client>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#hasCreditCard>(X0, X1) .
-<http://www.owl-ontologies.com/unnamed.owl#Account>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#hasStatementIssuanceFrequency>(X0, X1) .
-<http://www.owl-ontologies.com/unnamed.owl#Client>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#hasAgeValue>(X0, X1) .
-<http://www.owl-ontologies.com/unnamed.owl#Account>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#hasLoan>(X0, X1) .
-<http://www.owl-ontologies.com/unnamed.owl#Withdrawal>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#isWithdrawalFor>(X0, X1) .
-<http://www.owl-ontologies.com/unnamed.owl#hasLoan>(X0, X1) :- <http://www.owl-ontologies.com/unnamed.owl#IsLoanOf>(X1, X0) .
+<http://www.owl-ontologies.com/unnamed.owl#Payment>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#isPermanentOrderFor>(X1, X0) .
+<http://www.owl-ontologies.com/unnamed.owl#Account>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#isUserOf>(X1, X0) .
+<http://www.owl-ontologies.com/unnamed.owl#Client>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#hasOwner>(X1, X0) .
+<http://www.owl-ontologies.com/unnamed.owl#Account>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#IsLoanOf>(X1, X0) .
+<http://www.owl-ontologies.com/unnamed.owl#Payment>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#isWithdrawalFor>(X1, X0) .
+<http://www.owl-ontologies.com/unnamed.owl#Loan>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#hasLoan>(X1, X0) .
+<http://www.owl-ontologies.com/unnamed.owl#AgeValue>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#hasAgeValue>(X1, X0) .
 <http://www.owl-ontologies.com/unnamed.owl#Account>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#hasPermanentOrder>(X0, X1) .
 <http://www.owl-ontologies.com/unnamed.owl#PermanentOrder>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#isPermanentOrderFor>(X0, X1) .
 <http://www.owl-ontologies.com/unnamed.owl#Client>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#livesIn>(X0, X1) .
 <http://www.owl-ontologies.com/unnamed.owl#Transaction>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#isTransactionFrom>(X0, X1) .
 <http://www.owl-ontologies.com/unnamed.owl#Account>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#hasOwner>(X0, X1) .
 <http://www.owl-ontologies.com/unnamed.owl#Client>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#isUserOf>(X0, X1) .
-<http://www.owl-ontologies.com/unnamed.owl#Account>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#IsLoanOf>(X1, X0) .
-<http://www.owl-ontologies.com/unnamed.owl#Account>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#isUserOf>(X1, X0) .
-<http://www.owl-ontologies.com/unnamed.owl#Loan>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#hasLoan>(X1, X0) .
-<http://www.owl-ontologies.com/unnamed.owl#Payment>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#isPermanentOrderFor>(X1, X0) .
-<http://www.owl-ontologies.com/unnamed.owl#AgeValue>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#hasAgeValue>(X1, X0) .
-<http://www.owl-ontologies.com/unnamed.owl#Client>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#hasOwner>(X1, X0) .
+<http://www.owl-ontologies.com/unnamed.owl#CreditCard>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#isCreditCardOf>(X0, X1) .
+<http://www.owl-ontologies.com/unnamed.owl#Client>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#isOwnerOf>(X0, X1) .
+<http://www.owl-ontologies.com/unnamed.owl#Client>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#hasSexValue>(X0, X1) .
+<http://www.owl-ontologies.com/unnamed.owl#Loan>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#hasLoanStatusValue>(X0, X1) .
+<http://www.owl-ontologies.com/unnamed.owl#Client>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#hasCreditCard>(X0, X1) .
+<http://www.owl-ontologies.com/unnamed.owl#Account>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#hasStatementIssuanceFrequency>(X0, X1) .
+<http://www.owl-ontologies.com/unnamed.owl#Loan>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#IsLoanOf>(X0, X1) .
+<http://www.owl-ontologies.com/unnamed.owl#Account>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#hasLoan>(X0, X1) .
+<http://www.owl-ontologies.com/unnamed.owl#Withdrawal>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#isWithdrawalFor>(X0, X1) .
+<http://www.owl-ontologies.com/unnamed.owl#Client>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#hasAgeValue>(X0, X1) .
+<http://www.owl-ontologies.com/unnamed.owl#hasSexValue>(X0, X1), <X3>(), <http://www.owl-ontologies.com/unnamed.owl#svMaleSex>() :- <http://www.owl-ontologies.com/unnamed.owl#Man>(X0) .
+<http://www.owl-ontologies.com/unnamed.owl#Man>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#hasSexValue>(X0, http://www.owl-ontologies.com/unnamed.owl#svMaleSex) .
+<http://www.owl-ontologies.com/unnamed.owl#hasSexValue>(X0, X1), <X3>(), <http://www.owl-ontologies.com/unnamed.owl#svFemaleSex>() :- <http://www.owl-ontologies.com/unnamed.owl#Woman>(X0) .
+<http://www.owl-ontologies.com/unnamed.owl#Woman>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#hasSexValue>(X0, http://www.owl-ontologies.com/unnamed.owl#svFemaleSex) .
+<http://www.owl-ontologies.com/unnamed.owl#isPermanentOrderFor>(X0, X1), <http://www.owl-ontologies.com/unnamed.owl#Payment>(X1) :- <http://www.owl-ontologies.com/unnamed.owl#PermanentOrder>(X0) .
+<http://www.owl-ontologies.com/unnamed.owl#Payment>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#HouseholdPayment>(X0) .
+<http://www.owl-ontologies.com/unnamed.owl#Region>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#EastBohemia>(X0) .
+<http://www.owl-ontologies.com/unnamed.owl#isOwnerOf>(X0, X1), <http://www.owl-ontologies.com/unnamed.owl#Account>(X1) :- <http://www.owl-ontologies.com/unnamed.owl#Client>(X0) .
+<http://www.owl-ontologies.com/unnamed.owl#Finished>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#NotPaidFinishedLoan>(X0) .
+<http://www.owl-ontologies.com/unnamed.owl#Withdrawal>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#CreditCardWithdrawal>(X0) .
+<http://www.owl-ontologies.com/unnamed.owl#CashWithdrawal>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#SanctionInterestCashWithdrawal>(X0) .
+<http://www.owl-ontologies.com/unnamed.owl#Withdrawal>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#CashWithdrawal>(X0) .
+<http://www.owl-ontologies.com/unnamed.owl#Payment>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#ForStatementPayment>(X0) .
+<http://www.owl-ontologies.com/unnamed.owl#Region>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#CentralBohemia>(X0) .
+<http://www.owl-ontologies.com/unnamed.owl#StatementIssuanceFrequencyValue>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#AfterTransaction>(X0) .
+<http://www.owl-ontologies.com/unnamed.owl#CreditCard>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#Junior>(X0) .
+<http://www.owl-ontologies.com/unnamed.owl#StatementIssuanceFrequencyValue>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#Monthly>(X0) .
+<http://www.owl-ontologies.com/unnamed.owl#hasAgeValue>(X0, X1), <http://www.owl-ontologies.com/unnamed.owl#AgeValue>(X1) :- <http://www.owl-ontologies.com/unnamed.owl#Client>(X0) .
+<http://www.owl-ontologies.com/unnamed.owl#Running>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#OKRunningLoan>(X0) .
+<http://www.owl-ontologies.com/unnamed.owl#Client>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#Woman>(X0) .
+<http://www.owl-ontologies.com/unnamed.owl#Region>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#NorthBohemia>(X0) .
+<http://www.owl-ontologies.com/unnamed.owl#Region>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#SouthBohemia>(X0) .
+<http://www.owl-ontologies.com/unnamed.owl#hasOwner>(X0, X1), <http://www.owl-ontologies.com/unnamed.owl#Client>(X1) :- <http://www.owl-ontologies.com/unnamed.owl#Account>(X0) .
+<http://www.owl-ontologies.com/unnamed.owl#Transaction>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#Withdrawal>(X0) .
+<http://www.owl-ontologies.com/unnamed.owl#hasLoanStatusValue>(X0, X1), <X3>(), <http://www.owl-ontologies.com/unnamed.owl#lsvProblemStatus>() :- <http://www.owl-ontologies.com/unnamed.owl#NotPaidFinishedLoan>(X0) .
+<http://www.owl-ontologies.com/unnamed.owl#Loan>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#Finished>(X0) .
+<http://www.owl-ontologies.com/unnamed.owl#CollectionAnotherBank>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#OldAgePension>(X0) .
+<http://www.owl-ontologies.com/unnamed.owl#SexValue>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#FemaleSex>(X0) .
+<http://www.owl-ontologies.com/unnamed.owl#LoanStatusValue>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#ProblemStatus>(X0) .
+<http://www.owl-ontologies.com/unnamed.owl#Region>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#SouthMoravia>(X0) .
+<http://www.owl-ontologies.com/unnamed.owl#Payment>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#InsurrancePayment>(X0) .
+<http://www.owl-ontologies.com/unnamed.owl#Credit>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#CashCredit>(X0) .
+<http://www.owl-ontologies.com/unnamed.owl#Credit>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#InterestsCredited>(X0) .
+<http://www.owl-ontologies.com/unnamed.owl#Region>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#NorthMoravia>(X0) .
+<http://www.owl-ontologies.com/unnamed.owl#Region>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#Prague>(X0) .
+<http://www.owl-ontologies.com/unnamed.owl#Region>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#WestBohemia>(X0) .
+<http://www.owl-ontologies.com/unnamed.owl#StatementIssuanceFrequencyValue>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#Weekly>(X0) .
+<http://www.owl-ontologies.com/unnamed.owl#Finished>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#NoProblemsFinishedLoan>(X0) .
+<http://www.owl-ontologies.com/unnamed.owl#Client>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#Man>(X0) .
+<http://www.owl-ontologies.com/unnamed.owl#Payment>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#Leasing>(X0) .
+<http://www.owl-ontologies.com/unnamed.owl#hasLoanStatusValue>(X0, X1), <http://www.owl-ontologies.com/unnamed.owl#lsvOKStatus>() :- <http://www.owl-ontologies.com/unnamed.owl#OKRunningLoan>(X0) .
+<http://www.owl-ontologies.com/unnamed.owl#Payment>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#LoanPayment>(X0) .
+<http://www.owl-ontologies.com/unnamed.owl#Transaction>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#Credit>(X0) .
+<http://www.owl-ontologies.com/unnamed.owl#IsLoanOf>(X0, X1), <http://www.owl-ontologies.com/unnamed.owl#Account>(X1) :- <http://www.owl-ontologies.com/unnamed.owl#Loan>(X0) .
 <http://www.owl-ontologies.com/unnamed.owl#Withdrawal>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#RemittanceAnotherBank>(X0) .
 <http://www.owl-ontologies.com/unnamed.owl#Loan>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#Running>(X0) .
-<http://www.owl-ontologies.com/unnamed.owl#OKStatus>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#hasLoanStatusValue>(X1, X0), <http://www.owl-ontologies.com/unnamed.owl#NoProblemsFinishedLoan>(X1) .
-<http://www.owl-ontologies.com/unnamed.owl#Finished>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#NoProblemsFinishedLoan>(X0) .
-<http://www.owl-ontologies.com/unnamed.owl#Region>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#Prague>(X0) .
-<http://www.owl-ontologies.com/unnamed.owl#Finished>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#NotPaidFinishedLoan>(X0) .
-<http://www.owl-ontologies.com/unnamed.owl#Transaction>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#Withdrawal>(X0) .
+<http://www.owl-ontologies.com/unnamed.owl#isCreditCardOf>(X0, X1), <http://www.owl-ontologies.com/unnamed.owl#Client>(X1) :- <http://www.owl-ontologies.com/unnamed.owl#CreditCard>(X0) .
 <http://www.owl-ontologies.com/unnamed.owl#AgeValue>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#From50To65>(X0) .
-<http://www.owl-ontologies.com/unnamed.owl#LoanStatusValue>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#OKStatus>(X0) .
-<http://www.owl-ontologies.com/unnamed.owl#CashWithdrawal>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#SanctionInterestCashWithdrawal>(X0) .
-<http://www.owl-ontologies.com/unnamed.owl#Region>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#NorthMoravia>(X0) .
-<http://www.owl-ontologies.com/unnamed.owl#Loan>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#Finished>(X0) .
-<http://www.owl-ontologies.com/unnamed.owl#Transaction>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#Credit>(X0) .
-<http://www.owl-ontologies.com/unnamed.owl#CollectionAnotherBank>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#OldAgePension>(X0) .
-<http://www.owl-ontologies.com/unnamed.owl#Payment>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#ForStatementPayment>(X0) .
-<http://www.owl-ontologies.com/unnamed.owl#FemaleSex>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#hasSexValue>(X1, X0), <http://www.owl-ontologies.com/unnamed.owl#Woman>(X1) .
-<http://www.owl-ontologies.com/unnamed.owl#AgeValue>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#From25To35>(X0) .
-<http://www.owl-ontologies.com/unnamed.owl#AgeValue>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#From35To50>(X0) .
-<http://www.owl-ontologies.com/unnamed.owl#Region>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#EastBohemia>(X0) .
-<http://www.owl-ontologies.com/unnamed.owl#CreditCard>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#Junior>(X0) .
-<http://www.owl-ontologies.com/unnamed.owl#Client>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#Woman>(X0) .
-<http://www.owl-ontologies.com/unnamed.owl#Credit>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#CashCredit>(X0) .
-<http://www.owl-ontologies.com/unnamed.owl#ProblemStatus>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#NotPaidFinishedLoan>(X1), <http://www.owl-ontologies.com/unnamed.owl#hasLoanStatusValue>(X1, X0) .
-<http://www.owl-ontologies.com/unnamed.owl#StatementIssuanceFrequencyValue>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#Monthly>(X0) .
-<http://www.owl-ontologies.com/unnamed.owl#OKStatus>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#OKRunningLoan>(X1), <http://www.owl-ontologies.com/unnamed.owl#hasLoanStatusValue>(X1, X0) .
-<http://www.owl-ontologies.com/unnamed.owl#CreditCard>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#Classic>(X0) .
-<http://www.owl-ontologies.com/unnamed.owl#Credit>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#CollectionAnotherBank>(X0) .
-<http://www.owl-ontologies.com/unnamed.owl#ProblemStatus>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#DebtRunningLoan>(X1), <http://www.owl-ontologies.com/unnamed.owl#hasLoanStatusValue>(X1, X0) .
-<http://www.owl-ontologies.com/unnamed.owl#Region>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#WestBohemia>(X0) .
 <http://www.owl-ontologies.com/unnamed.owl#CreditCard>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#Gold>(X0) .
-<http://www.owl-ontologies.com/unnamed.owl#Payment>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#Leasing>(X0) .
+<http://www.owl-ontologies.com/unnamed.owl#hasLoanStatusValue>(X0, X1), <X3>(), <http://www.owl-ontologies.com/unnamed.owl#lsvOKStatus>() :- <http://www.owl-ontologies.com/unnamed.owl#NoProblemsFinishedLoan>(X0) .
+<http://www.owl-ontologies.com/unnamed.owl#AgeValue>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#From25To35>(X0) .
+<http://www.owl-ontologies.com/unnamed.owl#hasLoanStatusValue>(X0, X1), <X3>(), <http://www.owl-ontologies.com/unnamed.owl#lsvProblemStatus>() :- <http://www.owl-ontologies.com/unnamed.owl#DebtRunningLoan>(X0) .
+<http://www.owl-ontologies.com/unnamed.owl#Credit>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#CollectionAnotherBank>(X0) .
+<http://www.owl-ontologies.com/unnamed.owl#SexValue>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#MaleSex>(X0) .
+<http://www.owl-ontologies.com/unnamed.owl#Running>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#DebtRunningLoan>(X0) .
+<http://www.owl-ontologies.com/unnamed.owl#AgeValue>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#From35To50>(X0) .
+<http://www.owl-ontologies.com/unnamed.owl#AgeValue>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#From18To25>(X0) .
+<http://www.owl-ontologies.com/unnamed.owl#AgeValue>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#Above65>(X0) .
 <http://www.owl-ontologies.com/unnamed.owl#AgeValue>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#Below18>(X0) .
-<http://www.owl-ontologies.com/unnamed.owl#Payment>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#InsurrancePayment>(X0) .
+<http://www.owl-ontologies.com/unnamed.owl#hasSexValue>(X0, X1), <http://www.owl-ontologies.com/unnamed.owl#SexValue>(X1) :- <http://www.owl-ontologies.com/unnamed.owl#Client>(X0) .
+<http://www.owl-ontologies.com/unnamed.owl#LoanStatusValue>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#OKStatus>(X0) .
+<http://www.owl-ontologies.com/unnamed.owl#CreditCard>(X0) :- <http://www.owl-ontologies.com/unnamed.owl#Classic>(X0) .
+<http://www.owl-ontologies.com/unnamed.owl#hasLoanStatusValue>(X0, X1), <http://www.owl-ontologies.com/unnamed.owl#LoanStatusValue>(X1) :- <http://www.owl-ontologies.com/unnamed.owl#Loan>(X0) .
 
 @source <IsLoanOf>[2] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/semintec/data/IsLoanOf.csv") .
 1
@@ -200,22 +203,22 @@ Finish Parsing Files ...
 53
 @source <Account>[1] : load-csv("/home/bohe/Drewer-master/target/../benchmarks/semintec/data/Account.csv") .
 54
-Finish Loading data, cost 376 ms
-Abduction on query: ?() :- <http://www.owl-ontologies.com/unnamed.owl#hasCreditCard>(X0, X1), <http://www.owl-ontologies.com/unnamed.owl#hasLoan>(X0, X2) .
-Observation: <http://www.owl-ontologies.com/unnamed.owl#hasCreditCard>(X0, X1), <http://www.owl-ontologies.com/unnamed.owl#hasLoan>(X0, X2)
-Number of Explanations: (Compact) 4 (Full) 3148 Size(Compact): 4 Size(Full): 3148 cost: 625 ms
-Abduction on query: ?() :- <http://www.owl-ontologies.com/unnamed.owl#hasCreditCard>(X0, X1), <http://www.owl-ontologies.com/unnamed.owl#hasLoan>(X0, X2) .
-Observation: <http://www.owl-ontologies.com/unnamed.owl#hasCreditCard>(X0, X1), <http://www.owl-ontologies.com/unnamed.owl#hasLoan>(X0, X2)
-Number of Explanations: (Compact) 4 (Full) 3148 Size(Compact): 4 Size(Full): 3148 cost: 131 ms
-Abduction on query: ?() :- <http://www.owl-ontologies.com/unnamed.owl#IsLoanOf>(loan1066, X0), <http://www.owl-ontologies.com/unnamed.owl#Account>(X0), <http://www.owl-ontologies.com/unnamed.owl#hasOwner>(X0, X1) .
-Observation: <http://www.owl-ontologies.com/unnamed.owl#IsLoanOf>(loan1066, X0), <http://www.owl-ontologies.com/unnamed.owl#Account>(X0), <http://www.owl-ontologies.com/unnamed.owl#hasOwner>(X0, X1)
-Number of Explanations: (Compact) 2 (Full) 5182 Size(Compact): 2 Size(Full): 5182 cost: 537 ms
-Abduction on query: ?() :- <http://www.owl-ontologies.com/unnamed.owl#hasCreditCard>(man2042, X0), <http://www.owl-ontologies.com/unnamed.owl#CreditCard>(X0), <http://www.owl-ontologies.com/unnamed.owl#Junior>(X0) .
-Observation: <http://www.owl-ontologies.com/unnamed.owl#hasCreditCard>(man2042, X0), <http://www.owl-ontologies.com/unnamed.owl#CreditCard>(X0), <http://www.owl-ontologies.com/unnamed.owl#Junior>(X0)
-Number of Explanations: (Compact) 2 (Full) 290 Size(Compact): 2 Size(Full): 290 cost: 33 ms
-Abduction on query: ?() :- <http://www.owl-ontologies.com/unnamed.owl#isOwnerOf>(X0, account9777), <http://www.owl-ontologies.com/unnamed.owl#Account>(account9777), <http://www.owl-ontologies.com/unnamed.owl#hasSexValue>(X0, svFemaleSex) .
-Observation: <http://www.owl-ontologies.com/unnamed.owl#isOwnerOf>(X0, account9777), <http://www.owl-ontologies.com/unnamed.owl#Account>(account9777), <http://www.owl-ontologies.com/unnamed.owl#hasSexValue>(X0, svFemaleSex)
-Number of Explanations: (Compact) 2 (Full) 5290 Size(Compact): 4 Size(Full): 10580 cost: 139 ms
-Abduction on query: ?() :- <http://www.owl-ontologies.com/unnamed.owl#Client>(man9066), <http://www.owl-ontologies.com/unnamed.owl#hasCreditCard>(man9066, X0), <http://www.owl-ontologies.com/unnamed.owl#CreditCard>(X0), <http://www.owl-ontologies.com/unnamed.owl#Junior>(X0) .
-Observation: <http://www.owl-ontologies.com/unnamed.owl#Client>(man9066), <http://www.owl-ontologies.com/unnamed.owl#hasCreditCard>(man9066, X0), <http://www.owl-ontologies.com/unnamed.owl#CreditCard>(X0), <http://www.owl-ontologies.com/unnamed.owl#Junior>(X0)
-Number of Explanations: (Compact) 2 (Full) 290 Size(Compact): 4 Size(Full): 580 cost: 80 ms
+Finish Loading data, cost 430 ms
+Abduction on query: ?() :- <http://www.owl-ontologies.com/unnamed.owl#isOwnerOf>("creditcard177", fc), <http://www.owl-ontologies.com/unnamed.owl#Account>(fc) .
+Observation: <http://www.owl-ontologies.com/unnamed.owl#isOwnerOf>("creditcard177", fc), <http://www.owl-ontologies.com/unnamed.owl#Account>(fc)
+Number of Explanations: (Compact) 1 (Full) 1 Size(Compact): 2 Size(Full): 2 cost: 304 ms
+Abduction on query: ?() :- <http://www.owl-ontologies.com/unnamed.owl#isOwnerOf>("creditcard177", fc), <http://www.owl-ontologies.com/unnamed.owl#Account>(fc) .
+Observation: <http://www.owl-ontologies.com/unnamed.owl#isOwnerOf>("creditcard177", fc), <http://www.owl-ontologies.com/unnamed.owl#Account>(fc)
+Number of Explanations: (Compact) 1 (Full) 1 Size(Compact): 2 Size(Full): 2 cost: 13 ms
+Abduction on query: ?() :- <http://www.owl-ontologies.com/unnamed.owl#hasCreditCard>("account1762", fc), <http://www.owl-ontologies.com/unnamed.owl#Client>(fc) .
+Observation: <http://www.owl-ontologies.com/unnamed.owl#hasCreditCard>("account1762", fc), <http://www.owl-ontologies.com/unnamed.owl#Client>(fc)
+Number of Explanations: (Compact) 11 (Full) 11 Size(Compact): 22 Size(Full): 22 cost: 54 ms
+Abduction on query: ?() :- <http://www.owl-ontologies.com/unnamed.owl#hasOwner>(fc, "creditcard177"), <http://www.owl-ontologies.com/unnamed.owl#Payment>(fc) .
+Observation: <http://www.owl-ontologies.com/unnamed.owl#hasOwner>(fc, "creditcard177"), <http://www.owl-ontologies.com/unnamed.owl#Payment>(fc)
+Number of Explanations: (Compact) 8 (Full) 8 Size(Compact): 16 Size(Full): 16 cost: 28 ms
+Abduction on query: ?() :- <http://www.owl-ontologies.com/unnamed.owl#Running>("creditcard177"), <http://www.owl-ontologies.com/unnamed.owl#Region>("creditcard177") .
+Observation: <http://www.owl-ontologies.com/unnamed.owl#Running>("creditcard177"), <http://www.owl-ontologies.com/unnamed.owl#Region>("creditcard177")
+Number of Explanations: (Compact) 30 (Full) 30 Size(Compact): 60 Size(Full): 60 cost: 79 ms
+Abduction on query: ?() :- <http://www.owl-ontologies.com/unnamed.owl#Account>(fc), <http://www.owl-ontologies.com/unnamed.owl#Junior>(fc) .
+Observation: <http://www.owl-ontologies.com/unnamed.owl#Account>(fc), <http://www.owl-ontologies.com/unnamed.owl#Junior>(fc)
+Number of Explanations: (Compact) 9 (Full) 9 Size(Compact): 18 Size(Full): 18 cost: 15 ms

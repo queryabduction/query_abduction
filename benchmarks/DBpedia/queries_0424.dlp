@@ -1,6 +1,0 @@
-?() :- <http://dbpedia.org/ontology#parentOrganisation>(<http://dbpedia.org/resource/Gestapo>, X), <http://dbpedia.org/ontology#leader>(X, Y).
-?() :- <http://dbpedia.org/ontology#parentOrganisation>(<http://dbpedia.org/resource/Gestapo>, X), <http://dbpedia.org/ontology#leader>(X, Y).
-?() :- <http://dbpedia.org/ontology#constituency>(X, <http://dbpedia.org/resource/Mumbai_North_(Lok_Sabha_constituency)>), <http://dbpedia.org/ontology#party>(X, Y).
-?() :- <http://dbpedia.org/ontology#successor>(X, <http://dbpedia.org/resource/Li_Si>), <http://dbpedia.org/ontology#monarch>(X, Y).
-?() :- <http://dbpedia.org/ontology#assembly>(X, <http://dbpedia.org/resource/Broadmeadows,_Victoria>), <http://dbpedia.org/ontology#parentCompany>(X, Y), <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>(X, <http://dbpedia.org/ontology#Automobile>).
-?() :- <http://dbpedia.org/ontology#designCompany>(X, <http://dbpedia.org/resource/ASC_Creative_Services>), <http://dbpedia.org/ontology#designer>(X, Y), <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>(X, <http://dbpedia.org/ontology#Automobile>).

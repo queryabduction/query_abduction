@@ -1,0 +1,5 @@
+Q1() <- worksFor(<http://www.Department0.University0.edu/Teacher0>,?1), affiliatedOrganizationOf(?1,<http://www.Department0.University0.edu/University0>).
+Q2() <- Person(?1), teacherOf(?1,<http://www.Department0.University0.edu/Teacher0>).
+Q3() <- Student(?1), advisor(?1,<http://www.Department0.University0.edu/Teacher0>).
+Q4() <- worksFor(<http://www.Department0.University0.edu/University0>,?1),Organization(?1).
+Q5() <- Person(?1), worksFor(?1,<http://www.Department0.University0.edu/University0>).

@@ -1,0 +1,301 @@
+
+queries.txt
+
+	loading ontology file (queries.txt)...
+	...done. It took me 6.132 seconds.
+
+	generating datalog rules through KARMA...
+	...done. It took me 0.62 seconds.
+
+	processing the observation and abducibles...
+
+Unary Abducibles:
+All concept names 
+
+Binary Abducibles:
+All role names  
+
+Constants Abducibles:
+http://test/freshconstant1,	...done. It took me 0.067 seconds.
+
+	generating the Prolog program...
+	...done. It took me 0.899 seconds.
+
+
+      It took 17.595 seconds of XSB to compile the abduction program.
+^^^^^^^^^^^^^^^^^^^^^^^
+Q1
+
+The set minimal solutions:
+[http://www.owl-ontologies.com/unnamed.owl#isOwnerOf(http://www.owl-ontologies.com/unnamed.owl/creditcard177,http://www.owl-ontologies.com/unnamed.owl/account1762)]
+[http://www.owl-ontologies.com/unnamed.owl#isOwnerOf(http://www.owl-ontologies.com/unnamed.owl/creditcard177,http://www.owl-ontologies.com/unnamed.owl/creditcard177)]
+[http://www.owl-ontologies.com/unnamed.owl#isOwnerOf(http://www.owl-ontologies.com/unnamed.owl/creditcard177,http://test/freshconstant1)]
+[http://www.owl-ontologies.com/unnamed.owl#hasCreditCard(http://www.owl-ontologies.com/unnamed.owl/creditcard177,http://test/freshconstant1)]
+[http://www.owl-ontologies.com/unnamed.owl#hasCreditCard(http://www.owl-ontologies.com/unnamed.owl/creditcard177,http://www.owl-ontologies.com/unnamed.owl/creditcard177)]
+[http://www.owl-ontologies.com/unnamed.owl#hasCreditCard(http://www.owl-ontologies.com/unnamed.owl/creditcard177,http://www.owl-ontologies.com/unnamed.owl/account1762)]
+[http://www.owl-ontologies.com/unnamed.owl#hasSexValue(http://www.owl-ontologies.com/unnamed.owl/creditcard177,http://test/freshconstant1)]
+[http://www.owl-ontologies.com/unnamed.owl#hasSexValue(http://www.owl-ontologies.com/unnamed.owl/creditcard177,http://www.owl-ontologies.com/unnamed.owl/creditcard177)]
+[http://www.owl-ontologies.com/unnamed.owl#hasSexValue(http://www.owl-ontologies.com/unnamed.owl/creditcard177,http://www.owl-ontologies.com/unnamed.owl/account1762)]
+[http://www.owl-ontologies.com/unnamed.owl#isCreditCardOf(http://test/freshconstant1,http://www.owl-ontologies.com/unnamed.owl/creditcard177)]
+[http://www.owl-ontologies.com/unnamed.owl#isCreditCardOf(http://www.owl-ontologies.com/unnamed.owl/creditcard177,http://www.owl-ontologies.com/unnamed.owl/creditcard177)]
+[http://www.owl-ontologies.com/unnamed.owl#isCreditCardOf(http://www.owl-ontologies.com/unnamed.owl/account1762,http://www.owl-ontologies.com/unnamed.owl/creditcard177)]
+[http://www.owl-ontologies.com/unnamed.owl#hasOwner(http://www.owl-ontologies.com/unnamed.owl/account1762,http://www.owl-ontologies.com/unnamed.owl/creditcard177)]
+[http://www.owl-ontologies.com/unnamed.owl#hasOwner(http://www.owl-ontologies.com/unnamed.owl/creditcard177,http://www.owl-ontologies.com/unnamed.owl/creditcard177)]
+[http://www.owl-ontologies.com/unnamed.owl#hasOwner(http://test/freshconstant1,http://www.owl-ontologies.com/unnamed.owl/creditcard177)]
+[http://www.owl-ontologies.com/unnamed.owl#Woman(http://www.owl-ontologies.com/unnamed.owl/creditcard177)]
+[http://www.owl-ontologies.com/unnamed.owl#hasAgeValue(http://www.owl-ontologies.com/unnamed.owl/creditcard177,http://test/freshconstant1)]
+[http://www.owl-ontologies.com/unnamed.owl#hasAgeValue(http://www.owl-ontologies.com/unnamed.owl/creditcard177,http://www.owl-ontologies.com/unnamed.owl/creditcard177)]
+[http://www.owl-ontologies.com/unnamed.owl#hasAgeValue(http://www.owl-ontologies.com/unnamed.owl/creditcard177,http://www.owl-ontologies.com/unnamed.owl/account1762)]
+[http://www.owl-ontologies.com/unnamed.owl#livesIn(http://www.owl-ontologies.com/unnamed.owl/creditcard177,http://test/freshconstant1)]
+[http://www.owl-ontologies.com/unnamed.owl#livesIn(http://www.owl-ontologies.com/unnamed.owl/creditcard177,http://www.owl-ontologies.com/unnamed.owl/creditcard177)]
+[http://www.owl-ontologies.com/unnamed.owl#livesIn(http://www.owl-ontologies.com/unnamed.owl/creditcard177,http://www.owl-ontologies.com/unnamed.owl/account1762)]
+[http://www.owl-ontologies.com/unnamed.owl#Client(http://www.owl-ontologies.com/unnamed.owl/creditcard177)]
+[http://www.owl-ontologies.com/unnamed.owl#isUserOf(http://www.owl-ontologies.com/unnamed.owl/creditcard177,http://test/freshconstant1)]
+[http://www.owl-ontologies.com/unnamed.owl#isUserOf(http://www.owl-ontologies.com/unnamed.owl/creditcard177,http://www.owl-ontologies.com/unnamed.owl/creditcard177)]
+[http://www.owl-ontologies.com/unnamed.owl#isUserOf(http://www.owl-ontologies.com/unnamed.owl/creditcard177,http://www.owl-ontologies.com/unnamed.owl/account1762)]
+[http://www.owl-ontologies.com/unnamed.owl#Man(http://www.owl-ontologies.com/unnamed.owl/creditcard177)]
+
+      It took 651.627 seconds of XSB to find 27 set minimal solutions.
+      It took 16.913 seconds to check consistency for 27 set minimal solutions.
+
+
+^^^^^^^^^^^^^^^^^^^^^^^
+Q2
+
+The set minimal solutions:
+[http://www.owl-ontologies.com/unnamed.owl#hasCreditCard(http://www.owl-ontologies.com/unnamed.owl/account1762,http://test/freshconstant1), http://www.owl-ontologies.com/unnamed.owl#hasCreditCard(http://test/freshconstant1,http://www.owl-ontologies.com/unnamed.owl/account1762)]
+[http://www.owl-ontologies.com/unnamed.owl#hasCreditCard(http://www.owl-ontologies.com/unnamed.owl/account1762,http://test/freshconstant1), http://www.owl-ontologies.com/unnamed.owl#hasCreditCard(http://test/freshconstant1,http://www.owl-ontologies.com/unnamed.owl/creditcard177)]
+[http://www.owl-ontologies.com/unnamed.owl#hasCreditCard(http://www.owl-ontologies.com/unnamed.owl/account1762,http://test/freshconstant1), http://www.owl-ontologies.com/unnamed.owl#hasCreditCard(http://test/freshconstant1,http://test/freshconstant1)]
+[http://www.owl-ontologies.com/unnamed.owl#hasCreditCard(http://www.owl-ontologies.com/unnamed.owl/account1762,http://test/freshconstant1), http://www.owl-ontologies.com/unnamed.owl#isOwnerOf(http://test/freshconstant1,http://www.owl-ontologies.com/unnamed.owl/account1762)]
+[http://www.owl-ontologies.com/unnamed.owl#hasCreditCard(http://www.owl-ontologies.com/unnamed.owl/account1762,http://test/freshconstant1), http://www.owl-ontologies.com/unnamed.owl#isOwnerOf(http://test/freshconstant1,http://www.owl-ontologies.com/unnamed.owl/creditcard177)]
+[http://www.owl-ontologies.com/unnamed.owl#hasCreditCard(http://www.owl-ontologies.com/unnamed.owl/account1762,http://test/freshconstant1), http://www.owl-ontologies.com/unnamed.owl#isOwnerOf(http://test/freshconstant1,http://test/freshconstant1)]
+[http://www.owl-ontologies.com/unnamed.owl#hasCreditCard(http://www.owl-ontologies.com/unnamed.owl/account1762,http://test/freshconstant1), http://www.owl-ontologies.com/unnamed.owl#hasSexValue(http://test/freshconstant1,http://www.owl-ontologies.com/unnamed.owl/account1762)]
+[http://www.owl-ontologies.com/unnamed.owl#hasCreditCard(http://www.owl-ontologies.com/unnamed.owl/account1762,http://test/freshconstant1), http://www.owl-ontologies.com/unnamed.owl#hasSexValue(http://test/freshconstant1,http://www.owl-ontologies.com/unnamed.owl/creditcard177)]
+[http://www.owl-ontologies.com/unnamed.owl#hasCreditCard(http://www.owl-ontologies.com/unnamed.owl/account1762,http://test/freshconstant1), http://www.owl-ontologies.com/unnamed.owl#hasSexValue(http://test/freshconstant1,http://test/freshconstant1)]
+[http://www.owl-ontologies.com/unnamed.owl#hasCreditCard(http://www.owl-ontologies.com/unnamed.owl/account1762,http://test/freshconstant1), http://www.owl-ontologies.com/unnamed.owl#isCreditCardOf(http://www.owl-ontologies.com/unnamed.owl/account1762,http://test/freshconstant1)]
+[http://www.owl-ontologies.com/unnamed.owl#hasCreditCard(http://www.owl-ontologies.com/unnamed.owl/account1762,http://test/freshconstant1), http://www.owl-ontologies.com/unnamed.owl#isCreditCardOf(http://www.owl-ontologies.com/unnamed.owl/creditcard177,http://test/freshconstant1)]
+[http://www.owl-ontologies.com/unnamed.owl#hasCreditCard(http://www.owl-ontologies.com/unnamed.owl/account1762,http://test/freshconstant1), http://www.owl-ontologies.com/unnamed.owl#isCreditCardOf(http://test/freshconstant1,http://test/freshconstant1)]
+[http://www.owl-ontologies.com/unnamed.owl#hasCreditCard(http://www.owl-ontologies.com/unnamed.owl/account1762,http://test/freshconstant1), http://www.owl-ontologies.com/unnamed.owl#hasOwner(http://test/freshconstant1,http://test/freshconstant1)]
+[http://www.owl-ontologies.com/unnamed.owl#hasCreditCard(http://www.owl-ontologies.com/unnamed.owl/account1762,http://test/freshconstant1), http://www.owl-ontologies.com/unnamed.owl#hasOwner(http://www.owl-ontologies.com/unnamed.owl/creditcard177,http://test/freshconstant1)]
+[http://www.owl-ontologies.com/unnamed.owl#hasCreditCard(http://www.owl-ontologies.com/unnamed.owl/account1762,http://test/freshconstant1), http://www.owl-ontologies.com/unnamed.owl#hasOwner(http://www.owl-ontologies.com/unnamed.owl/account1762,http://test/freshconstant1)]
+[http://www.owl-ontologies.com/unnamed.owl#hasCreditCard(http://www.owl-ontologies.com/unnamed.owl/account1762,http://test/freshconstant1), http://www.owl-ontologies.com/unnamed.owl#Woman(http://test/freshconstant1)]
+[http://www.owl-ontologies.com/unnamed.owl#hasCreditCard(http://www.owl-ontologies.com/unnamed.owl/account1762,http://test/freshconstant1), http://www.owl-ontologies.com/unnamed.owl#hasAgeValue(http://test/freshconstant1,http://www.owl-ontologies.com/unnamed.owl/account1762)]
+[http://www.owl-ontologies.com/unnamed.owl#hasCreditCard(http://www.owl-ontologies.com/unnamed.owl/account1762,http://test/freshconstant1), http://www.owl-ontologies.com/unnamed.owl#hasAgeValue(http://test/freshconstant1,http://www.owl-ontologies.com/unnamed.owl/creditcard177)]
+[http://www.owl-ontologies.com/unnamed.owl#hasCreditCard(http://www.owl-ontologies.com/unnamed.owl/account1762,http://test/freshconstant1), http://www.owl-ontologies.com/unnamed.owl#hasAgeValue(http://test/freshconstant1,http://test/freshconstant1)]
+[http://www.owl-ontologies.com/unnamed.owl#hasCreditCard(http://www.owl-ontologies.com/unnamed.owl/account1762,http://test/freshconstant1), http://www.owl-ontologies.com/unnamed.owl#livesIn(http://test/freshconstant1,http://www.owl-ontologies.com/unnamed.owl/account1762)]
+[http://www.owl-ontologies.com/unnamed.owl#hasCreditCard(http://www.owl-ontologies.com/unnamed.owl/account1762,http://test/freshconstant1), http://www.owl-ontologies.com/unnamed.owl#livesIn(http://test/freshconstant1,http://www.owl-ontologies.com/unnamed.owl/creditcard177)]
+[http://www.owl-ontologies.com/unnamed.owl#hasCreditCard(http://www.owl-ontologies.com/unnamed.owl/account1762,http://test/freshconstant1), http://www.owl-ontologies.com/unnamed.owl#livesIn(http://test/freshconstant1,http://test/freshconstant1)]
+[http://www.owl-ontologies.com/unnamed.owl#hasCreditCard(http://www.owl-ontologies.com/unnamed.owl/account1762,http://test/freshconstant1), http://www.owl-ontologies.com/unnamed.owl#Man(http://test/freshconstant1)]
+[http://www.owl-ontologies.com/unnamed.owl#hasCreditCard(http://www.owl-ontologies.com/unnamed.owl/account1762,http://test/freshconstant1), http://www.owl-ontologies.com/unnamed.owl#isUserOf(http://test/freshconstant1,http://www.owl-ontologies.com/unnamed.owl/account1762)]
+[http://www.owl-ontologies.com/unnamed.owl#hasCreditCard(http://www.owl-ontologies.com/unnamed.owl/account1762,http://test/freshconstant1), http://www.owl-ontologies.com/unnamed.owl#isUserOf(http://test/freshconstant1,http://www.owl-ontologies.com/unnamed.owl/creditcard177)]
+[http://www.owl-ontologies.com/unnamed.owl#hasCreditCard(http://www.owl-ontologies.com/unnamed.owl/account1762,http://test/freshconstant1), http://www.owl-ontologies.com/unnamed.owl#isUserOf(http://test/freshconstant1,http://test/freshconstant1)]
+[http://www.owl-ontologies.com/unnamed.owl#hasCreditCard(http://www.owl-ontologies.com/unnamed.owl/account1762,http://test/freshconstant1), http://www.owl-ontologies.com/unnamed.owl#Client(http://test/freshconstant1)]
+[http://www.owl-ontologies.com/unnamed.owl#hasCreditCard(http://www.owl-ontologies.com/unnamed.owl/account1762,http://www.owl-ontologies.com/unnamed.owl/creditcard177), http://www.owl-ontologies.com/unnamed.owl#hasCreditCard(http://www.owl-ontologies.com/unnamed.owl/creditcard177,http://www.owl-ontologies.com/unnamed.owl/account1762)]
+[http://www.owl-ontologies.com/unnamed.owl#hasCreditCard(http://www.owl-ontologies.com/unnamed.owl/account1762,http://www.owl-ontologies.com/unnamed.owl/creditcard177), http://www.owl-ontologies.com/unnamed.owl#hasCreditCard(http://www.owl-ontologies.com/unnamed.owl/creditcard177,http://www.owl-ontologies.com/unnamed.owl/creditcard177)]
+[http://www.owl-ontologies.com/unnamed.owl#hasCreditCard(http://www.owl-ontologies.com/unnamed.owl/account1762,http://www.owl-ontologies.com/unnamed.owl/creditcard177), http://www.owl-ontologies.com/unnamed.owl#hasCreditCard(http://www.owl-ontologies.com/unnamed.owl/creditcard177,http://test/freshconstant1)]
+[http://www.owl-ontologies.com/unnamed.owl#hasCreditCard(http://www.owl-ontologies.com/unnamed.owl/account1762,http://www.owl-ontologies.com/unnamed.owl/creditcard177), http://www.owl-ontologies.com/unnamed.owl#isOwnerOf(http://www.owl-ontologies.com/unnamed.owl/creditcard177,http://www.owl-ontologies.com/unnamed.owl/account1762)]
+[http://www.owl-ontologies.com/unnamed.owl#hasCreditCard(http://www.owl-ontologies.com/unnamed.owl/account1762,http://www.owl-ontologies.com/unnamed.owl/creditcard177), http://www.owl-ontologies.com/unnamed.owl#isOwnerOf(http://www.owl-ontologies.com/unnamed.owl/creditcard177,http://www.owl-ontologies.com/unnamed.owl/creditcard177)]
+[http://www.owl-ontologies.com/unnamed.owl#hasCreditCard(http://www.owl-ontologies.com/unnamed.owl/account1762,http://www.owl-ontologies.com/unnamed.owl/creditcard177), http://www.owl-ontologies.com/unnamed.owl#isOwnerOf(http://www.owl-ontologies.com/unnamed.owl/creditcard177,http://test/freshconstant1)]
+[http://www.owl-ontologies.com/unnamed.owl#hasCreditCard(http://www.owl-ontologies.com/unnamed.owl/account1762,http://www.owl-ontologies.com/unnamed.owl/creditcard177), http://www.owl-ontologies.com/unnamed.owl#hasSexValue(http://www.owl-ontologies.com/unnamed.owl/creditcard177,http://www.owl-ontologies.com/unnamed.owl/account1762)]
+[http://www.owl-ontologies.com/unnamed.owl#hasCreditCard(http://www.owl-ontologies.com/unnamed.owl/account1762,http://www.owl-ontologies.com/unnamed.owl/creditcard177), http://www.owl-ontologies.com/unnamed.owl#hasSexValue(http://www.owl-ontologies.com/unnamed.owl/creditcard177,http://www.owl-ontologies.com/unnamed.owl/creditcard177)]
+[http://www.owl-ontologies.com/unnamed.owl#hasCreditCard(http://www.owl-ontologies.com/unnamed.owl/account1762,http://www.owl-ontologies.com/unnamed.owl/creditcard177), http://www.owl-ontologies.com/unnamed.owl#hasSexValue(http://www.owl-ontologies.com/unnamed.owl/creditcard177,http://test/freshconstant1)]
+[http://www.owl-ontologies.com/unnamed.owl#hasCreditCard(http://www.owl-ontologies.com/unnamed.owl/account1762,http://www.owl-ontologies.com/unnamed.owl/creditcard177), http://www.owl-ontologies.com/unnamed.owl#isCreditCardOf(http://www.owl-ontologies.com/unnamed.owl/account1762,http://www.owl-ontologies.com/unnamed.owl/creditcard177)]
+[http://www.owl-ontologies.com/unnamed.owl#hasCreditCard(http://www.owl-ontologies.com/unnamed.owl/account1762,http://www.owl-ontologies.com/unnamed.owl/creditcard177), http://www.owl-ontologies.com/unnamed.owl#isCreditCardOf(http://www.owl-ontologies.com/unnamed.owl/creditcard177,http://www.owl-ontologies.com/unnamed.owl/creditcard177)]
+[http://www.owl-ontologies.com/unnamed.owl#hasCreditCard(http://www.owl-ontologies.com/unnamed.owl/account1762,http://www.owl-ontologies.com/unnamed.owl/creditcard177), http://www.owl-ontologies.com/unnamed.owl#isCreditCardOf(http://test/freshconstant1,http://www.owl-ontologies.com/unnamed.owl/creditcard177)]
+[http://www.owl-ontologies.com/unnamed.owl#hasCreditCard(http://www.owl-ontologies.com/unnamed.owl/account1762,http://www.owl-ontologies.com/unnamed.owl/creditcard177), http://www.owl-ontologies.com/unnamed.owl#hasOwner(http://test/freshconstant1,http://www.owl-ontologies.com/unnamed.owl/creditcard177)]
+[http://www.owl-ontologies.com/unnamed.owl#hasCreditCard(http://www.owl-ontologies.com/unnamed.owl/account1762,http://www.owl-ontologies.com/unnamed.owl/creditcard177), http://www.owl-ontologies.com/unnamed.owl#hasOwner(http://www.owl-ontologies.com/unnamed.owl/creditcard177,http://www.owl-ontologies.com/unnamed.owl/creditcard177)]
+[http://www.owl-ontologies.com/unnamed.owl#hasCreditCard(http://www.owl-ontologies.com/unnamed.owl/account1762,http://www.owl-ontologies.com/unnamed.owl/creditcard177), http://www.owl-ontologies.com/unnamed.owl#hasOwner(http://www.owl-ontologies.com/unnamed.owl/account1762,http://www.owl-ontologies.com/unnamed.owl/creditcard177)]
+[http://www.owl-ontologies.com/unnamed.owl#hasCreditCard(http://www.owl-ontologies.com/unnamed.owl/account1762,http://www.owl-ontologies.com/unnamed.owl/creditcard177), http://www.owl-ontologies.com/unnamed.owl#Woman(http://www.owl-ontologies.com/unnamed.owl/creditcard177)]
+[http://www.owl-ontologies.com/unnamed.owl#hasCreditCard(http://www.owl-ontologies.com/unnamed.owl/account1762,http://www.owl-ontologies.com/unnamed.owl/creditcard177), http://www.owl-ontologies.com/unnamed.owl#hasAgeValue(http://www.owl-ontologies.com/unnamed.owl/creditcard177,http://www.owl-ontologies.com/unnamed.owl/account1762)]
+[http://www.owl-ontologies.com/unnamed.owl#hasCreditCard(http://www.owl-ontologies.com/unnamed.owl/account1762,http://www.owl-ontologies.com/unnamed.owl/creditcard177), http://www.owl-ontologies.com/unnamed.owl#hasAgeValue(http://www.owl-ontologies.com/unnamed.owl/creditcard177,http://www.owl-ontologies.com/unnamed.owl/creditcard177)]
+[http://www.owl-ontologies.com/unnamed.owl#hasCreditCard(http://www.owl-ontologies.com/unnamed.owl/account1762,http://www.owl-ontologies.com/unnamed.owl/creditcard177), http://www.owl-ontologies.com/unnamed.owl#hasAgeValue(http://www.owl-ontologies.com/unnamed.owl/creditcard177,http://test/freshconstant1)]
+[http://www.owl-ontologies.com/unnamed.owl#hasCreditCard(http://www.owl-ontologies.com/unnamed.owl/account1762,http://www.owl-ontologies.com/unnamed.owl/creditcard177), http://www.owl-ontologies.com/unnamed.owl#livesIn(http://www.owl-ontologies.com/unnamed.owl/creditcard177,http://www.owl-ontologies.com/unnamed.owl/account1762)]
+[http://www.owl-ontologies.com/unnamed.owl#hasCreditCard(http://www.owl-ontologies.com/unnamed.owl/account1762,http://www.owl-ontologies.com/unnamed.owl/creditcard177), http://www.owl-ontologies.com/unnamed.owl#livesIn(http://www.owl-ontologies.com/unnamed.owl/creditcard177,http://www.owl-ontologies.com/unnamed.owl/creditcard177)]
+[http://www.owl-ontologies.com/unnamed.owl#hasCreditCard(http://www.owl-ontologies.com/unnamed.owl/account1762,http://www.owl-ontologies.com/unnamed.owl/creditcard177), http://www.owl-ontologies.com/unnamed.owl#livesIn(http://www.owl-ontologies.com/unnamed.owl/creditcard177,http://test/freshconstant1)]
+[http://www.owl-ontologies.com/unnamed.owl#hasCreditCard(http://www.owl-ontologies.com/unnamed.owl/account1762,http://www.owl-ontologies.com/unnamed.owl/creditcard177), http://www.owl-ontologies.com/unnamed.owl#Man(http://www.owl-ontologies.com/unnamed.owl/creditcard177)]
+[http://www.owl-ontologies.com/unnamed.owl#hasCreditCard(http://www.owl-ontologies.com/unnamed.owl/account1762,http://www.owl-ontologies.com/unnamed.owl/creditcard177), http://www.owl-ontologies.com/unnamed.owl#isUserOf(http://www.owl-ontologies.com/unnamed.owl/creditcard177,http://www.owl-ontologies.com/unnamed.owl/account1762)]
+[http://www.owl-ontologies.com/unnamed.owl#hasCreditCard(http://www.owl-ontologies.com/unnamed.owl/account1762,http://www.owl-ontologies.com/unnamed.owl/creditcard177), http://www.owl-ontologies.com/unnamed.owl#isUserOf(http://www.owl-ontologies.com/unnamed.owl/creditcard177,http://www.owl-ontologies.com/unnamed.owl/creditcard177)]
+[http://www.owl-ontologies.com/unnamed.owl#hasCreditCard(http://www.owl-ontologies.com/unnamed.owl/account1762,http://www.owl-ontologies.com/unnamed.owl/creditcard177), http://www.owl-ontologies.com/unnamed.owl#isUserOf(http://www.owl-ontologies.com/unnamed.owl/creditcard177,http://test/freshconstant1)]
+[http://www.owl-ontologies.com/unnamed.owl#hasCreditCard(http://www.owl-ontologies.com/unnamed.owl/account1762,http://www.owl-ontologies.com/unnamed.owl/creditcard177), http://www.owl-ontologies.com/unnamed.owl#Client(http://www.owl-ontologies.com/unnamed.owl/creditcard177)]
+[http://www.owl-ontologies.com/unnamed.owl#hasCreditCard(http://www.owl-ontologies.com/unnamed.owl/account1762,http://www.owl-ontologies.com/unnamed.owl/account1762)]
+
+      It took 14.387 seconds of XSB to find 55 set minimal solutions.
+      It took 29.828 seconds to check consistency for 55 set minimal solutions.
+
+
+^^^^^^^^^^^^^^^^^^^^^^^
+Q3
+
+The set minimal solutions:
+[http://www.owl-ontologies.com/unnamed.owl#hasOwner(http://www.owl-ontologies.com/unnamed.owl/account1762,http://www.owl-ontologies.com/unnamed.owl/creditcard177), http://www.owl-ontologies.com/unnamed.owl#Payment(http://www.owl-ontologies.com/unnamed.owl/account1762)]
+[http://www.owl-ontologies.com/unnamed.owl#hasOwner(http://www.owl-ontologies.com/unnamed.owl/account1762,http://www.owl-ontologies.com/unnamed.owl/creditcard177), http://www.owl-ontologies.com/unnamed.owl#isWithdrawalFor(http://www.owl-ontologies.com/unnamed.owl/account1762,http://www.owl-ontologies.com/unnamed.owl/account1762)]
+[http://www.owl-ontologies.com/unnamed.owl#hasOwner(http://www.owl-ontologies.com/unnamed.owl/account1762,http://www.owl-ontologies.com/unnamed.owl/creditcard177), http://www.owl-ontologies.com/unnamed.owl#isWithdrawalFor(http://www.owl-ontologies.com/unnamed.owl/creditcard177,http://www.owl-ontologies.com/unnamed.owl/account1762)]
+[http://www.owl-ontologies.com/unnamed.owl#hasOwner(http://www.owl-ontologies.com/unnamed.owl/account1762,http://www.owl-ontologies.com/unnamed.owl/creditcard177), http://www.owl-ontologies.com/unnamed.owl#isWithdrawalFor(http://test/freshconstant1,http://www.owl-ontologies.com/unnamed.owl/account1762)]
+[http://www.owl-ontologies.com/unnamed.owl#hasOwner(http://www.owl-ontologies.com/unnamed.owl/account1762,http://www.owl-ontologies.com/unnamed.owl/creditcard177), http://www.owl-ontologies.com/unnamed.owl#isPermanentOrderFor(http://www.owl-ontologies.com/unnamed.owl/account1762,http://www.owl-ontologies.com/unnamed.owl/account1762)]
+[http://www.owl-ontologies.com/unnamed.owl#hasOwner(http://www.owl-ontologies.com/unnamed.owl/account1762,http://www.owl-ontologies.com/unnamed.owl/creditcard177), http://www.owl-ontologies.com/unnamed.owl#isPermanentOrderFor(http://www.owl-ontologies.com/unnamed.owl/creditcard177,http://www.owl-ontologies.com/unnamed.owl/account1762)]
+[http://www.owl-ontologies.com/unnamed.owl#hasOwner(http://www.owl-ontologies.com/unnamed.owl/account1762,http://www.owl-ontologies.com/unnamed.owl/creditcard177), http://www.owl-ontologies.com/unnamed.owl#isPermanentOrderFor(http://test/freshconstant1,http://www.owl-ontologies.com/unnamed.owl/account1762)]
+[http://www.owl-ontologies.com/unnamed.owl#hasOwner(http://www.owl-ontologies.com/unnamed.owl/account1762,http://www.owl-ontologies.com/unnamed.owl/creditcard177), http://www.owl-ontologies.com/unnamed.owl#InsurrancePayment(http://www.owl-ontologies.com/unnamed.owl/account1762)]
+[http://www.owl-ontologies.com/unnamed.owl#hasOwner(http://www.owl-ontologies.com/unnamed.owl/account1762,http://www.owl-ontologies.com/unnamed.owl/creditcard177), http://www.owl-ontologies.com/unnamed.owl#ForStatementPayment(http://www.owl-ontologies.com/unnamed.owl/account1762)]
+[http://www.owl-ontologies.com/unnamed.owl#hasOwner(http://www.owl-ontologies.com/unnamed.owl/account1762,http://www.owl-ontologies.com/unnamed.owl/creditcard177), http://www.owl-ontologies.com/unnamed.owl#Leasing(http://www.owl-ontologies.com/unnamed.owl/account1762)]
+[http://www.owl-ontologies.com/unnamed.owl#hasOwner(http://www.owl-ontologies.com/unnamed.owl/account1762,http://www.owl-ontologies.com/unnamed.owl/creditcard177), http://www.owl-ontologies.com/unnamed.owl#LoanPayment(http://www.owl-ontologies.com/unnamed.owl/account1762)]
+[http://www.owl-ontologies.com/unnamed.owl#hasOwner(http://www.owl-ontologies.com/unnamed.owl/account1762,http://www.owl-ontologies.com/unnamed.owl/creditcard177), http://www.owl-ontologies.com/unnamed.owl#HouseholdPayment(http://www.owl-ontologies.com/unnamed.owl/account1762)]
+[http://www.owl-ontologies.com/unnamed.owl#hasOwner(http://www.owl-ontologies.com/unnamed.owl/creditcard177,http://www.owl-ontologies.com/unnamed.owl/creditcard177), http://www.owl-ontologies.com/unnamed.owl#Payment(http://www.owl-ontologies.com/unnamed.owl/creditcard177)]
+[http://www.owl-ontologies.com/unnamed.owl#hasOwner(http://www.owl-ontologies.com/unnamed.owl/creditcard177,http://www.owl-ontologies.com/unnamed.owl/creditcard177), http://www.owl-ontologies.com/unnamed.owl#isWithdrawalFor(http://www.owl-ontologies.com/unnamed.owl/account1762,http://www.owl-ontologies.com/unnamed.owl/creditcard177)]
+[http://www.owl-ontologies.com/unnamed.owl#hasOwner(http://www.owl-ontologies.com/unnamed.owl/creditcard177,http://www.owl-ontologies.com/unnamed.owl/creditcard177), http://www.owl-ontologies.com/unnamed.owl#isWithdrawalFor(http://www.owl-ontologies.com/unnamed.owl/creditcard177,http://www.owl-ontologies.com/unnamed.owl/creditcard177)]
+[http://www.owl-ontologies.com/unnamed.owl#hasOwner(http://www.owl-ontologies.com/unnamed.owl/creditcard177,http://www.owl-ontologies.com/unnamed.owl/creditcard177), http://www.owl-ontologies.com/unnamed.owl#isWithdrawalFor(http://test/freshconstant1,http://www.owl-ontologies.com/unnamed.owl/creditcard177)]
+[http://www.owl-ontologies.com/unnamed.owl#hasOwner(http://www.owl-ontologies.com/unnamed.owl/creditcard177,http://www.owl-ontologies.com/unnamed.owl/creditcard177), http://www.owl-ontologies.com/unnamed.owl#isPermanentOrderFor(http://www.owl-ontologies.com/unnamed.owl/account1762,http://www.owl-ontologies.com/unnamed.owl/creditcard177)]
+[http://www.owl-ontologies.com/unnamed.owl#hasOwner(http://www.owl-ontologies.com/unnamed.owl/creditcard177,http://www.owl-ontologies.com/unnamed.owl/creditcard177), http://www.owl-ontologies.com/unnamed.owl#isPermanentOrderFor(http://www.owl-ontologies.com/unnamed.owl/creditcard177,http://www.owl-ontologies.com/unnamed.owl/creditcard177)]
+[http://www.owl-ontologies.com/unnamed.owl#hasOwner(http://www.owl-ontologies.com/unnamed.owl/creditcard177,http://www.owl-ontologies.com/unnamed.owl/creditcard177), http://www.owl-ontologies.com/unnamed.owl#isPermanentOrderFor(http://test/freshconstant1,http://www.owl-ontologies.com/unnamed.owl/creditcard177)]
+[http://www.owl-ontologies.com/unnamed.owl#hasOwner(http://www.owl-ontologies.com/unnamed.owl/creditcard177,http://www.owl-ontologies.com/unnamed.owl/creditcard177), http://www.owl-ontologies.com/unnamed.owl#InsurrancePayment(http://www.owl-ontologies.com/unnamed.owl/creditcard177)]
+[http://www.owl-ontologies.com/unnamed.owl#hasOwner(http://www.owl-ontologies.com/unnamed.owl/creditcard177,http://www.owl-ontologies.com/unnamed.owl/creditcard177), http://www.owl-ontologies.com/unnamed.owl#ForStatementPayment(http://www.owl-ontologies.com/unnamed.owl/creditcard177)]
+[http://www.owl-ontologies.com/unnamed.owl#hasOwner(http://www.owl-ontologies.com/unnamed.owl/creditcard177,http://www.owl-ontologies.com/unnamed.owl/creditcard177), http://www.owl-ontologies.com/unnamed.owl#Leasing(http://www.owl-ontologies.com/unnamed.owl/creditcard177)]
+[http://www.owl-ontologies.com/unnamed.owl#hasOwner(http://www.owl-ontologies.com/unnamed.owl/creditcard177,http://www.owl-ontologies.com/unnamed.owl/creditcard177), http://www.owl-ontologies.com/unnamed.owl#LoanPayment(http://www.owl-ontologies.com/unnamed.owl/creditcard177)]
+[http://www.owl-ontologies.com/unnamed.owl#hasOwner(http://www.owl-ontologies.com/unnamed.owl/creditcard177,http://www.owl-ontologies.com/unnamed.owl/creditcard177), http://www.owl-ontologies.com/unnamed.owl#HouseholdPayment(http://www.owl-ontologies.com/unnamed.owl/creditcard177)]
+[http://www.owl-ontologies.com/unnamed.owl#hasOwner(http://test/freshconstant1,http://www.owl-ontologies.com/unnamed.owl/creditcard177), http://www.owl-ontologies.com/unnamed.owl#Payment(http://test/freshconstant1)]
+[http://www.owl-ontologies.com/unnamed.owl#hasOwner(http://test/freshconstant1,http://www.owl-ontologies.com/unnamed.owl/creditcard177), http://www.owl-ontologies.com/unnamed.owl#isWithdrawalFor(http://www.owl-ontologies.com/unnamed.owl/account1762,http://test/freshconstant1)]
+[http://www.owl-ontologies.com/unnamed.owl#hasOwner(http://test/freshconstant1,http://www.owl-ontologies.com/unnamed.owl/creditcard177), http://www.owl-ontologies.com/unnamed.owl#isWithdrawalFor(http://www.owl-ontologies.com/unnamed.owl/creditcard177,http://test/freshconstant1)]
+[http://www.owl-ontologies.com/unnamed.owl#hasOwner(http://test/freshconstant1,http://www.owl-ontologies.com/unnamed.owl/creditcard177), http://www.owl-ontologies.com/unnamed.owl#isWithdrawalFor(http://test/freshconstant1,http://test/freshconstant1)]
+[http://www.owl-ontologies.com/unnamed.owl#hasOwner(http://test/freshconstant1,http://www.owl-ontologies.com/unnamed.owl/creditcard177), http://www.owl-ontologies.com/unnamed.owl#isPermanentOrderFor(http://www.owl-ontologies.com/unnamed.owl/account1762,http://test/freshconstant1)]
+[http://www.owl-ontologies.com/unnamed.owl#hasOwner(http://test/freshconstant1,http://www.owl-ontologies.com/unnamed.owl/creditcard177), http://www.owl-ontologies.com/unnamed.owl#isPermanentOrderFor(http://www.owl-ontologies.com/unnamed.owl/creditcard177,http://test/freshconstant1)]
+[http://www.owl-ontologies.com/unnamed.owl#hasOwner(http://test/freshconstant1,http://www.owl-ontologies.com/unnamed.owl/creditcard177), http://www.owl-ontologies.com/unnamed.owl#isPermanentOrderFor(http://test/freshconstant1,http://test/freshconstant1)]
+[http://www.owl-ontologies.com/unnamed.owl#hasOwner(http://test/freshconstant1,http://www.owl-ontologies.com/unnamed.owl/creditcard177), http://www.owl-ontologies.com/unnamed.owl#InsurrancePayment(http://test/freshconstant1)]
+[http://www.owl-ontologies.com/unnamed.owl#hasOwner(http://test/freshconstant1,http://www.owl-ontologies.com/unnamed.owl/creditcard177), http://www.owl-ontologies.com/unnamed.owl#ForStatementPayment(http://test/freshconstant1)]
+[http://www.owl-ontologies.com/unnamed.owl#hasOwner(http://test/freshconstant1,http://www.owl-ontologies.com/unnamed.owl/creditcard177), http://www.owl-ontologies.com/unnamed.owl#Leasing(http://test/freshconstant1)]
+[http://www.owl-ontologies.com/unnamed.owl#hasOwner(http://test/freshconstant1,http://www.owl-ontologies.com/unnamed.owl/creditcard177), http://www.owl-ontologies.com/unnamed.owl#LoanPayment(http://test/freshconstant1)]
+[http://www.owl-ontologies.com/unnamed.owl#hasOwner(http://test/freshconstant1,http://www.owl-ontologies.com/unnamed.owl/creditcard177), http://www.owl-ontologies.com/unnamed.owl#HouseholdPayment(http://test/freshconstant1)]
+
+      It took 6.328 seconds of XSB to find 36 set minimal solutions.
+      It took 17.838 seconds to check consistency for 36 set minimal solutions.
+
+
+^^^^^^^^^^^^^^^^^^^^^^^
+Q4
+
+The set minimal solutions:
+[http://www.owl-ontologies.com/unnamed.owl#Region(http://www.owl-ontologies.com/unnamed.owl/creditcard177), http://www.owl-ontologies.com/unnamed.owl#Running(http://www.owl-ontologies.com/unnamed.owl/creditcard177)]
+[http://www.owl-ontologies.com/unnamed.owl#Region(http://www.owl-ontologies.com/unnamed.owl/creditcard177), http://www.owl-ontologies.com/unnamed.owl#DebtRunningLoan(http://www.owl-ontologies.com/unnamed.owl/creditcard177)]
+[http://www.owl-ontologies.com/unnamed.owl#Region(http://www.owl-ontologies.com/unnamed.owl/creditcard177), http://www.owl-ontologies.com/unnamed.owl#OKRunningLoan(http://www.owl-ontologies.com/unnamed.owl/creditcard177)]
+[http://www.owl-ontologies.com/unnamed.owl#Prague(http://www.owl-ontologies.com/unnamed.owl/creditcard177), http://www.owl-ontologies.com/unnamed.owl#Running(http://www.owl-ontologies.com/unnamed.owl/creditcard177)]
+[http://www.owl-ontologies.com/unnamed.owl#Prague(http://www.owl-ontologies.com/unnamed.owl/creditcard177), http://www.owl-ontologies.com/unnamed.owl#DebtRunningLoan(http://www.owl-ontologies.com/unnamed.owl/creditcard177)]
+[http://www.owl-ontologies.com/unnamed.owl#Prague(http://www.owl-ontologies.com/unnamed.owl/creditcard177), http://www.owl-ontologies.com/unnamed.owl#OKRunningLoan(http://www.owl-ontologies.com/unnamed.owl/creditcard177)]
+[http://www.owl-ontologies.com/unnamed.owl#SouthMoravia(http://www.owl-ontologies.com/unnamed.owl/creditcard177), http://www.owl-ontologies.com/unnamed.owl#Running(http://www.owl-ontologies.com/unnamed.owl/creditcard177)]
+[http://www.owl-ontologies.com/unnamed.owl#SouthMoravia(http://www.owl-ontologies.com/unnamed.owl/creditcard177), http://www.owl-ontologies.com/unnamed.owl#DebtRunningLoan(http://www.owl-ontologies.com/unnamed.owl/creditcard177)]
+[http://www.owl-ontologies.com/unnamed.owl#SouthMoravia(http://www.owl-ontologies.com/unnamed.owl/creditcard177), http://www.owl-ontologies.com/unnamed.owl#OKRunningLoan(http://www.owl-ontologies.com/unnamed.owl/creditcard177)]
+[http://www.owl-ontologies.com/unnamed.owl#EastBohemia(http://www.owl-ontologies.com/unnamed.owl/creditcard177), http://www.owl-ontologies.com/unnamed.owl#Running(http://www.owl-ontologies.com/unnamed.owl/creditcard177)]
+[http://www.owl-ontologies.com/unnamed.owl#EastBohemia(http://www.owl-ontologies.com/unnamed.owl/creditcard177), http://www.owl-ontologies.com/unnamed.owl#DebtRunningLoan(http://www.owl-ontologies.com/unnamed.owl/creditcard177)]
+[http://www.owl-ontologies.com/unnamed.owl#EastBohemia(http://www.owl-ontologies.com/unnamed.owl/creditcard177), http://www.owl-ontologies.com/unnamed.owl#OKRunningLoan(http://www.owl-ontologies.com/unnamed.owl/creditcard177)]
+[http://www.owl-ontologies.com/unnamed.owl#SouthBohemia(http://www.owl-ontologies.com/unnamed.owl/creditcard177), http://www.owl-ontologies.com/unnamed.owl#Running(http://www.owl-ontologies.com/unnamed.owl/creditcard177)]
+[http://www.owl-ontologies.com/unnamed.owl#SouthBohemia(http://www.owl-ontologies.com/unnamed.owl/creditcard177), http://www.owl-ontologies.com/unnamed.owl#DebtRunningLoan(http://www.owl-ontologies.com/unnamed.owl/creditcard177)]
+[http://www.owl-ontologies.com/unnamed.owl#SouthBohemia(http://www.owl-ontologies.com/unnamed.owl/creditcard177), http://www.owl-ontologies.com/unnamed.owl#OKRunningLoan(http://www.owl-ontologies.com/unnamed.owl/creditcard177)]
+[http://www.owl-ontologies.com/unnamed.owl#NorthBohemia(http://www.owl-ontologies.com/unnamed.owl/creditcard177), http://www.owl-ontologies.com/unnamed.owl#Running(http://www.owl-ontologies.com/unnamed.owl/creditcard177)]
+[http://www.owl-ontologies.com/unnamed.owl#NorthBohemia(http://www.owl-ontologies.com/unnamed.owl/creditcard177), http://www.owl-ontologies.com/unnamed.owl#DebtRunningLoan(http://www.owl-ontologies.com/unnamed.owl/creditcard177)]
+[http://www.owl-ontologies.com/unnamed.owl#NorthBohemia(http://www.owl-ontologies.com/unnamed.owl/creditcard177), http://www.owl-ontologies.com/unnamed.owl#OKRunningLoan(http://www.owl-ontologies.com/unnamed.owl/creditcard177)]
+[http://www.owl-ontologies.com/unnamed.owl#NorthMoravia(http://www.owl-ontologies.com/unnamed.owl/creditcard177), http://www.owl-ontologies.com/unnamed.owl#Running(http://www.owl-ontologies.com/unnamed.owl/creditcard177)]
+[http://www.owl-ontologies.com/unnamed.owl#NorthMoravia(http://www.owl-ontologies.com/unnamed.owl/creditcard177), http://www.owl-ontologies.com/unnamed.owl#DebtRunningLoan(http://www.owl-ontologies.com/unnamed.owl/creditcard177)]
+[http://www.owl-ontologies.com/unnamed.owl#NorthMoravia(http://www.owl-ontologies.com/unnamed.owl/creditcard177), http://www.owl-ontologies.com/unnamed.owl#OKRunningLoan(http://www.owl-ontologies.com/unnamed.owl/creditcard177)]
+[http://www.owl-ontologies.com/unnamed.owl#CentralBohemia(http://www.owl-ontologies.com/unnamed.owl/creditcard177), http://www.owl-ontologies.com/unnamed.owl#Running(http://www.owl-ontologies.com/unnamed.owl/creditcard177)]
+[http://www.owl-ontologies.com/unnamed.owl#CentralBohemia(http://www.owl-ontologies.com/unnamed.owl/creditcard177), http://www.owl-ontologies.com/unnamed.owl#DebtRunningLoan(http://www.owl-ontologies.com/unnamed.owl/creditcard177)]
+[http://www.owl-ontologies.com/unnamed.owl#CentralBohemia(http://www.owl-ontologies.com/unnamed.owl/creditcard177), http://www.owl-ontologies.com/unnamed.owl#OKRunningLoan(http://www.owl-ontologies.com/unnamed.owl/creditcard177)]
+[http://www.owl-ontologies.com/unnamed.owl#WestBohemia(http://www.owl-ontologies.com/unnamed.owl/creditcard177), http://www.owl-ontologies.com/unnamed.owl#Running(http://www.owl-ontologies.com/unnamed.owl/creditcard177)]
+[http://www.owl-ontologies.com/unnamed.owl#WestBohemia(http://www.owl-ontologies.com/unnamed.owl/creditcard177), http://www.owl-ontologies.com/unnamed.owl#DebtRunningLoan(http://www.owl-ontologies.com/unnamed.owl/creditcard177)]
+[http://www.owl-ontologies.com/unnamed.owl#WestBohemia(http://www.owl-ontologies.com/unnamed.owl/creditcard177), http://www.owl-ontologies.com/unnamed.owl#OKRunningLoan(http://www.owl-ontologies.com/unnamed.owl/creditcard177)]
+[http://www.owl-ontologies.com/unnamed.owl#livesIn(http://www.owl-ontologies.com/unnamed.owl/account1762,http://www.owl-ontologies.com/unnamed.owl/creditcard177), http://www.owl-ontologies.com/unnamed.owl#Running(http://www.owl-ontologies.com/unnamed.owl/creditcard177)]
+[http://www.owl-ontologies.com/unnamed.owl#livesIn(http://www.owl-ontologies.com/unnamed.owl/account1762,http://www.owl-ontologies.com/unnamed.owl/creditcard177), http://www.owl-ontologies.com/unnamed.owl#DebtRunningLoan(http://www.owl-ontologies.com/unnamed.owl/creditcard177)]
+[http://www.owl-ontologies.com/unnamed.owl#livesIn(http://www.owl-ontologies.com/unnamed.owl/account1762,http://www.owl-ontologies.com/unnamed.owl/creditcard177), http://www.owl-ontologies.com/unnamed.owl#OKRunningLoan(http://www.owl-ontologies.com/unnamed.owl/creditcard177)]
+[http://www.owl-ontologies.com/unnamed.owl#livesIn(http://www.owl-ontologies.com/unnamed.owl/creditcard177,http://www.owl-ontologies.com/unnamed.owl/creditcard177), http://www.owl-ontologies.com/unnamed.owl#Running(http://www.owl-ontologies.com/unnamed.owl/creditcard177)]
+[http://www.owl-ontologies.com/unnamed.owl#livesIn(http://www.owl-ontologies.com/unnamed.owl/creditcard177,http://www.owl-ontologies.com/unnamed.owl/creditcard177), http://www.owl-ontologies.com/unnamed.owl#DebtRunningLoan(http://www.owl-ontologies.com/unnamed.owl/creditcard177)]
+[http://www.owl-ontologies.com/unnamed.owl#livesIn(http://www.owl-ontologies.com/unnamed.owl/creditcard177,http://www.owl-ontologies.com/unnamed.owl/creditcard177), http://www.owl-ontologies.com/unnamed.owl#OKRunningLoan(http://www.owl-ontologies.com/unnamed.owl/creditcard177)]
+[http://www.owl-ontologies.com/unnamed.owl#livesIn(http://test/freshconstant1,http://www.owl-ontologies.com/unnamed.owl/creditcard177), http://www.owl-ontologies.com/unnamed.owl#Running(http://www.owl-ontologies.com/unnamed.owl/creditcard177)]
+[http://www.owl-ontologies.com/unnamed.owl#livesIn(http://test/freshconstant1,http://www.owl-ontologies.com/unnamed.owl/creditcard177), http://www.owl-ontologies.com/unnamed.owl#DebtRunningLoan(http://www.owl-ontologies.com/unnamed.owl/creditcard177)]
+[http://www.owl-ontologies.com/unnamed.owl#livesIn(http://test/freshconstant1,http://www.owl-ontologies.com/unnamed.owl/creditcard177), http://www.owl-ontologies.com/unnamed.owl#OKRunningLoan(http://www.owl-ontologies.com/unnamed.owl/creditcard177)]
+
+      It took 6.258 seconds of XSB to find 36 set minimal solutions.
+      It took 14.695 seconds to check consistency for 36 set minimal solutions.
+
+
+^^^^^^^^^^^^^^^^^^^^^^^
+Q5
+
+The set minimal solutions:
+[http://www.owl-ontologies.com/unnamed.owl#hasLoan(http://test/freshconstant1,http://www.owl-ontologies.com/unnamed.owl/account1762), http://www.owl-ontologies.com/unnamed.owl#Junior(http://test/freshconstant1)]
+[http://www.owl-ontologies.com/unnamed.owl#hasLoan(http://test/freshconstant1,http://www.owl-ontologies.com/unnamed.owl/creditcard177), http://www.owl-ontologies.com/unnamed.owl#Junior(http://test/freshconstant1)]
+[http://www.owl-ontologies.com/unnamed.owl#hasLoan(http://test/freshconstant1,http://test/freshconstant1), http://www.owl-ontologies.com/unnamed.owl#Junior(http://test/freshconstant1)]
+[http://www.owl-ontologies.com/unnamed.owl#isOwnerOf(http://www.owl-ontologies.com/unnamed.owl/account1762,http://test/freshconstant1), http://www.owl-ontologies.com/unnamed.owl#Junior(http://test/freshconstant1)]
+[http://www.owl-ontologies.com/unnamed.owl#isOwnerOf(http://www.owl-ontologies.com/unnamed.owl/creditcard177,http://test/freshconstant1), http://www.owl-ontologies.com/unnamed.owl#Junior(http://test/freshconstant1)]
+[http://www.owl-ontologies.com/unnamed.owl#isOwnerOf(http://test/freshconstant1,http://test/freshconstant1), http://www.owl-ontologies.com/unnamed.owl#Junior(http://test/freshconstant1)]
+[http://www.owl-ontologies.com/unnamed.owl#hasPermanentOrder(http://test/freshconstant1,http://www.owl-ontologies.com/unnamed.owl/account1762), http://www.owl-ontologies.com/unnamed.owl#Junior(http://test/freshconstant1)]
+[http://www.owl-ontologies.com/unnamed.owl#hasPermanentOrder(http://test/freshconstant1,http://www.owl-ontologies.com/unnamed.owl/creditcard177), http://www.owl-ontologies.com/unnamed.owl#Junior(http://test/freshconstant1)]
+[http://www.owl-ontologies.com/unnamed.owl#hasPermanentOrder(http://test/freshconstant1,http://test/freshconstant1), http://www.owl-ontologies.com/unnamed.owl#Junior(http://test/freshconstant1)]
+[http://www.owl-ontologies.com/unnamed.owl#IsLoanOf(http://www.owl-ontologies.com/unnamed.owl/account1762,http://test/freshconstant1), http://www.owl-ontologies.com/unnamed.owl#Junior(http://test/freshconstant1)]
+[http://www.owl-ontologies.com/unnamed.owl#IsLoanOf(http://www.owl-ontologies.com/unnamed.owl/creditcard177,http://test/freshconstant1), http://www.owl-ontologies.com/unnamed.owl#Junior(http://test/freshconstant1)]
+[http://www.owl-ontologies.com/unnamed.owl#IsLoanOf(http://test/freshconstant1,http://test/freshconstant1), http://www.owl-ontologies.com/unnamed.owl#Junior(http://test/freshconstant1)]
+[http://www.owl-ontologies.com/unnamed.owl#hasStatementIssuanceFrequency(http://test/freshconstant1,http://www.owl-ontologies.com/unnamed.owl/account1762), http://www.owl-ontologies.com/unnamed.owl#Junior(http://test/freshconstant1)]
+[http://www.owl-ontologies.com/unnamed.owl#hasStatementIssuanceFrequency(http://test/freshconstant1,http://www.owl-ontologies.com/unnamed.owl/creditcard177), http://www.owl-ontologies.com/unnamed.owl#Junior(http://test/freshconstant1)]
+[http://www.owl-ontologies.com/unnamed.owl#hasStatementIssuanceFrequency(http://test/freshconstant1,http://test/freshconstant1), http://www.owl-ontologies.com/unnamed.owl#Junior(http://test/freshconstant1)]
+[http://www.owl-ontologies.com/unnamed.owl#hasOwner(http://test/freshconstant1,http://www.owl-ontologies.com/unnamed.owl/account1762), http://www.owl-ontologies.com/unnamed.owl#Junior(http://test/freshconstant1)]
+[http://www.owl-ontologies.com/unnamed.owl#hasOwner(http://test/freshconstant1,http://www.owl-ontologies.com/unnamed.owl/creditcard177), http://www.owl-ontologies.com/unnamed.owl#Junior(http://test/freshconstant1)]
+[http://www.owl-ontologies.com/unnamed.owl#hasOwner(http://test/freshconstant1,http://test/freshconstant1), http://www.owl-ontologies.com/unnamed.owl#Junior(http://test/freshconstant1)]
+[http://www.owl-ontologies.com/unnamed.owl#isTransactionFrom(http://www.owl-ontologies.com/unnamed.owl/account1762,http://test/freshconstant1), http://www.owl-ontologies.com/unnamed.owl#Junior(http://test/freshconstant1)]
+[http://www.owl-ontologies.com/unnamed.owl#isTransactionFrom(http://www.owl-ontologies.com/unnamed.owl/creditcard177,http://test/freshconstant1), http://www.owl-ontologies.com/unnamed.owl#Junior(http://test/freshconstant1)]
+[http://www.owl-ontologies.com/unnamed.owl#isTransactionFrom(http://test/freshconstant1,http://test/freshconstant1), http://www.owl-ontologies.com/unnamed.owl#Junior(http://test/freshconstant1)]
+[http://www.owl-ontologies.com/unnamed.owl#Account(http://test/freshconstant1), http://www.owl-ontologies.com/unnamed.owl#Junior(http://test/freshconstant1)]
+[http://www.owl-ontologies.com/unnamed.owl#isUserOf(http://www.owl-ontologies.com/unnamed.owl/account1762,http://test/freshconstant1), http://www.owl-ontologies.com/unnamed.owl#Junior(http://test/freshconstant1)]
+[http://www.owl-ontologies.com/unnamed.owl#isUserOf(http://www.owl-ontologies.com/unnamed.owl/creditcard177,http://test/freshconstant1), http://www.owl-ontologies.com/unnamed.owl#Junior(http://test/freshconstant1)]
+[http://www.owl-ontologies.com/unnamed.owl#isUserOf(http://test/freshconstant1,http://test/freshconstant1), http://www.owl-ontologies.com/unnamed.owl#Junior(http://test/freshconstant1)]
+[http://www.owl-ontologies.com/unnamed.owl#hasLoan(http://www.owl-ontologies.com/unnamed.owl/creditcard177,http://www.owl-ontologies.com/unnamed.owl/account1762), http://www.owl-ontologies.com/unnamed.owl#Junior(http://www.owl-ontologies.com/unnamed.owl/creditcard177)]
+[http://www.owl-ontologies.com/unnamed.owl#hasLoan(http://www.owl-ontologies.com/unnamed.owl/creditcard177,http://www.owl-ontologies.com/unnamed.owl/creditcard177), http://www.owl-ontologies.com/unnamed.owl#Junior(http://www.owl-ontologies.com/unnamed.owl/creditcard177)]
+[http://www.owl-ontologies.com/unnamed.owl#hasLoan(http://www.owl-ontologies.com/unnamed.owl/creditcard177,http://test/freshconstant1), http://www.owl-ontologies.com/unnamed.owl#Junior(http://www.owl-ontologies.com/unnamed.owl/creditcard177)]
+[http://www.owl-ontologies.com/unnamed.owl#isOwnerOf(http://www.owl-ontologies.com/unnamed.owl/account1762,http://www.owl-ontologies.com/unnamed.owl/creditcard177), http://www.owl-ontologies.com/unnamed.owl#Junior(http://www.owl-ontologies.com/unnamed.owl/creditcard177)]
+[http://www.owl-ontologies.com/unnamed.owl#isOwnerOf(http://www.owl-ontologies.com/unnamed.owl/creditcard177,http://www.owl-ontologies.com/unnamed.owl/creditcard177), http://www.owl-ontologies.com/unnamed.owl#Junior(http://www.owl-ontologies.com/unnamed.owl/creditcard177)]
+[http://www.owl-ontologies.com/unnamed.owl#isOwnerOf(http://test/freshconstant1,http://www.owl-ontologies.com/unnamed.owl/creditcard177), http://www.owl-ontologies.com/unnamed.owl#Junior(http://www.owl-ontologies.com/unnamed.owl/creditcard177)]
+[http://www.owl-ontologies.com/unnamed.owl#hasPermanentOrder(http://www.owl-ontologies.com/unnamed.owl/creditcard177,http://www.owl-ontologies.com/unnamed.owl/account1762), http://www.owl-ontologies.com/unnamed.owl#Junior(http://www.owl-ontologies.com/unnamed.owl/creditcard177)]
+[http://www.owl-ontologies.com/unnamed.owl#hasPermanentOrder(http://www.owl-ontologies.com/unnamed.owl/creditcard177,http://www.owl-ontologies.com/unnamed.owl/creditcard177), http://www.owl-ontologies.com/unnamed.owl#Junior(http://www.owl-ontologies.com/unnamed.owl/creditcard177)]
+[http://www.owl-ontologies.com/unnamed.owl#hasPermanentOrder(http://www.owl-ontologies.com/unnamed.owl/creditcard177,http://test/freshconstant1), http://www.owl-ontologies.com/unnamed.owl#Junior(http://www.owl-ontologies.com/unnamed.owl/creditcard177)]
+[http://www.owl-ontologies.com/unnamed.owl#IsLoanOf(http://www.owl-ontologies.com/unnamed.owl/account1762,http://www.owl-ontologies.com/unnamed.owl/creditcard177), http://www.owl-ontologies.com/unnamed.owl#Junior(http://www.owl-ontologies.com/unnamed.owl/creditcard177)]
+[http://www.owl-ontologies.com/unnamed.owl#IsLoanOf(http://www.owl-ontologies.com/unnamed.owl/creditcard177,http://www.owl-ontologies.com/unnamed.owl/creditcard177), http://www.owl-ontologies.com/unnamed.owl#Junior(http://www.owl-ontologies.com/unnamed.owl/creditcard177)]
+[http://www.owl-ontologies.com/unnamed.owl#IsLoanOf(http://test/freshconstant1,http://www.owl-ontologies.com/unnamed.owl/creditcard177), http://www.owl-ontologies.com/unnamed.owl#Junior(http://www.owl-ontologies.com/unnamed.owl/creditcard177)]
+[http://www.owl-ontologies.com/unnamed.owl#hasStatementIssuanceFrequency(http://www.owl-ontologies.com/unnamed.owl/creditcard177,http://www.owl-ontologies.com/unnamed.owl/account1762), http://www.owl-ontologies.com/unnamed.owl#Junior(http://www.owl-ontologies.com/unnamed.owl/creditcard177)]
+[http://www.owl-ontologies.com/unnamed.owl#hasStatementIssuanceFrequency(http://www.owl-ontologies.com/unnamed.owl/creditcard177,http://www.owl-ontologies.com/unnamed.owl/creditcard177), http://www.owl-ontologies.com/unnamed.owl#Junior(http://www.owl-ontologies.com/unnamed.owl/creditcard177)]
+[http://www.owl-ontologies.com/unnamed.owl#hasStatementIssuanceFrequency(http://www.owl-ontologies.com/unnamed.owl/creditcard177,http://test/freshconstant1), http://www.owl-ontologies.com/unnamed.owl#Junior(http://www.owl-ontologies.com/unnamed.owl/creditcard177)]
+[http://www.owl-ontologies.com/unnamed.owl#hasOwner(http://www.owl-ontologies.com/unnamed.owl/creditcard177,http://www.owl-ontologies.com/unnamed.owl/account1762), http://www.owl-ontologies.com/unnamed.owl#Junior(http://www.owl-ontologies.com/unnamed.owl/creditcard177)]
+[http://www.owl-ontologies.com/unnamed.owl#hasOwner(http://www.owl-ontologies.com/unnamed.owl/creditcard177,http://www.owl-ontologies.com/unnamed.owl/creditcard177), http://www.owl-ontologies.com/unnamed.owl#Junior(http://www.owl-ontologies.com/unnamed.owl/creditcard177)]
+[http://www.owl-ontologies.com/unnamed.owl#hasOwner(http://www.owl-ontologies.com/unnamed.owl/creditcard177,http://test/freshconstant1), http://www.owl-ontologies.com/unnamed.owl#Junior(http://www.owl-ontologies.com/unnamed.owl/creditcard177)]
+[http://www.owl-ontologies.com/unnamed.owl#isTransactionFrom(http://www.owl-ontologies.com/unnamed.owl/account1762,http://www.owl-ontologies.com/unnamed.owl/creditcard177), http://www.owl-ontologies.com/unnamed.owl#Junior(http://www.owl-ontologies.com/unnamed.owl/creditcard177)]
+[http://www.owl-ontologies.com/unnamed.owl#isTransactionFrom(http://www.owl-ontologies.com/unnamed.owl/creditcard177,http://www.owl-ontologies.com/unnamed.owl/creditcard177), http://www.owl-ontologies.com/unnamed.owl#Junior(http://www.owl-ontologies.com/unnamed.owl/creditcard177)]
+[http://www.owl-ontologies.com/unnamed.owl#isTransactionFrom(http://test/freshconstant1,http://www.owl-ontologies.com/unnamed.owl/creditcard177), http://www.owl-ontologies.com/unnamed.owl#Junior(http://www.owl-ontologies.com/unnamed.owl/creditcard177)]
+[http://www.owl-ontologies.com/unnamed.owl#Account(http://www.owl-ontologies.com/unnamed.owl/creditcard177), http://www.owl-ontologies.com/unnamed.owl#Junior(http://www.owl-ontologies.com/unnamed.owl/creditcard177)]
+[http://www.owl-ontologies.com/unnamed.owl#isUserOf(http://www.owl-ontologies.com/unnamed.owl/account1762,http://www.owl-ontologies.com/unnamed.owl/creditcard177), http://www.owl-ontologies.com/unnamed.owl#Junior(http://www.owl-ontologies.com/unnamed.owl/creditcard177)]
+[http://www.owl-ontologies.com/unnamed.owl#isUserOf(http://www.owl-ontologies.com/unnamed.owl/creditcard177,http://www.owl-ontologies.com/unnamed.owl/creditcard177), http://www.owl-ontologies.com/unnamed.owl#Junior(http://www.owl-ontologies.com/unnamed.owl/creditcard177)]
+[http://www.owl-ontologies.com/unnamed.owl#isUserOf(http://test/freshconstant1,http://www.owl-ontologies.com/unnamed.owl/creditcard177), http://www.owl-ontologies.com/unnamed.owl#Junior(http://www.owl-ontologies.com/unnamed.owl/creditcard177)]
+[http://www.owl-ontologies.com/unnamed.owl#hasLoan(http://www.owl-ontologies.com/unnamed.owl/account1762,http://www.owl-ontologies.com/unnamed.owl/account1762), http://www.owl-ontologies.com/unnamed.owl#Junior(http://www.owl-ontologies.com/unnamed.owl/account1762)]
+[http://www.owl-ontologies.com/unnamed.owl#hasLoan(http://www.owl-ontologies.com/unnamed.owl/account1762,http://www.owl-ontologies.com/unnamed.owl/creditcard177), http://www.owl-ontologies.com/unnamed.owl#Junior(http://www.owl-ontologies.com/unnamed.owl/account1762)]
+[http://www.owl-ontologies.com/unnamed.owl#hasLoan(http://www.owl-ontologies.com/unnamed.owl/account1762,http://test/freshconstant1), http://www.owl-ontologies.com/unnamed.owl#Junior(http://www.owl-ontologies.com/unnamed.owl/account1762)]
+[http://www.owl-ontologies.com/unnamed.owl#isOwnerOf(http://www.owl-ontologies.com/unnamed.owl/account1762,http://www.owl-ontologies.com/unnamed.owl/account1762), http://www.owl-ontologies.com/unnamed.owl#Junior(http://www.owl-ontologies.com/unnamed.owl/account1762)]
+[http://www.owl-ontologies.com/unnamed.owl#isOwnerOf(http://www.owl-ontologies.com/unnamed.owl/creditcard177,http://www.owl-ontologies.com/unnamed.owl/account1762), http://www.owl-ontologies.com/unnamed.owl#Junior(http://www.owl-ontologies.com/unnamed.owl/account1762)]
+[http://www.owl-ontologies.com/unnamed.owl#isOwnerOf(http://test/freshconstant1,http://www.owl-ontologies.com/unnamed.owl/account1762), http://www.owl-ontologies.com/unnamed.owl#Junior(http://www.owl-ontologies.com/unnamed.owl/account1762)]
+[http://www.owl-ontologies.com/unnamed.owl#hasPermanentOrder(http://www.owl-ontologies.com/unnamed.owl/account1762,http://www.owl-ontologies.com/unnamed.owl/account1762), http://www.owl-ontologies.com/unnamed.owl#Junior(http://www.owl-ontologies.com/unnamed.owl/account1762)]
+[http://www.owl-ontologies.com/unnamed.owl#hasPermanentOrder(http://www.owl-ontologies.com/unnamed.owl/account1762,http://www.owl-ontologies.com/unnamed.owl/creditcard177), http://www.owl-ontologies.com/unnamed.owl#Junior(http://www.owl-ontologies.com/unnamed.owl/account1762)]
+[http://www.owl-ontologies.com/unnamed.owl#hasPermanentOrder(http://www.owl-ontologies.com/unnamed.owl/account1762,http://test/freshconstant1), http://www.owl-ontologies.com/unnamed.owl#Junior(http://www.owl-ontologies.com/unnamed.owl/account1762)]
+[http://www.owl-ontologies.com/unnamed.owl#IsLoanOf(http://www.owl-ontologies.com/unnamed.owl/account1762,http://www.owl-ontologies.com/unnamed.owl/account1762), http://www.owl-ontologies.com/unnamed.owl#Junior(http://www.owl-ontologies.com/unnamed.owl/account1762)]
+[http://www.owl-ontologies.com/unnamed.owl#IsLoanOf(http://www.owl-ontologies.com/unnamed.owl/creditcard177,http://www.owl-ontologies.com/unnamed.owl/account1762), http://www.owl-ontologies.com/unnamed.owl#Junior(http://www.owl-ontologies.com/unnamed.owl/account1762)]
+[http://www.owl-ontologies.com/unnamed.owl#IsLoanOf(http://test/freshconstant1,http://www.owl-ontologies.com/unnamed.owl/account1762), http://www.owl-ontologies.com/unnamed.owl#Junior(http://www.owl-ontologies.com/unnamed.owl/account1762)]
+[http://www.owl-ontologies.com/unnamed.owl#hasStatementIssuanceFrequency(http://www.owl-ontologies.com/unnamed.owl/account1762,http://www.owl-ontologies.com/unnamed.owl/account1762), http://www.owl-ontologies.com/unnamed.owl#Junior(http://www.owl-ontologies.com/unnamed.owl/account1762)]
+[http://www.owl-ontologies.com/unnamed.owl#hasStatementIssuanceFrequency(http://www.owl-ontologies.com/unnamed.owl/account1762,http://www.owl-ontologies.com/unnamed.owl/creditcard177), http://www.owl-ontologies.com/unnamed.owl#Junior(http://www.owl-ontologies.com/unnamed.owl/account1762)]
+[http://www.owl-ontologies.com/unnamed.owl#hasStatementIssuanceFrequency(http://www.owl-ontologies.com/unnamed.owl/account1762,http://test/freshconstant1), http://www.owl-ontologies.com/unnamed.owl#Junior(http://www.owl-ontologies.com/unnamed.owl/account1762)]
+[http://www.owl-ontologies.com/unnamed.owl#hasOwner(http://www.owl-ontologies.com/unnamed.owl/account1762,http://www.owl-ontologies.com/unnamed.owl/account1762), http://www.owl-ontologies.com/unnamed.owl#Junior(http://www.owl-ontologies.com/unnamed.owl/account1762)]
+[http://www.owl-ontologies.com/unnamed.owl#hasOwner(http://www.owl-ontologies.com/unnamed.owl/account1762,http://www.owl-ontologies.com/unnamed.owl/creditcard177), http://www.owl-ontologies.com/unnamed.owl#Junior(http://www.owl-ontologies.com/unnamed.owl/account1762)]
+[http://www.owl-ontologies.com/unnamed.owl#hasOwner(http://www.owl-ontologies.com/unnamed.owl/account1762,http://test/freshconstant1), http://www.owl-ontologies.com/unnamed.owl#Junior(http://www.owl-ontologies.com/unnamed.owl/account1762)]
+[http://www.owl-ontologies.com/unnamed.owl#isTransactionFrom(http://www.owl-ontologies.com/unnamed.owl/account1762,http://www.owl-ontologies.com/unnamed.owl/account1762), http://www.owl-ontologies.com/unnamed.owl#Junior(http://www.owl-ontologies.com/unnamed.owl/account1762)]
+[http://www.owl-ontologies.com/unnamed.owl#isTransactionFrom(http://www.owl-ontologies.com/unnamed.owl/creditcard177,http://www.owl-ontologies.com/unnamed.owl/account1762), http://www.owl-ontologies.com/unnamed.owl#Junior(http://www.owl-ontologies.com/unnamed.owl/account1762)]
+[http://www.owl-ontologies.com/unnamed.owl#isTransactionFrom(http://test/freshconstant1,http://www.owl-ontologies.com/unnamed.owl/account1762), http://www.owl-ontologies.com/unnamed.owl#Junior(http://www.owl-ontologies.com/unnamed.owl/account1762)]
+[http://www.owl-ontologies.com/unnamed.owl#Account(http://www.owl-ontologies.com/unnamed.owl/account1762), http://www.owl-ontologies.com/unnamed.owl#Junior(http://www.owl-ontologies.com/unnamed.owl/account1762)]
+[http://www.owl-ontologies.com/unnamed.owl#isUserOf(http://www.owl-ontologies.com/unnamed.owl/account1762,http://www.owl-ontologies.com/unnamed.owl/account1762), http://www.owl-ontologies.com/unnamed.owl#Junior(http://www.owl-ontologies.com/unnamed.owl/account1762)]
+[http://www.owl-ontologies.com/unnamed.owl#isUserOf(http://www.owl-ontologies.com/unnamed.owl/creditcard177,http://www.owl-ontologies.com/unnamed.owl/account1762), http://www.owl-ontologies.com/unnamed.owl#Junior(http://www.owl-ontologies.com/unnamed.owl/account1762)]
+[http://www.owl-ontologies.com/unnamed.owl#isUserOf(http://test/freshconstant1,http://www.owl-ontologies.com/unnamed.owl/account1762), http://www.owl-ontologies.com/unnamed.owl#Junior(http://www.owl-ontologies.com/unnamed.owl/account1762)]
+
+      It took 27.281 seconds of XSB to find 75 set minimal solutions.
+      It took 37.367 seconds to check consistency for 75 set minimal solutions.
+
+
+...done. It took me 853.06 seconds.
+****************************

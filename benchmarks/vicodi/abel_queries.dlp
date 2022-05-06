@@ -1,6 +1,0 @@
-?() :- hasRelationMember(fc,"Mediterranean").
-?() :- hasRelationMember(fc,"Mediterranean").
-?() :- hasCategory("Lithuania",fc), Flavour(fc).
-?() :- isLocationContainerMemberOf("Lithuania",fc), Event(fc).
-?() :- related("Mediterranean",fc), Country(fc).
-?() :- Object(fc), hasRole(fc,"Mediterranean").

@@ -1,0 +1,5 @@
+Q1() <- hasRelationMember(?1,<http://vicodi.org/Mediterranean>).
+Q2() <- hasCategory(<http://vicodi.org/Lithuania>,?1), Flavour(?1).
+Q3() <- isLocationContainerMemberOf(<http://vicodi.org/Lithuania>,?1), Event(?1).
+Q4() <- related(<http://vicodi.org/Mediterranean>,?1), Country(?1).
+Q5() <- Object(?1), hasRole(?1,<http://vicodi.org/Mediterranean>).

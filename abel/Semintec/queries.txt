@@ -1,0 +1,5 @@
+Q1() <- isOwnerOf(<http://www.owl-ontologies.com/unnamed.owl/creditcard177>,?1), Account(?1).
+Q2() <- hasCreditCard(<http://www.owl-ontologies.com/unnamed.owl/account1762>,?1), Client(?1).
+Q3() <- hasOwner(?1,<http://www.owl-ontologies.com/unnamed.owl/creditcard177>), Payment(?1).
+Q4() <- Running(<http://www.owl-ontologies.com/unnamed.owl/creditcard177>), Region(<http://www.owl-ontologies.com/unnamed.owl/creditcard177>).
+Q5() <- Account(?1), Junior(?1).
